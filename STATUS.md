@@ -3,7 +3,7 @@
 ## 已真实执行完成
 
 1. **Zenodo**：主 DOI `10.5281/zenodo.24270266` → https://doi.org/10.5281/zenodo.24270266 ，CC BY 4.0，作者Didgeridoo，paper.pdf 完整可下载。
-2. **Figshare**：v2 DOI `10.6084/m9.figshare.35018998.v1` → https://doi.org/10.6084/m9.figshare.35018998.v1 ，分类 Political economy and social change，CC BY 4.0；v2 已把公开署名由账号名修正为「Didgeridoo」。
+2. **Figshare**：v2 DOI `10.6084/m9.figshare.35018998.v1` → https://doi.org/10.6084/m9.figshare.35018998.v1 ，分类 Political economy and social change，CC BY 4.0；作者 Didgeridoo。旧记录 `35018683` 已弃用：其 v1/v2 为含早期署名的只读历史版本，切勿分享；下架请求见 `FIGSHARE-TAKEDOWN-REQUEST.md`。
 3. **OSF**：公开项目 https://osf.io/wubs2/ ，public=True，PDF 1,388,974 字节，项目描述已标注作者。
 4. **GitHub**：公开仓储 https://github.com/kiloiam/labor-value-theory-preprint ，v1.0.0 Release 附 PDF；本轮更新后推送新版本。
 5. **在线阅读页与投递工作台**：同一站点两个页面，全文、9 页原稿影印、元数据、投稿信、门槛与核验结果全部在线；静态资源分享码问题已修复。
@@ -42,6 +42,6 @@ python submit_all.py --live --only zenodo   # 仅提交指定平台（注意避�
 
 ## 署名与隐私说明
 
-应作者要求，本预印本在所有公开页面、元数据、引用文件、投稿材料与 PDF 内嵌属性中统一使用笔名 **Didgeridoo**，不含真实姓名、通讯邮箱、单位等个人识别信息。PDF 的 `/Author`、`/Creator` 及创建/修改时间等文档属性已清洗。许可仍为 CC BY 4.0，引用时请著录笔名。
+应作者要求，本预印本在所有**对外分享**的公开页面、元数据、引用文件、投稿材料与 PDF 内嵌属性中统一使用笔名 **Didgeridoo**，不含真实姓名、通讯邮箱、单位等个人识别信息。PDF 的 `/Author`、`/Creator` 及创建/修改时间等文档属性已清洗。许可仍为 CC BY 4.0，引用时请著录笔名。**例外**：Figshare 旧记录 `35018683` 的 v1/v2 历史版本页及其附件 PDF 文档属性仍含早期署名，属平台只读快照，账号令牌无法改写。
 
-注：早期已发布记录的版本历史与 DOI 注册机构的缓存可能仍保留旧署名，平台方版本快照无法由作者自行抹除；当前公开显示版本与本站全部内容均为笔名。
+注：Figshare 旧记录 `35018683` 的 v1/v2 版本快照、DataCite 中对应 DOI 的 creators 元数据，以及 Zenodo 旧版本的历史 PDF 文档属性仍可能保留早期署名，作者无法自行抹除。已按 Figshare 官方流程备妥 `Take down request`（见 `FIGSHARE-TAKEDOWN-REQUEST.md`），请由本人用注册邮箱发送；当前对外分享的版本与本站全部内容均为笔名。
