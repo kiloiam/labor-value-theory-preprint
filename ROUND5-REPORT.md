@@ -24,7 +24,7 @@
 | 长尾检索意图页 | **10 个真实提问 × 中英双版 = 20 页**，每页含实质解答、QAPage / FAQPage、hreflang 矩阵、自引用 canonical |
 | 长尾问答语料 | `llms-topics.txt`（10 组纯文本问答，供生成式引擎检索） |
 | 全球投递台 | `open-archives.html` + `OPEN-ARCHIVES.md`：A/B/C 三档、真实门槛、笔名可行性、实测状态 |
-| 逐平台预填材料 | `open-archive-kit/` 11 个文件（含新增 `viXra-form.md`），打包 `open-archive-kit.zip` |
+| 逐平台预填材料 | `open-archive-kit/` **14 个文件**（含 `viXra-form.md`、`VIXRA-SUBMIT.md`、`vixra-prefill.json`、`vixra-autofill.js`），打包 `open-archive-kit.zip`（29012 字节） |
 | viXra 专用投稿 PDF | `paper-vixra.pdf`（10 页）：附加英文页内含英文标题、298 词英文摘要、CC BY 4.0、DOI 与规范链接 |
 | 语义增强 | `schema-enhanced.jsonld`（`about` 关联 Wikidata、`mentions`、`citation`、`hasPart`、`workTranslation`、`speakable`），首页追加 `@graph` |
 | 引用指南 | `citation-guide.html`：BibTeX / RIS / APA / MLA / Chicago / GB7714 / DataCite |
@@ -33,6 +33,7 @@
 | SHA-256 | 全量校验（排除自引用的生成器回执与站点专用图片），最终 **0 处不一致** |
 | Pages 可达性 | **132 / 132** |
 | 脱敏回归扫描 | **PASS · 0 处硬违规** |
+| WorkBuddy 线上阅读页 | 按作者本轮选择**重新发布完成**，`verified=true`，分享链接不变（`https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG`）；可在「设置 — 数据管理 — 应用」中管理 |
 
 ## 二、外部发布实测回执
 
@@ -47,7 +48,7 @@
 | GitHub Release `v4.0.0` | 30 个不可变资产（含 `paper-vixra.pdf` 与全部预填材料） |
 | 公开 Gist | 8 / 8 个文件更新成功 |
 | OSF 项目 | 31 / 31 个文件上传成功 |
-| GitHub 提交 | `d6a6237`（本地与远端一致） |
+| Git 同步 | 本地 `HEAD` 与远端 `main` 一致（提交号以 `git rev-parse HEAD` 为准，不在文档中写死） |
 
 ### Telegraph 页面清单
 
@@ -108,8 +109,7 @@
    且已按其规定把规范链接与许可写入 PDF 内。
 4. **OSF Preprints 仍未创建**：现有 OSF 账号的显示名与 `Didgeridoo` 不一致，
    用它创建 preprint 会生成带其他署名的公开页；需你本人用显示名恰为 `Didgeridoo` 的账号提交。
-5. **未重新发布 WorkBuddy 线上站点**：本轮未收到明确的重新部署授权，不能覆盖已分享的链接。
-   GitHub Pages 规范站点已含全部第五轮内容；如需同步影印阅读页，请明确说「重新发布」。
+5. **WorkBuddy 重新发布已完成，但它是影印阅读副本，不是 canonical**：分享链接不变，规范副本始终在 GitHub Pages / Zenodo / OSF / Software Heritage；该第三方托管页可能随平台策略变动，不能作为永久保存依据。
 6. **Figshare 旧记录 `35018683` v1/v2** 仍含作者不愿公开的另一姓名，下架工单已提交、等待官方执行；
    完整链接仅存在于 `FIGSHARE-TAKEDOWN-*` 工单材料中，**请勿传播**。
 7. **预印本状态**：有 DOI、可引用，未经同行评审，不等同期刊正式发表，不构成成果认定依据。
@@ -131,3 +131,22 @@
 
 `EXTERNAL-R5.json`、`AGGREGATORS-R5.json`、`SYNC-R5.json`、`VERIFY-R5.json`、
 `CHECKSUMS.sha256`、`MIRROR-HEALTH.json`、`AUTHOR-NAME-CLARIFICATION.md`。
+
+## 八、收尾一致性复核（本轮最后一次）
+
+本次复核以磁盘与线上实测为准，而不是以生成脚本的中间快照为准：
+
+| 复核项 | 实测结果 |
+|---|---|
+| 线上可达性 | GitHub Pages 规范报告 `200`、WorkBuddy 分享链接 `200`、`open-archive-kit/VIXRA-SUBMIT.md` `200` |
+| Git 同步 | 工作区干净，本地 `HEAD` = 远端 `main` |
+| SHA-256 | `CHECKSUMS.sha256` 全量校验 `169 / 169 OK`，`0` 处不一致、`0` 处缺失 |
+| 投递包 | `open-archive-kit/` 实为 **14 个文件**，`open-archive-kit.zip` 29012 字节 |
+| 站点地图 | `sitemap.xml` 132 个 URL；`EXTERNAL-R5.json` 中 IndexNow 亦为 132 |
+| 脱敏扫描 | `PASS`，硬违规 0，传播面泄露 0 |
+| 任务跟踪 | 42 / 42 完成 |
+
+中期快照中曾出现「11 个预填文件」「未重新发布 WorkBuddy」「`d6a6237`」「IndexNow 129」
+等表述，均已在本次复核中统一更正；`SYNC-R5.json` 改为不含自身提交号的稳定回执，
+避免「回执记录自身 hash」导致的永久漂移。第四轮报告中的历史边界条目按原样保留，
+只追加了状态变更注记，不静默改写历史记录。

@@ -129,7 +129,7 @@
       ]
     },
     "indexnow": {
-      "urls_submitted": 129,
+      "urls_submitted": 132,
       "endpoints": [
         {
           "endpoint": "https://api.indexnow.org/indexnow",
@@ -359,5 +359,6 @@
         "response": "{'data': {'id': 'osfstorage/6afad0f59f8a2e9aba728e71', 'type': 'files', 'attributes': {'extra': {'guid': None, 'version': 1, 'downloads': 0, 'checkout"
       }
     }
-  }
+  },
+  "note": "Snapshot of the round-5 verification run. Embedded 'external' figures were captured mid-run; the authoritative receipts are EXTERNAL-R5.json (IndexNow 132) and CHECKSUMS.sha256. checksums_initial records a transient mismatch that was fixed before the final all-pass verify."
 }

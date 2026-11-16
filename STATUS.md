@@ -96,7 +96,7 @@ python submit_all.py --live --only zenodo   # 仅提交指定平台（注意避�
 - 无法承诺「到人类文明灭亡仍存在」；最大化的是冗余度、可校验性与可重建性。CC BY 4.0 允许任何人复印、翻译、做种与再托管。
 - OAI-PMH 为静态快照，非实时端点；IPFS 已算 CID 但未执行永久 pin（需带凭证服务）。
 - 所有记录仍为网络预发布预印本，有 DOI、未经同行评审，不等同期刊正式发表。
-- 本轮未重新发布 WorkBuddy 线上站点（未收到本轮明确的重新发布授权）；GitHub Pages 规范站点已包含全部第四轮内容。
+- 本轮未重新发布 WorkBuddy 线上站点（未收到本轮明确的重新发布授权）；GitHub Pages 规范站点已包含全部第四轮内容。 **此状态已在第五轮变更**：作者后续明确选择重新发布，见下节。
 
 
 ## 第五轮：全球无门槛发布、长尾可发现性与署名澄清（2026-11-16）
@@ -104,11 +104,11 @@ python submit_all.py --live --only zenodo   # 仅提交指定平台（注意避�
 - **署名性质更正**：作者确认 `Didgeridoo` 为真实英文姓名，非笔名；全站表述已中性化，
   viXra 的 real-name 要求已满足并解锁为可投平台。详见 `AUTHOR-NAME-CLARIFICATION.md`。
 - 新增 10 个真实检索意图 × 中英双版长尾页、`llms-topics.txt`、`open-archives.html`、
-  `OPEN-ARCHIVES.md`、`open-archive-kit/`（11 个预填文件，含 `viXra-form.md`）、
+  `OPEN-ARCHIVES.md`、`open-archive-kit/`（14 个预填文件，含 viXra 一键预填三件套）、
   `paper-vixra.pdf`、`citation-guide.html`、`search-console-kit.html`、`schema-enhanced.jsonld`。
 - 站点地图 132 个 URL；IndexNow 132 个 URL × 4 端点；Telegraph 10 个语种摘要页上线；
   GitHub Release `v4.0.0`；Pages 实测 132/132 可达；SHA-256 全量校验通过；脱敏扫描 PASS。
 - 学术库实测：DataCite 与 OpenAIRE 已收录，OpenAlex / Semantic Scholar 尚未（自动收割有延迟）。
 - 边界：viXra 提交仍需本人提供联系邮箱、勾选权属声明并点击提交（一经上线永久记录）；
   arXiv 需背书与机构认证，其余需账号/机构邮箱/同行评审；不承诺排名；
-  WorkBuddy 线上站点未重新发布（需明确授权）。完整报告见 `ROUND5-REPORT.md`。
+  WorkBuddy 线上站点已按作者选择重新发布，`verified=true`，分享链接不变；可在「设置 — 数据管理 — 应用」中管理。完整报告见 `ROUND5-REPORT.md`。
