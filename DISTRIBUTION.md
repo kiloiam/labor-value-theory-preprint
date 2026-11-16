@@ -1,0 +1,88 @@
+# 全球分发与长期保存台账
+> 《劳动价值论是历史性范畴：当代价值危机》 · Didgeridoo · CC BY 4.0 · 2026-11-16
+> 本文件只列出**干净、可安全传播**的公开副本。
+
+## 一、可引用的正式记录
+
+| 平台 | 标识 | 链接 | 状态 | 备注 |
+|---|---|---|---|---|
+| Zenodo（主 DOI） | `10.5281/zenodo.24270266` | https://doi.org/10.5281/zenodo.24270266 | 已发布 | CERN 托管，CC BY 4.0，PDF 可下载；作者 Didgeridoo |
+| Figshare（干净记录） | `10.6084/m9.figshare.35018998.v1` | https://doi.org/10.6084/m9.figshare.35018998.v1 | 已发布 | CC BY 4.0，作者 Didgeridoo |
+| Zenodo 概念 DOI | `10.5281/zenodo.24269665` | https://doi.org/10.5281/zenodo.24269665 | 有效 | 始终指向最新版本，适合长期引用 |
+| OSF | `项目 wubs2` | https://osf.io/wubs2/ | public | 开放科学框架项目，含完整 PDF |
+| GitHub Release | `v1.0.0` | https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0 | 已发布 | 版本化快照 |
+
+## 二、全文入口与 CDN 副本
+
+| 入口 | URL | 说明 |
+|---|---|---|
+| GitHub Pages 阅读页 | https://kiloiam.github.io/labor-value-theory-preprint/ | 全文、摘要、引用与分发清单入口 |
+| 在线全文阅读（含 9 页影印） | https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG | 逐页原稿影印 + 可检索正文 |
+| jsDelivr 全球 CDN（PDF） | https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf | CDN 边缘副本，实测 200 |
+| raw.githubusercontent（PDF） | https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/paper.pdf | GitHub 原始文件副本，实测 200 |
+| GitHub 仓储 | https://github.com/kiloiam/labor-value-theory-preprint | 全部源文件、元数据与历史 |
+| GitHub Pages（Markdown 全文） | https://kiloiam.github.io/labor-value-theory-preprint/manuscript.md | 纯文本全文，便于索引 |
+
+所有 PDF 均为同一去标识化文件（9 页，1,389,530 字节），`/Author` = Didgeridoo。
+
+## 三、长期保存与学术索引
+
+| 服务 | 类型 | 状态 | 核验说明 |
+|---|---|---|---|
+| Software Heritage | 永久源码/文档存档 | 已受理 | save-code-now 请求 2654490，visit_type=git，status=accepted；UNESCO 支持的长期存档 |
+| OpenAIRE | 欧盟开放学术索引 | 已收录 | 查询结果 total=1，标题与 DOI 均命中 |
+| DataCite | DOI 注册元数据 | 已注册 | api.datacite.org/dois/10.5281/zenodo.24270266 返回 200 |
+| Internet Archive Wayback | 网页时间胶囊 | 受限于 bot 限流 | Save Page Now 返回 429；已改用 Software Heritage 与多 CDN 副本长期留存 |
+| OpenAlex | 开放学术图谱 | 尚未收录 | 由 DataCite 周期性抓取，通常需数周；当前 API 返回 404 |
+| Semantic Scholar | 学术索引 | 尚未收录 | 自动抓取，当前 API 返回 404；不作人工提交承诺 |
+| Google Scholar / CORE / BASE / Unpaywall | 自动聚合索引 | 等待自动抓取 | 页面已提供 Highwire、Dublin Core、COinS、OAI-DC 与 sitemap，供抓取器识别 |
+
+## 四、机器可读元数据
+
+| 文件 | 标准 | 用途 |
+|---|---|---|
+| `datacite.xml` | DataCite Metadata Schema 4.5 | DOI 注册机构与仓储交换格式 |
+| `oai_dc.xml` | OAI-PMH GetRecord + oai_dc | 供 OAI 收割器 / OpenAIRE / BASE 类聚合器 |
+| `dublincore.xml` | Dublin Core / DCTERMS | 通用图书馆元数据 |
+| `marcxml.xml` | MARC21 XML | 图书馆编目系统导入 |
+| `mets.xml` | METS + MODS | 数字对象长期保存包装 |
+| `schema.jsonld` | Schema.org ScholarlyArticle | 搜索引擎富结果 / 知识图谱 |
+| `citation.enw` | EndNote | 参考文献管理软件导入 |
+| `citation.rdf` | Zotero RDF / Dublin Core | Zotero / 语义网工具 |
+| `citation.bib / citation.ris / citation.csl.json` | BibTeX / RIS / CSL-JSON | 主流写作与引用工具 |
+| `CITATION.cff` | Citation File Format | GitHub 原生「Cite this repository」 |
+| `citation-gb7714.txt / citation-apa.txt / citation-mla.txt / citation-chicago.txt` | GB/T 7714 / APA / MLA / Chicago | 中英文投稿格式 |
+| `abstracts.json` | 7 语种检索摘要与关键词 | 跨语言检索；引用以中文原文与作者英文摘要为准 |
+| `feed.xml / rss.xml` | Atom / RSS 2.0 | 订阅与聚合 |
+| `sitemap.xml / robots.txt` | 站点地图 / 抓取许可 | 搜索引擎收录 |
+
+页面头部提供 Highwire `citation_*`、Dublin Core、EPrints、COinS (Z39.88-2004) 与 Schema.org JSON-LD；
+根目录提供 `sitemap.xml`、`robots.txt`、`feed.xml`、`rss.xml`、`59fd9bcf22086ae7947fd1777b9c56e0.txt`（IndexNow 密钥）。
+
+## 五、建议引用
+
+```
+Didgeridoo. 劳动价值论是历史性范畴：当代价值危机[Z/OL]. Zenodo, 2026. https://doi.org/10.5281/zenodo.24270266.
+```
+
+```bibtex
+@misc{didgeridoo2026ltv,
+  author = {Didgeridoo},
+  title  = {劳动价值论是历史性范畴：当代价值危机},
+  year   = {2026},
+  doi    = {10.5281/zenodo.24270266},
+  howpublished = {Preprint, Zenodo},
+  note   = {网络预发布，非期刊正式发表；CC BY 4.0}
+}```
+
+## 六、跨语言检索
+
+`abstracts.json` 含中文、英文、日文、西班牙文、法文、德文、俄文简要摘要与关键词，仅供检索；
+引用与学术表述以中文原文与作者英文摘要为准。
+
+## 注意
+
+- **请勿传播** Figshare 旧记录 `35018683` 的 v1/v2 历史版本链接，其中仍含早期署名；官方下架工单已提交，等待处理。
+- 以上均为**网络预发布预印本**，未经同行评审，不等同于期刊正式发表，不构成成果认定依据。
+- 自动抓取型索引（OpenAlex、Semantic Scholar、Google Scholar、CORE、BASE、Unpaywall）有正常时滞，不作人工收录承诺。
+- 全文 CC BY 4.0，署名须保留笔名 Didgeridoo。

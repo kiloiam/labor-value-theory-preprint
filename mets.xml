@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OBJID="doi:10.5281/zenodo.24270266" LABEL="劳动价值论是历史性范畴：当代价值危机">
+  <mets:metsHdr CREATEDATE="2026-11-16T00:00:00Z"><mets:agent ROLE="CREATOR" TYPE="INDIVIDUAL"><mets:name>Didgeridoo</mets:name></mets:agent></mets:metsHdr>
+  <mets:dmdSec ID="DMD1"><mets:mdWrap MDTYPE="MODS"><mets:xmlData><mods:mods>
+    <mods:titleInfo><mods:title>劳动价值论是历史性范畴：当代价值危机</mods:title></mods:titleInfo>
+    <mods:name type="personal"><mods:namePart>Didgeridoo</mods:namePart><mods:role><mods:roleTerm type="text">author</mods:roleTerm></mods:role></mods:name>
+    <mods:originInfo><mods:dateIssued>2026-11-16</mods:dateIssued></mods:originInfo>
+    <mods:identifier type="doi">10.5281/zenodo.24270266</mods:identifier><mods:identifier type="uri">https://kiloiam.github.io/labor-value-theory-preprint/</mods:identifier>
+    <mods:abstract>本文从历史唯物主义立场出发，系统阐明劳动价值论作为历史性范畴的界限，分析当代自动化生产条件下价值规律面临的结构性危机。本文指出，劳动价值论是以雇佣劳动、社会必要劳动时间和商品交换普遍化为前提的历史性理论，并非适用于一切社会形态的普遍经济原理。通过构建包含自动化技术资本的价值修正模型，本文论证了当自动化系统在原则上能够脱离人类活劳动而独立承担生产职能时，可变资本将被系统性、不可逆地挤出生产过程，剩余价值生产机制随之趋于枯竭，价值范畴及其所依托的商品形式发生根本性瓦解。此时，利润不再是价值增殖的结果，而转化为维持私有制外壳所需的负向政治性维稳成本P。本文进一步分析了商品社会实现自我修复的“四重不可能”，揭示了价值结构不可逆的内在断裂。本文认为，劳动价值论的失效并非理论被证伪，而是商品社会已走到历史尽头。由此提出，后价值范畴时代的核心问题在于生产关系的历史性重塑，即如何将自动化生产能力从私人占有形式中解放出来，转向以使用价值社会性组织为目标的生产体系，从而为理解当代资本主义危机的性质及未来社会转型的方向提供理论判准。</mods:abstract>
+    <mods:accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</mods:accessCondition>
+  </mods:mods></mets:xmlData></mets:mdWrap></mets:dmdSec>
+  <mets:fileSec><mets:fileGrp USE="content">
+    <mets:file ID="FILE001" MIMETYPE="application/pdf" SIZE="1389530"><mets:FLocat LOCTYPE="URL" xlink:href="https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf"/></mets:file>
+    <mets:file ID="FILE002" MIMETYPE="text/markdown"><mets:FLocat LOCTYPE="URL" xlink:href="https://kiloiam.github.io/labor-value-theory-preprint/manuscript.md"/></mets:file>
+    <mets:file ID="FILE003" MIMETYPE="text/html"><mets:FLocat LOCTYPE="URL" xlink:href="https://kiloiam.github.io/labor-value-theory-preprint/index.html"/></mets:file>
+  </mets:fileGrp></mets:fileSec>
+  <mets:structMap TYPE="physical"><mets:div TYPE="preprint" DMDID="DMD1"><mets:fptr FILEID="FILE001"/><mets:fptr FILEID="FILE002"/><mets:fptr FILEID="FILE003"/></mets:div></mets:structMap>
+</mets:mets>
