@@ -32,7 +32,7 @@ FOREVER README — 长期保存与恢复说明
 
 校验方法：sha256sum -c CHECKSUMS.sha256（或任意等价工具逐项比对）。
 
-已登记的 16 处副本
+已登记的 27 处副本
 --------------------------------------------------------------------------------
   [01] Zenodo (CERN / OpenAIRE)
        EU / Switzerland | DOI-registered open repository
@@ -82,6 +82,39 @@ FOREVER README — 长期保存与恢复说明
   [16] gitcdn.link
        multi-region | independent CDN mirror
        https://gitcdn.link/cdn/kiloiam/labor-value-theory-preprint/main/paper.pdf
+  [17] Zenodo (CERN) — version 2
+       EU / Switzerland | second DOI-registered deposit carrying the offline survival bundle
+       https://doi.org/10.5281/zenodo.24273568
+  [18] GitHub Gist
+       US | public gist with plain text, offline HTML, checksums and manifest
+       https://gist.github.com/kiloiam/d286d7f3b8ee3adf0e8f2ba0595f7ab7
+  [19] Software Heritage (UNESCO / Inria)
+       FR / EU | permanent source archive of the public gist (request 2654743)
+       https://archive.softwareheritage.org/
+  [20] GitHub Releases
+       US | immutable tagged release v2.0.0 with 18 assets
+       https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v2.0.0
+  [21] jsDelivr global CDN
+       multi-region | commit-pinned immutable PDF (never changes even if main moves)
+       https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf
+  [22] raw.githubusercontent.com
+       US | commit-pinned immutable raw file
+       https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf
+  [23] raw.githack.com
+       multi-region | commit-pinned immutable CDN copy
+       https://raw.githack.com/kiloiam/labor-value-theory-preprint/49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf
+  [24] GitHub repository archive
+       US | commit-pinned immutable ZIP of the whole repository
+       https://github.com/kiloiam/labor-value-theory-preprint/archive/49a0fc78f5953c47add0a39e78c4b6bf0dac9c69.zip
+  [25] jsDelivr global CDN
+       multi-region | commit-pinned immutable plain-text full text
+       https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/PAPER-PLAINTEXT.txt
+  [26] jsDelivr global CDN
+       multi-region | commit-pinned immutable offline single-file HTML
+       https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper-standalone.html
+  [27] IndexNow (Bing / Yandex / Seznam / aggregator)
+       international | search-engine URL submission, 63 URLs accepted by all four endpoints
+       https://www.bing.com/indexnow
 
 再发布规则
 --------------------------------------------------------------------------------

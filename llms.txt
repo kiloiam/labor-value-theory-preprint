@@ -39,6 +39,11 @@ of self-repair. The conclusion is a call for the historical reconfiguration of p
 - [Global distribution ledger](https://kiloiam.github.io/labor-value-theory-preprint/DISTRIBUTION.md) · [Preservation execution log](https://kiloiam.github.io/labor-value-theory-preprint/PRESERVATION.md)
 - [Zenodo](https://doi.org/10.5281/zenodo.24270266) · [Figshare](https://doi.org/10.6084/m9.figshare.35018998.v1) · [OSF](https://osf.io/wubs2/) · [GitHub](https://github.com/kiloiam/labor-value-theory-preprint)
 - [Software Heritage permanent archive](https://archive.softwareheritage.org/) · [Wayback Machine](https://web.archive.org/)
+- [Zenodo preservation-bundle version (DOI 10.5281/zenodo.24273568)](https://doi.org/10.5281/zenodo.24273568)
+- [Public GitHub Gist (plain text + offline HTML)](https://gist.github.com/kiloiam/d286d7f3b8ee3adf0e8f2ba0595f7ab7)
+- [GitHub Release v2.0.0 (immutable forever bundle)](https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v2.0.0)
+- [Wayback snapshot of the redundancy map](https://web.archive.org/web/20261116080148/https://kiloiam.github.io/labor-value-theory-preprint/forever.html)
+- [Commit-pinned immutable PDF](https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf)
 
 ## Optional
 - [Multilingual landing pages](https://kiloiam.github.io/labor-value-theory-preprint/en.html): en, ja, es, fr, de, ru, pt, it, ko (zh = index.html)

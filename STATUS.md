@@ -56,3 +56,18 @@ python submit_all.py --live --only zenodo   # 仅提交指定平台（注意避�
 应作者要求，本预印本在所有**对外分享**的公开页面、元数据、引用文件、投稿材料与 PDF 内嵌属性中统一使用笔名 **Didgeridoo**，不含真实姓名、通讯邮箱、单位等个人识别信息。PDF 的 `/Author`、`/Creator` 及创建/修改时间等文档属性已清洗。许可仍为 CC BY 4.0，引用时请著录笔名。**例外**：Figshare 旧记录 `35018683` 的 v1/v2 历史版本页及其附件 PDF 文档属性仍含早期署名，属平台只读快照，账号令牌无法改写。
 
 注：Figshare 旧记录 `35018683` 的 v1/v2 版本快照、DataCite 中对应 DOI 的 creators 元数据，以及 Zenodo 旧版本的历史 PDF 文档属性仍可能保留早期署名，作者无法自行抹除。已按 Figshare 官方流程备妥并由本人于 2026-11-16 提交 `Take down request` 工单（见 `FIGSHARE-TAKEDOWN-REQUEST.md`），等待团队下架；当前对外分享的版本与本站全部内容均为笔名。
+
+
+## 第三轮已完成（无需本人操作）
+
+- 27 处公开副本登记、8 个法域或区域、8 类存储层；Zenodo 新 DOI `10.5281/zenodo.24273568` 已发布。
+- Wayback 累计 40 处永久快照；Software Heritage 主仓库与 Gist 均 `succeeded / full`。
+- OSF 追加 22 个副本、GitHub Release `v2.0.0` 18 个资产、6 个 SHA 固定永久链接全部 `200`。
+- IndexNow 四端点提交 63 个 URL 全部受理；10 语种页、hreflang、`@graph` JSON-LD、llms.txt 上线。
+- 提交包重建、全量脱敏扫描 0 处违规、23 项校验全部通过。
+
+## 仍待本人处理
+
+1. Figshare 旧记录 `35018683` 的 v1 / v2 早期署名：官方 `Take down request` 工单已提交，等待平台执行；执行前请勿传播该记录。
+2. 若官方回复要求验证所有权或提供工单号，用注册邮箱回复确认即可，回复中不要写出真实姓名。
+3. 下架完成后，DataCite 中 v1/v2 DOI 的 creators 元数据与搜索引擎缓存需按支持团队回复另行处理。

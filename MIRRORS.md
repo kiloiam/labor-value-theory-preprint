@@ -9,7 +9,7 @@
 因此副本分散在不同机构、不同法域、不同协议：DOI 仓储、Git 版本库、UNESCO 源代码永久存档、
 网页时间胶囊、全球 CDN、学术索引，以及无需任何软件即可阅读的纯文本 / 单文件 HTML 离线包。
 
-共 **16 处**登记副本，覆盖 **8 个法域或区域**、**8 类存储层**。
+共 **27 处**登记副本，覆盖 **8 个法域或区域**、**8 类存储层**。
 
 | 机构 | 法域 / 区域 | 类型 | 地址 |
 |---|---|---|---|
@@ -29,6 +29,17 @@
 | raw.githubusercontent.com | US | raw file mirror | https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/paper.pdf |
 | raw.githack.com | multi-region | independent CDN mirror | https://raw.githack.com/kiloiam/labor-value-theory-preprint/main/paper.pdf |
 | gitcdn.link | multi-region | independent CDN mirror | https://gitcdn.link/cdn/kiloiam/labor-value-theory-preprint/main/paper.pdf |
+| Zenodo (CERN) — version 2 | EU / Switzerland | second DOI-registered deposit carrying the offline survival bundle | https://doi.org/10.5281/zenodo.24273568 |
+| GitHub Gist | US | public gist with plain text, offline HTML, checksums and manifest | https://gist.github.com/kiloiam/d286d7f3b8ee3adf0e8f2ba0595f7ab7 |
+| Software Heritage (UNESCO / Inria) | FR / EU | permanent source archive of the public gist (request 2654743) | https://archive.softwareheritage.org/ |
+| GitHub Releases | US | immutable tagged release v2.0.0 with 18 assets | https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v2.0.0 |
+| jsDelivr global CDN | multi-region | commit-pinned immutable PDF (never changes even if main moves) | https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf |
+| raw.githubusercontent.com | US | commit-pinned immutable raw file | https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf |
+| raw.githack.com | multi-region | commit-pinned immutable CDN copy | https://raw.githack.com/kiloiam/labor-value-theory-preprint/49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf |
+| GitHub repository archive | US | commit-pinned immutable ZIP of the whole repository | https://github.com/kiloiam/labor-value-theory-preprint/archive/49a0fc78f5953c47add0a39e78c4b6bf0dac9c69.zip |
+| jsDelivr global CDN | multi-region | commit-pinned immutable plain-text full text | https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/PAPER-PLAINTEXT.txt |
+| jsDelivr global CDN | multi-region | commit-pinned immutable offline single-file HTML | https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper-standalone.html |
+| IndexNow (Bing / Yandex / Seznam / aggregator) | international | search-engine URL submission, 63 URLs accepted by all four endpoints | https://www.bing.com/indexnow |
 
 ## 三层可读性
 

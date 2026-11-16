@@ -98,3 +98,21 @@ Didgeridoo. 劳动价值论是历史性范畴：当代价值危机[Z/OL]. Zenodo
 应作者要求，本预印本在所有公开页面、元数据、引用文件、投稿材料与 PDF 内嵌属性中统一使用笔名 **Didgeridoo**，不含真实姓名、通讯邮箱、单位等个人识别信息。PDF 的 `/Author`、`/Creator` 及创建/修改时间等文档属性已清洗。许可仍为 CC BY 4.0，引用时请著录笔名。
 
 注：早期已发布记录的版本历史与 DOI 注册机构的缓存可能仍保留旧署名，平台方版本快照无法由作者自行抹除；当前公开显示版本与本站全部内容均为笔名。
+
+
+## 第三轮新增（跨世纪冗余与国际 SEO）
+
+| 文件 | 用途 |
+|---|---|
+| `PAPER-PLAINTEXT.txt` | 零依赖纯文本全文，任何文本读取器可读 |
+| `paper-standalone.html` | 单文件自包含 HTML，断网可用 |
+| `FOREVER-README.txt` | 恢复与再发布说明 |
+| `MIRRORS.md` / `PRESERVATION-MANIFEST.json` | 27 处公开副本登记表（人读 / 机读） |
+| `CHECKSUMS.sha256` | 23 个核心文件的 SHA-256 |
+| `preservation-bundle.zip` | 34 个文件的离线永久包 |
+| `forever.html` | 跨机构冗余地图网页 |
+| `en/ja/es/fr/de/ru/pt/it/ko.html` | 10 语种检索落地页（zh 为 `index.html`） |
+| `llms.txt` / `humans.txt` / `favicon.svg` / `opensearch.xml` / `search.html` | 发现层与站内检索 |
+
+新增可引用 DOI：Zenodo `10.5281/zenodo.24273568`（永久保存包版本）。
+公开 Gist：https://gist.github.com/kiloiam/d286d7f3b8ee3adf0e8f2ba0595f7ab7　|　Release `v2.0.0`：https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v2.0.0

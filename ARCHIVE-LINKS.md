@@ -38,3 +38,15 @@ Didgeridoo. 劳动价值论是历史性范畴：当代价值危机[Z/OL]. Zenodo
 - DOI 解决的是可引用性与长期保存，不替代期刊评审。
 - **Figshare 旧记录 `35018683` 已弃用**：其 v1/v2 为只读历史版本，页面作者字段与附件 PDF 文档属性仍含早期署名；该记录不在本表内，请勿引用或传播其版本链接。官方 `Take down request` 模板见 `FIGSHARE-TAKEDOWN-REQUEST.md`；该工单已由本人提交，等待 Figshare 团队处理。
 - 目标期刊《中南大学学报(社会科学版)》只接受作者本人在 https://zndxsk.csu.edu.cn 的「作者在线投稿」系统提交，且明文禁止代投；投稿前须核实该刊预印本政策，并如实说明本稿已有公开记录与 DOI。
+
+
+## 第三轮新增的正式记录
+
+| 平台 | 标识 | 链接 | 说明 |
+|---|---|---|---|
+| Zenodo（永久保存包版本） | `10.5281/zenodo.24273568` | https://doi.org/10.5281/zenodo.24273568 | 含 34 文件离线包，作者 Didgeridoo，CC BY 4.0；概念 DOI `10.5281/zenodo.24269665` 现指向此版本 |
+| GitHub Gist | 公开 gist | https://gist.github.com/kiloiam/d286d7f3b8ee3adf0e8f2ba0595f7ab7 | 纯文本全文 + 离线 HTML + 校验表 + 清单，Software Heritage 已存档 |
+| GitHub Release | `v2.0.0` | https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v2.0.0 | 18 个不可变资产 |
+| commit 固定永久链接 | `49a0fc7` | https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf | 按提交 SHA 固定，不随分支变化 |
+
+> 冗余地图：https://kiloiam.github.io/labor-value-theory-preprint/forever.html　|　副本清单：https://kiloiam.github.io/labor-value-theory-preprint/MIRRORS.md　|　校验：https://kiloiam.github.io/labor-value-theory-preprint/CHECKSUMS.sha256

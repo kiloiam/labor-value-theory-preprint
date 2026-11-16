@@ -108,3 +108,34 @@ Didgeridoo. 劳动价值论是历史性范畴：当代价值危机[Z/OL]. Zenodo
 - 以上均为**网络预发布预印本**，未经同行评审，不等同于期刊正式发表，不构成成果认定依据。
 - 自动抓取型索引（OpenAlex、Semantic Scholar、Google Scholar、CORE、BASE、Unpaywall）有正常时滞，不作人工收录承诺。
 - 全文 CC BY 4.0，署名须保留笔名 Didgeridoo。
+
+
+---
+
+## 八、第三轮新增：跨机构冗余与 10 语种检索入口
+
+| 类别 | 新增 |
+|---|---|
+| 第 4 个 DOI | Zenodo `10.5281/zenodo.24273568`（永久保存包版本，作者 Didgeridoo，CC BY 4.0） |
+| 新机构 / 新法域 | 公开 GitHub Gist + Software Heritage 独立 gist 存档（请求 `2654743` succeeded/full） |
+| 新不可变快照 | GitHub Release `v2.0.0`（18 个资产）；6 个 commit-SHA 固定 CDN 永久链接 |
+| 新网页时间胶囊 | Wayback 第三轮 29 处，累计 40 处 |
+| 新副本登记 | 共 27 处，覆盖 8 个法域或区域、8 类存储层，见 `forever.html` / `MIRRORS.md` / `PRESERVATION-MANIFEST.json` |
+| 新离线资产 | `PAPER-PLAINTEXT.txt`、`paper-standalone.html`、`FOREVER-README.txt`、`CHECKSUMS.sha256`、`preservation-bundle.zip` |
+| 新检索资产 | 10 语种落地页、互指 hreflang、`@graph` JSON-LD、`llms.txt`、`opensearch.xml`、`search.html`、63 URL sitemap |
+| 搜索引擎 | IndexNow 四端点提交 63 个 URL，全部 `200` |
+
+可安全传播的新入口：
+
+- 冗余地图：https://kiloiam.github.io/labor-value-theory-preprint/forever.html
+- 10 语种入口：https://kiloiam.github.io/labor-value-theory-preprint/en.html（及 ja / es / fr / de / ru / pt / it / ko）
+- 零依赖纯文本：https://kiloiam.github.io/labor-value-theory-preprint/PAPER-PLAINTEXT.txt
+- 单文件离线 HTML：https://kiloiam.github.io/labor-value-theory-preprint/paper-standalone.html
+- Zenodo 永久包 DOI：https://doi.org/10.5281/zenodo.24273568
+- 公开 Gist：https://gist.github.com/kiloiam/d286d7f3b8ee3adf0e8f2ba0595f7ab7
+- Release v2.0.0：https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v2.0.0
+- 固定 SHA 永久 PDF：https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf
+
+**对外仍只分享干净记录**：Figshare `10.6084/m9.figshare.35018998.v1`、
+Zenodo `10.5281/zenodo.24270266`（或新版本 `24273568`）、OSF https://osf.io/wubs2/ 。
+Figshare 旧记录 `35018683` 的 v1 / v2 仍含早期署名，下架工单已提交、等待官方执行，请勿传播。
