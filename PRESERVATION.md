@@ -10,7 +10,8 @@
 | 动作 | 目标 | 方式 | 返回 | 结论 |
 |---|---|---|---|---|
 | Software Heritage save-code-now | GitHub 仓储 | `POST /api/1/origin/save/git/url/...` | `200`，`id=2654490` | `save_task_status=succeeded`、`visit_status=full`，visit_date `2026-11-16T06:18:55Z` |
-| Software Heritage 重抓最新提交 | 含新增元数据的 `5e3d645` | 同一端点再次 `POST` | `200`，`id=2654599` | `accepted`，爬取排队中（pending） |
+| Software Heritage 重抓新增元数据 | `5e3d645` | 同一端点再次 `POST` | `200`，`id=2654599` | `save_task_status=succeeded`、`visit_status=full`，visit_date `06:41:00Z` |
+| Software Heritage 最终提交重抓 | `6244d93` | 同一端点第三次 `POST` | `200`，`id=2654602` | `accepted`，`save_task_status=running`（通常数分钟内完成） |
 | Internet Archive Wayback | 12 个干净公开入口 | 真实浏览器会话 `Save Page Now` | 12 × 重定向到 `/web/<timestamp>/...` | **12/12 全部生成永久快照**（下表） |
 | OSF 项目 `wubs2` | 16 个机器可读元数据副本 | `PUT files.osf.io/v1/resources/wubs2/providers/osfstorage/` | 16 × `201` | 项目内共 17 个文件，PDF 与元数据同处一处 |
 | GitHub Release `v1.0.0` | 15 个元数据资产 | `gh release upload` | 成功 | Release 资产由 1 个增至 16 个 |
