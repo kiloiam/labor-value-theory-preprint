@@ -1,0 +1,93 @@
+{
+  "schema": "workbuddy.vixra-prefill/1.0",
+  "form_url": "https://fs23.formsite.com/viXra/form2/index.html",
+  "official_submission_notes": "https://vixra.org/submit",
+  "author_name": "Didgeridoo",
+  "author_name_status": "real English name, not a pseudonym",
+  "pdf_to_upload": "paper-vixra.pdf",
+  "email_privacy": "viXra states the contact e-mail will NOT be published unless the author includes it in the PDF, abstract or comment.",
+  "ai_assistance_notice": "The live viXra form states verbatim: \"The article should be written without AI assistance (Please go to ai.viXra.org to submit new scholarly article written with AI assistance).\" Only the author can judge whether this applies. If AI assistance was used, submit to https://ai.viXra.org instead of the main form. This kit does not make that declaration on the author's behalf.",
+  "rights_declaration": "Submitting declares that all authors and copyright holders permitted the deposit. The author must click submit personally.",
+  "irreversibility": "Once online, a viXra e-print is a permanent record; at most four replacements, withdrawal requires a reason and earlier versions are normally retained.",
+  "fields": [
+    {
+      "name": "RESULT_TextField-3",
+      "label": "Your e-mail address",
+      "value": "",
+      "mode": "USER_ONLY",
+      "note": "Required. viXra states this address will NOT be published unless you put it in the PDF, abstract or comment. Use a mailbox you can actually receive; do not use a QQ address or a noreply address."
+    },
+    {
+      "name": "RESULT_RadioButton-5",
+      "label": "PDF submission method (Upload / Link)",
+      "value": "Radio-0",
+      "mode": "AUTO",
+      "note": "Radio-0 = Upload (the recommended method). Use Radio-1 = Link only if the file exceeds 10 MB."
+    },
+    {
+      "name": "RESULT_FileUpload-6",
+      "label": "PDF document",
+      "value": "paper-vixra.pdf",
+      "mode": "USER_ONLY",
+      "note": "Browser security forbids scripts from choosing local files. Select paper-vixra.pdf yourself. Filename is pure ASCII, as viXra requires."
+    },
+    {
+      "name": "RESULT_TextField-8",
+      "label": "Hyperlink to PDF",
+      "value": "https://kiloiam.github.io/labor-value-theory-preprint/paper-vixra.pdf",
+      "mode": "AUTO",
+      "note": "Direct .pdf URL, included as a redundancy. If the form complains it is not needed for Upload mode, clear this field."
+    },
+    {
+      "name": "RESULT_RadioButton-10",
+      "label": "Science Category",
+      "value": "Radio-32",
+      "mode": "AUTO",
+      "note": "Radio-32 = Humanities - Economics and Finance (closest match). No cross-listing is possible."
+    },
+    {
+      "name": "RESULT_TextField-12",
+      "label": "Title of Paper (English)",
+      "value": "The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value",
+      "mode": "AUTO",
+      "note": "viXra asks for an English title when the paper is not in English."
+    },
+    {
+      "name": "RESULT_TextField-14",
+      "label": "Author(s)",
+      "value": "Didgeridoo",
+      "mode": "AUTO",
+      "note": "Full author name, no titles, no all-caps. Didgeridoo is the author's real English name, satisfying viXra's real-name rule."
+    },
+    {
+      "name": "RESULT_TextArea-16",
+      "label": "Abstract (English)",
+      "value": "Grounding its analysis in historical materialism, this article delineates the historical limits of the labor theory of value (LTV) and analyzes the structural crisis of the law of value under conditions of contemporary automated production. This article maintains that the LTV is not a universal economic principle applicable to all social formations; Rather, it emerges as a historically specific theory, grounded in wage labor, socially necessary labor time, and the universality of commodity exchange. On this basis, a revised value model incorporating automated technological capital is constructed. The paper demonstrates that as automated systems become capable in principle of performing productive functions independently of living labor, variable capital is systematically and irreversibly expelled from the production process. Accordingly, the process of surplus-value production has been tending towards its exhaustion; this process culminates in a fundamental breakdown of the value-category and the commodity-form which depends on it. In this context, profit no longer emerges as the result of valorization. Instead, profit becomes transmuted into a \"negative political cost of social stabilization under private property relations\" (P) needed for the maintenance of the institutional shell (integument) of private property. The article further elaborates on the \"four-fold impossibility\" of commodity society's self-repair. In doing so, it exposes an irreversible internal rupture in the value-structure. It concludes that the apparent obsolescence of the LTV does not refute the theory but rather indicates that commodity society has reached its historical endpoint. Thus, the central issue in the post-value-category era lies in the historical reconfiguration of production relations: namely, liberating automated productive capacities from the fetters of private appropriation and reorienting them toward a system aimed at the socialized organization of use-value. This analysis provides a theoretical criterion for understanding the specificity of the contemporary capitalist crisis and the direction of future social transformation.",
+      "mode": "AUTO",
+      "note": "298 words (< 400 limit). Single line, no links, no formatting, ASCII only."
+    },
+    {
+      "name": "RESULT_TextField-17",
+      "label": "Number of pages",
+      "value": "10",
+      "mode": "AUTO",
+      "note": "paper-vixra.pdf has 10 pages (9 original + 1 supplementary English notice)."
+    },
+    {
+      "name": "RESULT_TextField-19",
+      "label": "Comment (published on the abstract page)",
+      "value": "CC BY 4.0. Online preprint, not peer reviewed. DOI 10.5281/zenodo.24270266.",
+      "mode": "AUTO",
+      "note": "Keep it short; this appears on the abstract page and in listings."
+    },
+    {
+      "name": "RESULT_TextArea-21",
+      "label": "Other instructions (NOT published)",
+      "value": "The author publishes under the real English name Didgeridoo (not a pseudonym). This is an online preprint already deposited at Zenodo under DOI 10.5281/zenodo.24270266 and licensed CC BY 4.0; it is not peer reviewed and has not been published in a journal. The canonical full text is at https://kiloiam.github.io/labor-value-theory-preprint/ . The final page of the attached PDF carries the English title, English abstract, licence, DOIs and canonical links, because viXra does not place author-site links on its own pages. Please do not publish my e-mail address.",
+      "mode": "AUTO",
+      "note": "For the administrator only. Do not paste any e-mail address or other personal detail here."
+    }
+  ],
+  "autofill_script": "vixra-autofill.js",
+  "steps": "VIXRA-SUBMIT.md"
+}

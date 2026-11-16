@@ -44,3 +44,14 @@
 ## 提交后
 
 把新 URL / DOI 补进 `ARCHIVE-LINKS.md` 与 `MIRRORS.md`，并重新提交 IndexNow。
+
+## 实时表单字段映射（第五轮解析）
+
+表单真实字段名、逐项值与一键填充脚本见 `VIXRA-SUBMIT.md`、`vixra-prefill.json`、`vixra-autofill.js`。
+关键两项：`RESULT_RadioButton-10` 选 `Radio-32`（Humanities - Economics and Finance）；
+`RESULT_TextField-3` 为联系邮箱，**官方明确不会公开**，由你本人填写。
+
+The live viXra form states verbatim: "The article should be written without AI assistance (Please go to ai.viXra.org to submit new scholarly article written with AI assistance)." Only the author can judge whether this applies. If AI assistance was used, submit to https://ai.viXra.org instead of the main form. This kit does not make that declaration on the author's behalf.
+
+> **AI 辅助撰写**：主站表单要求稿件未使用 AI 辅助；若使用过，应改投 https://ai.viXra.org 。
+> 这一事实判断只能由作者本人作出，本包不代为声明。
