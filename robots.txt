@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kiloiam.github.io/labor-value-theory-preprint/sitemap.xml

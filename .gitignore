@@ -1,0 +1,13 @@
+tokens.json
+submission-log.json
+__pycache__/
+*.pyc
+author-profile.json
+pipeline-status.json
+mail-request.json
+intake/
+zenodo-*.json
+figshare-result.json
+*anon*.json
+*rebuild-result.json
+*versions-anon.json

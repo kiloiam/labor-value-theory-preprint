@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "title": "劳动价值论是历史性范畴：当代价值危机",
+    "creators": [
+      {
+        "name": "Didgeridoo"
+      }
+    ],
+    "description": "本文从历史唯物主义立场出发，系统阐明劳动价值论作为历史性范畴的界限，分析当代自动化生产条件下价值规律面临的结构性危机。本文指出，劳动价值论是以雇佣劳动、社会必要劳动时间和商品交换普遍化为前提的历史性理论，并非适用于一切社会形态的普遍经济原理。通过构建包含自动化技术资本的价值修正模型，本文论证了当自动化系统在原则上能够脱离人类活劳动而独立承担生产职能时，可变资本将被系统性、不可逆地挤出生产过程，剩余价值生产机制随之趋于枯竭，价值范畴及其所依托的商品形式发生根本性瓦解。此时，利润不再是价值增殖的结果，而转化为维持私有制外壳所需的负向政治性维稳成本P。本文进一步分析了商品社会实现自我修复的“四重不可能”，揭示了价值结构不可逆的内在断裂。本文认为，劳动价值论的失效并非理论被证伪，而是商品社会已走到历史尽头。由此提出，后价值范畴时代的核心问题在于生产关系的历史性重塑，即如何将自动化生产能力从私人占有形式中解放出来，转向以使用价值社会性组织为目标的生产体系，从而为理解当代资本主义危机的性质及未来社会转型的方向提供理论判准。\n\nAbstract: Grounding its analysis in historical materialism, this article delineates the historical limits of the labor theory of value (LTV) and analyzes the structural crisis of the law of value under conditions of contemporary automated production. This article maintains that the LTV is not a universal economic principle applicable to all social formations; Rather, it emerges as a historically specific theory, grounded in wage labor, socially necessary labor time, and the universality of commodity exchange. On this basis, a revised value model incorporating automated technological capital is constructed. The paper demonstrates that as automated systems become capable in principle of performing productive functions independently of living labor, variable capital is systematically and irreversibly expelled from the production process. Accordingly, the process of surplus-value production has been tending towards its exhaustion; this process culminates in a fundamental breakdown of the value-category and the commodity-form which depends on it. In this context, profit no longer emerges as the result of valorization. Instead, profit becomes transmuted into a \"negative political cost of social stabilization under private property relations\" (P) needed for the maintenance of the institutional shell (integument) of private property. The article further elaborates on the \"four-fold impossibility\" of commodity society’s self-repair. In doing so, it exposes an irreversible internal rupture in the value-structure. It concludes that the apparent obsolescence of the LTV does not refute the theory but rather indicates that commodity society has reached its historical endpoint. Thus, the central issue in the post-value-category era lies in the historical reconfiguration of production relations: namely, liberating automated productive capacities from the fetters of private appropriation and reorienting them toward a system aimed at the socialized organization of use-value. This analysis provides a theoretical criterion for understanding the specificity of the contemporary capitalist crisis and the direction of future social transformation.",
+    "keywords": [
+      "劳动价值论的历史性边界",
+      "价值范畴危机",
+      "自动化生产",
+      "生产关系历史性重塑",
+      "阶级斗争",
+      "labor theory of value",
+      "automation",
+      "historical materialism"
+    ],
+    "publication_date": "2026-11-16",
+    "publication_type": "preprint",
+    "resource_type": {
+      "type": "publication-preprint"
+    },
+    "language": "zh",
+    "license": {
+      "id": "CC-BY-4.0"
+    },
+    "notes": "作者信息已由本人补齐（单位、ORCID 见 creators）。英文摘要连写与标点已校对；原稿 PDF 未改动。网络预发布版本与 GitHub 公开仓储见 related_identifiers。通讯邮箱保存在本机私有文件，未写入公开元数据。 本轮已真实提交：Zenodo 主 DOI 10.5281/zenodo.24270266、Figshare 10.6084/m9.figshare.35018998.v1、OSF https://osf.io/wubs2/。注意：Zenodo legacy deposition API 不接受 related_identifiers 字段，提交脚本已改为把链接写入 notes。",
+    "related_identifiers": [
+      {
+        "identifier": "https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG",
+        "relation_type": "isidenticalto",
+        "scheme": "url"
+      },
+      {
+        "identifier": "https://github.com/kiloiam/labor-value-theory-preprint",
+        "relation_type": "isidenticalto",
+        "scheme": "url"
+      },
+      {
+        "identifier": "https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0",
+        "relation_type": "isidenticalto",
+        "scheme": "url"
+      },
+      {
+        "identifier": "https://doi.org/10.5281/zenodo.24270266",
+        "relation_type": "isidenticalto",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "https://doi.org/10.6084/m9.figshare.35018998.v1",
+        "relation_type": "isidenticalto",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "https://osf.io/wubs2/",
+        "relation_type": "isidenticalto",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [
+      {
+        "term": "马克思主义政治经济学",
+        "scheme": "local"
+      },
+      {
+        "term": "F0-0 马克思主义政治经济学",
+        "scheme": "CLC"
+      }
+    ],
+    "doi": "10.5281/zenodo.24270266",
+    "archives": {
+      "zenodo": {
+        "doi": "10.5281/zenodo.24270266",
+        "url": "https://zenodo.org/records/24270266"
+      },
+      "figshare": {
+        "doi": "10.6084/m9.figshare.35018998.v1",
+        "url": "https://figshare.com/articles/preprint/_/35018998"
+      },
+      "osf": {
+        "url": "https://osf.io/wubs2/"
+      },
+      "license": "CC BY 4.0",
+      "zenodo_conceptdoi": {
+        "doi": "10.5281/zenodo.24269665",
+        "note": "Zenodo 全版本概念 DOI，始终指向最新去标识化版本"
+      }
+    }
+  }
+}

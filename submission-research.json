@@ -1,0 +1,157 @@
+{
+  "source": "baixiao-mcp",
+  "queried_at": "2026-11-16",
+  "journal_fit": {
+    "partial": true,
+    "note": "45s budget reached; ranking covers only sources that answered in time and includes institutional repositories / aggregators.",
+    "recommended": [
+      {
+        "journal": "马克思主义与现实",
+        "article_count": "3",
+        "source": "baixiao_corpus",
+        "sample_title": "对蒲鲁东的两次批判与马克思劳动价值论的形成",
+        "priority": "优先核实"
+      },
+      {
+        "journal": "中南大学学报(社会科学版)",
+        "article_count": "3",
+        "source": "baixiao_corpus",
+        "sample_title": "马克思劳动价值论的历史辩证法基础及其哲学意义——从贝利对李嘉图的批判谈起",
+        "priority": "优先核实"
+      },
+      {
+        "journal": "广东社会科学",
+        "article_count": "—",
+        "source": "稿件参考文献",
+        "sample_title": "生产自动化与商品经济的未来——兼论劳动价值论的历史使命（2022 年第 5 期，68-74 页）",
+        "priority": "优先核实"
+      },
+      {
+        "journal": "Advances in Philosophy",
+        "article_count": "20",
+        "source": "openalex",
+        "sample_title": "Reflections on Christian Foxx’s Digital Labor Theory from the Perspective of Digital Capitalism",
+        "priority": "可选"
+      },
+      {
+        "journal": "人文与社会科学学刊",
+        "article_count": "3",
+        "source": "openalex",
+        "sample_title": "论数字劳动中的劳动异化问题",
+        "priority": "可选"
+      }
+    ],
+    "excluded": [
+      {
+        "name": "Digital Commons - Lingnan (Lingnan University)",
+        "article_count": "8",
+        "reason": "机构知识库，不是投稿期刊"
+      },
+      {
+        "name": "PhilPapers (PhilPapers Foundation)",
+        "article_count": "7",
+        "reason": "哲学文献聚合/索引平台"
+      },
+      {
+        "name": "DR-NTU (Nanyang Technological University)",
+        "article_count": "7",
+        "reason": "机构知识库，样例题名与主题不相关"
+      },
+      {
+        "name": "Institutional Repositories DataBase (IRDB)",
+        "article_count": "2",
+        "reason": "机构库索引"
+      },
+      {
+        "name": "人文学刊",
+        "article_count": "2",
+        "reason": "样例题名与主题不相关"
+      },
+      {
+        "name": "Aging Research",
+        "article_count": "2",
+        "reason": "学科明显不相关"
+      }
+    ]
+  },
+  "reference_verification": {
+    "count": 10,
+    "verified": 10,
+    "partial_match": 0,
+    "not_found": 0,
+    "lookup_unavailable": 0,
+    "needs_review": [
+      {
+        "ref": "[9] Fanged Noumena",
+        "issue": "cited 2011; main record 2012 (ISBN 9780955308789); 2011 editions also appear in book reviews",
+        "action": "check copyright page of the physical copy"
+      },
+      {
+        "ref": "[2][3] 马克思恩格斯文集 第1卷/第5卷",
+        "issue": "best_match incorrectly returned volume 6; volumes 1 (9787010084619) and 5 (9787010084589) do exist in candidates",
+        "action": "verify ISBN and volume labels"
+      },
+      {
+        "ref": "[8] 广东社会科学 2022(5)",
+        "missing_pages": "68-74",
+        "issn": "1000-114X"
+      }
+    ],
+    "isbn_confirmed": {
+      "[1]": "9787010025650",
+      "[6]": "9787010006635",
+      "[7]": "9787508647753",
+      "[10]": "9781784780968"
+    }
+  },
+  "reviewer_candidates": [
+    {
+      "name": "周嘉昕",
+      "paper_count": "4",
+      "sample_title": "历史唯物主义视域中的劳动价值论与形而上学",
+      "fit": "最贴合"
+    },
+    {
+      "name": "孙乐强",
+      "paper_count": "2",
+      "sample_title": "马克思劳动价值论的革命意义及当代价值——对非物质劳动论与知识价值论的再思考",
+      "fit": "贴合"
+    },
+    {
+      "name": "唐正东",
+      "paper_count": "2",
+      "sample_title": "深化历史唯物主义研究需要解决的三个问题",
+      "fit": "可考虑"
+    },
+    {
+      "name": "Changkui LI",
+      "paper_count": "2",
+      "sample_title": "颠覆性技术研究（一）——理论起源、概念界定与五维分析框架",
+      "fit": "偏技术"
+    },
+    {
+      "name": "Bo Deng",
+      "paper_count": "2",
+      "sample_title": "On the Creative Nature of Design",
+      "fit": "偏技术哲学"
+    },
+    {
+      "name": "张美娟",
+      "paper_count": "1",
+      "sample_title": "论数字劳动中的劳动异化问题",
+      "fit": "可考虑"
+    },
+    {
+      "name": "Siqi Zhou",
+      "paper_count": "1",
+      "sample_title": "恩格斯对杜林哲学虚无主义的批判",
+      "fit": "可考虑"
+    },
+    {
+      "name": "李, 建平",
+      "paper_count": "1",
+      "sample_title": "从生产力政治到意义政治:论智能时代社会规律的范式转移",
+      "fit": "可考虑"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: article
+title: "劳动价值论是历史性范畴：当代价值危机"
+doi: 10.5281/zenodo.24270266
+authors:
+  - family-names: Didgeridoo
+date-released: 2026-11-16
+license: CC-BY-4.0
+language: zh
+abstract: "从历史唯物主义立场阐明劳动价值论作为历史性范畴的界限，分析当代自动化生产条件下价值规律面临的结构性危机。"
+keywords:
+  - 劳动价值论
+  - 价值范畴危机
+  - 自动化生产
+  - 历史唯物主义
+  - 政治经济学批判
+url: "https://github.com/kiloiam/labor-value-theory-preprint"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24270266"
+    description: "Zenodo 主 DOI（CC BY 4.0）"
+  - type: doi
+    value: "10.6084/m9.figshare.35018998.v1"
+    description: "Figshare 存档 DOI"
+  - type: url
+    value: "https://osf.io/wubs2/"
+    description: "OSF 公开项目"
