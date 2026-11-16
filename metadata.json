@@ -87,6 +87,18 @@
         "doi": "10.5281/zenodo.24269665",
         "note": "Zenodo 全版本概念 DOI，始终指向最新去标识化版本"
       }
-    }
+    },
+    "zenodo_version_dois": [
+      "10.5281/zenodo.24270266",
+      "10.5281/zenodo.24274919",
+      "10.5281/zenodo.24279668",
+      "10.5281/zenodo.24280895"
+    ],
+    "figshare_version_dois": [
+      "10.6084/m9.figshare.35018998.v1",
+      "10.6084/m9.figshare.35018998.v2"
+    ],
+    "secondary_repository": "https://github.com/kiloiam/labor-value-theory-archive",
+    "round7_archive_bundle": "https://kiloiam.github.io/labor-value-theory-preprint/archives/ARCHIVE-BUNDLE-R7.txt"
   }
 }

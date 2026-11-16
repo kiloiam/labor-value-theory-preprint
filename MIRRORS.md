@@ -120,3 +120,20 @@
   25 个目标仅 1 个 CDX 确认、慢速重试 8 个 0 确认；OpenAlex / Semantic Scholar / Crossref 仍 404。
 - 边界不变：不承诺排名、不刷量买链、不代注册账号与权属声明；viXra 仍待审核、其余 B/C 档需作者本人。
 - 完整报告 `ROUND6-REPORT.md`；回执 `EXTERNAL-R6.json` / `AGGREGATORS-R6.json` / `VERIFY-R6.json`。
+
+## 第七轮：世界资料站与数据库备份 · 白帽搜索优化（2026-11-16）
+
+- **新增独立资料托管副本（已回抓验证）**：paste.rs、dpaste.com、pomf2.lain.la（全文层），
+  rentry.co、uguu.se（指针层）。另有 gofile.io、tmpfiles.org 仅下载页，内容未独立验证。
+- **数据库级**：Zenodo 第四版本 `10.5281/zenodo.24280895`（27 资产）、
+  Figshare 第二版本 `10.6084/m9.figshare.35018998.v2`（3 文件）、
+  第二个独立仓库 https://github.com/kiloiam/labor-value-theory-archive （Release v1.0.0）、
+  主仓库 Release `v6.0.0`（27 资产）、OSF 26/26、Gist 7/7、
+  Software Heritage 两个仓库均 `succeeded / full`。
+- **SEO 实质修复**：主站 canonical 由跨域名 `?sharecode=` 改为自引用绝对 URL；
+  sitemap 移除重复 `/index.html` 与两个工单页；工单页 `noindex`；Scholar `citation_*` 全套补齐；
+  全站 65 页审计 0 问题；新增 14 个信任／术语／站长页；主 sitemap 176 URL；
+  IndexNow 176 × 4 端点全 200（在 Pages 构建确认后重提）。
+- **如实保留**：12 个托管端点失败、1 个恶意域名被安全中心拦截且未重试、
+  IPFS/Arweave 无匿名持久写入、Wayback 限流、OpenAlex/S2/Crossref 仍 404。
+- 完整报告 `ROUND7-REPORT.md`；公开副本清单 `HOSTS-R7.json`；复验 `VERIFY-R7.json`。

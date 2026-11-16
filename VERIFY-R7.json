@@ -1,0 +1,16 @@
+{
+  "sitemap_urls": 176,
+  "sitemap_missing_local_targets": 0,
+  "sitemap_missing_examples": [],
+  "inline_jsonld_blocks": 71,
+  "invalid_jsonld": 0,
+  "broken_internal_links": 0,
+  "anonymity": {
+    "files_scanned": "234",
+    "hard_violations": "True",
+    "qq_mail_hits": "0",
+    "verdict": "PASS"
+  },
+  "html_pages": 79,
+  "checksums": "recomputed by finalize_r5.py after this report; see CHECKSUMS.sha256"
+}

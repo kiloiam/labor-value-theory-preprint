@@ -1,0 +1,28 @@
+{
+  "datacite": {
+    "http": 200,
+    "response": "{\"data\": {\"id\": \"10.5281/zenodo.24280895\", \"type\": \"dois\", \"attributes\": {\"doi\": \"10.5281/zenodo.24280895\", \"prefix\": \"10.5281\", \"suffix\": \"zenodo.242"
+  },
+  "openaire": {
+    "http": 200,
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<response>\n\t  <header>\n\t\t    <query>(oaftype exact result) and (resulttypeid exact publication) and ((pidclassi"
+  },
+  "openalex": {
+    "http": 404,
+    "response": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the UR"
+  },
+  "semantic_scholar": {
+    "http": 404,
+    "response": "{\"error\": \"Paper with id DOI:10.5281/zenodo.24280895 not found\"}"
+  },
+  "crossref": {
+    "http": 404,
+    "response": "Resource not found."
+  },
+  "zenodo": {
+    "http": 200,
+    "response": "{\"created\": \"2026-11-16T12:40:40.974683+00:00\", \"modified\": \"2026-11-16T12:40:42.991157+00:00\", \"id\": 24280895, \"conceptrecid\": \"24269665\", \"doi\": \"10"
+  },
+  "_doi_checked": "10.5281/zenodo.24280895",
+  "_note": "OpenAlex / Semantic Scholar / Crossref harvest automatically; no single-paper submission exists."
+}

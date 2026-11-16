@@ -103,6 +103,8 @@
     "noindex_pages": [
       "FIGSHARE-TAKEDOWN.html"
     ],
-    "sitemap_urls": 155
+    "sitemap_urls": 155,
+    "html_pages_after_round7": 79,
+    "round7_new_pages": 14
   }
 }
