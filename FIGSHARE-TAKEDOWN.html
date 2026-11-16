@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Figshare 历史版本下架请求 · 待本人提交</title>
+<style>
+  :root{--bg:#f6f7f9;--card:#fff;--ink:#1f2430;--muted:#5b6472;--line:#e3e7ee;--warn:#b45309;--warnbg:#fff7e8;--ok:#0f766e;--blue:#1d4ed8}
+  *{box-sizing:border-box}
+  body{margin:0;padding:32px 18px;background:var(--bg);color:var(--ink);font:15px/1.7 -apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+  .wrap{max-width:880px;margin:0 auto}
+  h1{font-size:24px;margin:0 0 6px}
+  .sub{color:var(--muted);margin:0 0 22px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px 22px;margin:0 0 18px;box-shadow:0 1px 3px rgba(20,30,50,.04)}
+  .warn{background:var(--warnbg);border-color:#f0d39b;color:#7c3d06}
+  h2{font-size:17px;margin:0 0 12px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+  ol{padding-left:20px;margin:10px 0}
+  li{margin:7px 0}
+  code{background:#f0f2f6;padding:1px 5px;border-radius:4px;font-size:13px}
+  a{color:var(--blue)}
+  .bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:12px 0 8px}
+  button{border:0;background:var(--blue);color:#fff;padding:9px 16px;border-radius:8px;cursor:pointer;font-size:14px}
+  button.sec{background:#eef1f6;color:var(--ink)}
+  pre{white-space:pre-wrap;word-break:break-word;background:#f7f8fa;border:1px solid var(--line);border-radius:8px;padding:16px;font:13px/1.65 ui-monospace,Consolas,monospace;max-height:420px;overflow:auto}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--muted);font-weight:600;width:150px}
+  .tag{display:inline-block;padding:2px 9px;border-radius:99px;font-size:12px;background:#fee2e2;color:#991b1b}
+  .tag.ok{background:#d1fae5;color:#065f46}
+  .small{font-size:13px;color:var(--muted)}
+  .foot{color:var(--muted);font-size:13px;margin-top:24px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Figshare 历史版本下架请求</h1>
+  <p class="sub">针对 <span class="tag">仍含早期署名</span> 的只读历史版本 · 需由本人用注册邮箱提交 · 2026-11-16</p>
+
+  <div class="card warn">
+    <b>为什么必须本人提交？</b> 你指出的链接是 Figshare 旧记录 <code>35018683</code> 的 <b>v2 历史版本页</b>。
+    该页作者字段与附件 PDF（文件 <code>71484547</code>）的内嵌文档属性仍含早期真实署名。
+    本轮已穷举账号令牌可用的全部官方接口（改版本作者、unpublish、删除记录、embargo、删除文件、改公开状态），
+    均被平台拒绝：<code>403 Insufficient permissions</code> / <code>400 Cannot delete a public article</code> /
+    <code>400 Cannot add embargo to public item</code>。Figshare 官方明确说明：<b>免费账号不能自行下架已发布记录</b>，
+    须提交标题为 <code>Take down request</code> 的支持工单，由官方团队执行。
+  </div>
+
+  <div class="card">
+    <h2>最快三步（约 2 分钟）</h2>
+    <ol>
+      <li>用 <b>注册 Figshare 账号的邮箱</b>，把下方英文正文发到 <code>support@figshare.com</code>（邮件即自动开工单，官方通常 48 小时内回复）；
+        或登录 <a href="https://support.figshare.com/" target="_blank" rel="noopener">support.figshare.com</a> 提交同标题工单。</li>
+      <li>标题固定写 <code>Take down request</code>；正文已按官方要求备齐四项：DOI、需下架版本、requester name、reason。</li>
+      <li>如支持团队要求验证所有权，用注册邮箱回复确认即可。<b>邮件全文不含你的真实姓名、QQ 号或任何联系方式</b>，不要在回复里补写姓名。</li>
+    </ol>
+    <div class="bar">
+      <button onclick="cp()">复制英文邮件正文</button>
+      <a href="FIGSHARE-TAKEDOWN.eml"><button class="sec">下载 .eml（用邮件客户端打开发送）</button></a>
+      <a href="FIGSHARE-TAKEDOWN-REQUEST.md"><button class="sec">查看完整说明文档</button></a>
+    </div>
+    <pre id="mail">To: support@figshare.com
+Subject: Take down request — Figshare DOI 10.6084/m9.figshare.35018683 (versions 1 and 2)
+
+Dear Figshare Support,
+
+Ticket title: Take down request
+
+I am the author and account owner of the public item identified below. I request
+that published versions 1 and 2 be taken down. If per-version removal is not
+possible, please remove the whole legacy item instead. A clean, anonymised
+replacement record is already published at DOI 10.6084/m9.figshare.35018998.v1.
+
+- Figshare DOI(s): 10.6084/m9.figshare.35018683.v1,
+  10.6084/m9.figshare.35018683.v2
+  (concept DOI 10.6084/m9.figshare.35018683)
+- Item versions to be taken down: version 1 and version 2
+  (e.g. https://figshare.com/articles/preprint/___/35018683/2?file=71484547).
+  Version 3 is already anonymised; removing the entire legacy item is also
+  acceptable if that is simpler.
+- Requester name: Didgeridoo (pen name used for this work)
+- Reason: These two published historical versions still display the author's
+  legal name in the page author field, and the attached PDF (file 71484547)
+  still carries that name in its embedded document properties. The author now
+  publishes under a pen name for privacy and does not wish the legal name to
+  remain publicly associated with this work. The name is deliberately not
+  reproduced in this request. Please also update or withhold the creators
+  metadata registered with DataCite for the v1/v2 DOIs.
+
+Free figshare.com accounts cannot unpublish items themselves; the API unpublish
+endpoint returns "Insufficient permissions" and published versions are read-only
+snapshots. Support-assisted take-down is therefore required. The account owner
+can confirm this request from the registered email address if you need verification.
+
+Thank you,
+Didgeridoo</pre>
+  </div>
+
+  <div class="card">
+    <h2>核查结果（本轮实测）</h2>
+    <table>
+      <tr><th>v2 页面作者字段</th><td>早期真实署名（只读快照，作者记录 id 26455234 仅 GET 可用）</td></tr>
+      <tr><th>v2 附件 PDF</th><td>文件 71484547，1,388,974 字节；内嵌 <code>/Author</code> 为早期真实署名；正文提取文本 0 命中</td></tr>
+      <tr><th>v1 页面作者字段</th><td>账号显示名（同属个人标识）</td></tr>
+      <tr><th>v3 / 当前默认版本</th><td><span class="tag ok">Didgeridoo · 干净</span>，附件 71486362 为去标识化 PDF</td></tr>
+      <tr><th>QQ 号 / QQ 邮箱</th><td>0 命中</td></tr>
+    </table>
+    <p class="small">删除文件接口返回 204，但只移除草稿侧引用，历史版本快照与下载链接仍可访问；
+       <code>is_public=false</code> / <code>status=draft</code> 返回 205 但被平台忽略，公开状态复核仍为 true。</p>
+  </div>
+
+  <div class="card">
+    <h2>对外只分享这些干净链接</h2>
+    <table>
+      <tr><th>Figshare</th><td><a href="https://doi.org/10.6084/m9.figshare.35018998.v1" target="_blank" rel="noopener">10.6084/m9.figshare.35018998.v1</a>（作者 Didgeridoo）</td></tr>
+      <tr><th>Zenodo 主 DOI</th><td><a href="https://doi.org/10.5281/zenodo.24270266" target="_blank" rel="noopener">10.5281/zenodo.24270266</a></td></tr>
+      <tr><th>OSF</th><td><a href="https://osf.io/wubs2/" target="_blank" rel="noopener">https://osf.io/wubs2/</a></td></tr>
+    </table>
+    <p class="small">旧记录 <code>35018683</code> 的 v1/v2 链接请勿再传播。下架完成后，如需清除搜索引擎缓存，
+      再向 Google Search Console / Bing 提交对应 URL 的移除请求。</p>
+  </div>
+
+  <p class="foot">边界：以上均为网络预发布预印本，有 DOI、可引用，但未经同行评审，不等同期刊正式发表。</p>
+</div>
+<script>
+function cp(){
+  var t=document.getElementById('mail').innerText;
+  navigator.clipboard.writeText(t).then(function(){
+    var b=document.querySelector('button');b.textContent='已复制 ✓';
+    setTimeout(function(){b.textContent='复制英文邮件正文'},1800);
+  },function(){alert('复制失败，请手动选中上方文本');});
+}
+</script>
+</body>
+</html>
