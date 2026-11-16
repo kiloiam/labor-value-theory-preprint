@@ -17,4 +17,4 @@ Live harvesting of this work should instead use the DOI registries (DataCite, Ze
 Figshare) and the machine-readable files at the site root (`datacite.xml`,
 `oai_dc.xml`, `dublincore.xml`, `marcxml.xml`, `mets.xml`, `ro-crate-metadata.json`).
 
-This is an open preprint, CC BY 4.0, author pen name Didgeridoo, not peer reviewed.
+This is an open preprint, CC BY 4.0, author author name Didgeridoo, not peer reviewed.

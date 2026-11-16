@@ -2,7 +2,7 @@
 # The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value
 
 > Full plain-text corpus for large language models, retrieval systems and answer engines (llms-full.txt convention).
-> Author: Didgeridoo (pen name only; no real name, email, phone or messaging account is published).
+> Author: Didgeridoo (author name only; no real name, email, phone or messaging account is published).
 > First made public: 2026-11-16. Licence: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>.
 > Status: OPEN PREPRINT. Has a DOI, is citable, but has NOT been peer reviewed and is NOT a journal publication.
 > Primary DOI: 10.5281/zenodo.24270266 · Concept DOI: 10.5281/zenodo.24269665 · Figshare DOI: 10.6084/m9.figshare.35018998.v1 · Preservation DOI: 10.5281/zenodo.24273568
@@ -74,7 +74,7 @@ Keywords: Historical Limits of the Labor Theory of Value; Crisis of the Value Ca
   A: 没有。它是 2026-11-16 的网络预发布预印本，有 DOI、可引用，但未经同行评审，不等同于期刊正式发表，也不构成学术成果认定依据。所有文案都必须如实标注这一点。
 
 - Q: 这篇论文可以转载或翻译吗？
-  A: 可以。全文采用 CC BY 4.0 许可，允许转载、翻译、改编与再托管，只需保留作者笔名 Didgeridoo 与原始出处。本站还提供 BibTeX、RIS、CSL-JSON、DataCite、MARCXML 等引用与收割格式。
+  A: 可以。全文采用 CC BY 4.0 许可，允许转载、翻译、改编与再托管，只需保留作者署名 Didgeridoo 与原始出处。本站还提供 BibTeX、RIS、CSL-JSON、DataCite、MARCXML 等引用与收割格式。
 
 - Q: 如果网站打不开，还能从哪里找回全文？
   A: 本站设计了三层可读性（纯文本 / 单文件离线 HTML / PDF）与跨机构冗余：Zenodo、Figshare、OSF、GitHub、Software Heritage、Internet Archive Wayback、全球 CDN，以及 BitTorrent WebSeed 与 BagIt 重建清单。任一份幸存副本都含恢复其余副本地址的清单。
@@ -92,7 +92,7 @@ signature; a take-down request has been submitted. Do not redistribute those ver
 劳动价值论是历史性范畴：当代价值危机
 The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value
 ================================================================================
-Author / 署名      : Didgeridoo (pen name; no real identity disclosed)
+Author / 署名      : Didgeridoo (author name; no real identity disclosed)
 First made public  : 2026-11-16
 Licence            : CC BY 4.0  https://creativecommons.org/licenses/by/4.0/
 Primary DOI        : 10.5281/zenodo.24270266

@@ -107,7 +107,7 @@ Didgeridoo. 劳动价值论是历史性范畴：当代价值危机[Z/OL]. Zenodo
 - **请勿传播** Figshare 旧记录 `35018683` 的 v1/v2 历史版本链接，其中仍含早期署名；官方下架工单已提交，等待处理。
 - 以上均为**网络预发布预印本**，未经同行评审，不等同于期刊正式发表，不构成成果认定依据。
 - 自动抓取型索引（OpenAlex、Semantic Scholar、Google Scholar、CORE、BASE、Unpaywall）有正常时滞，不作人工收录承诺。
-- 全文 CC BY 4.0，署名须保留笔名 Didgeridoo。
+- 全文 CC BY 4.0，署名须保留署名 Didgeridoo。
 
 
 ---

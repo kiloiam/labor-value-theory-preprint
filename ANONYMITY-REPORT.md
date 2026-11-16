@@ -1,11 +1,17 @@
 # 去标识化报告（Anonymization Report）
+<!-- R5-REALNAME -->
 
-**署名**：Didgeridoo（笔名）　·　**执行日期**：2026-11-16　·　**许可**：CC BY 4.0（不变）
+> **署名性质补记（2026-11-16）**：作者后来澄清 `Didgeridoo` 是真实英文姓名而非笔名。
+> 本报告记录的是「移除其他姓名、QQ 号、QQ 邮箱、单位与联系方式」的去标识化处理，
+> 结论与 0 命中结果不受影响；对外表述统一改为中性「署名」。
+> 详见 `AUTHOR-NAME-CLARIFICATION.md`。
+
+**署名**：Didgeridoo（真实英文姓名）　·　**执行日期**：2026-11-16　·　**许可**：CC BY 4.0（不变）
 
 ## 结论
 
 除下文「平台限制造成的残留」明确列出的**只读历史版本快照**外，
-所有**当前对外分享的页面、元数据、引用文件、投稿材料与 PDF 文档属性**统一使用笔名 `Didgeridoo`，
+所有**当前对外分享的页面、元数据、引用文件、投稿材料与 PDF 文档属性**统一使用署名 `Didgeridoo`，
 不含真实姓名、通讯邮箱、工作单位等个人识别信息；第二轮追加核验显示，
 用户指定的 QQ 号及所有 QQ 邮箱形态字段在全部公开位置均为 0 命中（详见下节）。原稿正文一字未改，仅重写了 PDF 的
 `/Author`、`/Creator`、`/Title` 等文档属性并移除创建/修改时间指纹；清洗前后 9 页正文逐字一致。
@@ -23,12 +29,12 @@
 |---|---|
 | Zenodo 主记录 | `10.5281/zenodo.24270266`（新版本）：creators = Didgeridoo，PDF 已去标识化 |
 | Zenodo 概念 DOI | `10.5281/zenodo.24269665`：始终指向最新版（即上述去标识化版本） |
-| Zenodo 旧版本 | `10.5281/zenodo.24269666` 的**公开署名已改为笔名**；其历史 PDF 被平台锁定，见下方残留 |
+| Zenodo 旧版本 | `10.5281/zenodo.24269666` 的**公开署名已改为署名**；其历史 PDF 被平台锁定，见下方残留 |
 | Figshare 主记录 | `10.6084/m9.figshare.35018998.v1`：全新干净记录，作者 Didgeridoo，PDF 已去标识化 |
-| OSF | https://osf.io/wubs2/ ：描述改为笔名；旧 PDF 已删除，上传去标识化版本 |
-| GitHub Pages | https://kiloiam.github.io/labor-value-theory-preprint/ ：`citation_*`、JSON-LD、OG、正文、PDF 全部为笔名 |
-| WorkBuddy 在线站点 | 阅读页与投递台：全文、元数据、引用、投稿信、预填表单全部为笔名 |
-| 本地提交包 | `submission-package.zip` 及其 4 个目录副本：39+ 文件全部为笔名 |
+| OSF | https://osf.io/wubs2/ ：描述改为署名；旧 PDF 已删除，上传去标识化版本 |
+| GitHub Pages | https://kiloiam.github.io/labor-value-theory-preprint/ ：`citation_*`、JSON-LD、OG、正文、PDF 全部为署名 |
+| WorkBuddy 在线站点 | 阅读页与投递台：全文、元数据、引用、投稿信、预填表单全部为署名 |
+| 本地提交包 | `submission-package.zip` 及其 4 个目录副本：39+ 文件全部为署名 |
 | GitHub 仓库 | 历史重写为单一干净提交，提交者 `Didgeridoo <didgeridoo@users.noreply.github.com>`；Release 附件换为清洗后 PDF |
 
 ### 额外清理的隐性泄露点
@@ -117,8 +123,8 @@
 
 1. **Zenodo 旧版本 `24269666` 的历史 PDF**：Zenodo 对已发布记录锁定存储桶，
    尝试删除/覆盖文件均返回 `403 Bucket is locked for modifications`，
-   删除已发布 deposition 返回 404。该 PDF 的文档属性可能仍含早期署名；记录页面本身已是笔名。
-2. **Figshare 旧记录 `35018683` 的 v1 / v2 版本快照**（即用户指出的链接）：其默认版本 v3 已是笔名，
+   删除已发布 deposition 返回 404。该 PDF 的文档属性可能仍含早期署名；记录页面本身已是署名。
+2. **Figshare 旧记录 `35018683` 的 v1 / v2 版本快照**（即用户指出的链接）：其默认版本 v3 已是署名，
    但 v1 显示账号显示名、v2 显示早期真实署名，且 v1/v2 共用的附件 PDF `71484547`
    内嵌 `/Author` 也是早期署名。全部可用端点已实测失败（详见上一节表格）；
    Figshare 官方说明免费账号须由支持团队执行 take-down，

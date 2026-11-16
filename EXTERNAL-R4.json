@@ -183,7 +183,7 @@
         "http": 201
       }
     ],
-    "note": "Published as a new version under the existing concept DOI; metadata explicitly reset to pen name Didgeridoo only.",
+    "note": "Published as a new version under the existing concept DOI; metadata explicitly reset to author name Didgeridoo only.",
     "metadata_note": "PUT metadata returned 415 (unsupported media type); inherited metadata from 24273568 is already Didgeridoo-only and was verified on the published record.",
     "datacite_verified": {
       "via": "https://api.datacite.org/dois/10.5281/zenodo.24274919",
@@ -192,7 +192,7 @@
       ],
       "publisher": "Zenodo",
       "title": "劳动价值论是历史性范畴:当代价值危机",
-      "note": "Independent registry confirmation that the new version carries only the pen name."
+      "note": "Independent registry confirmation that the new version carries only the author name."
     }
   },
   "release_v3": {

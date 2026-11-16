@@ -31,11 +31,11 @@
       (e.g. https://figshare.com/articles/preprint/___/35018683/2?file=71484547).
       Version 3 is already anonymised; removing the entire legacy item is also
       acceptable if that is simpler.
-    - Requester name: Didgeridoo (pen name used for this work)
+    - Requester name: Didgeridoo (real English name used for this work)
     - Reason: These two published historical versions still display the author's
       legal name in the page author field, and the attached PDF (file 71484547)
       still carries that name in its embedded document properties. The author now
-      publishes under a pen name for privacy and does not wish the legal name to
+      publishes under the real English name Didgeridoo and does not wish another legal name to
       remain publicly associated with this work. The name is deliberately not
       reproduced in this request. Please also update or withhold the creators
       metadata registered with DataCite for the v1/v2 DOIs.
@@ -51,9 +51,9 @@
 ## 二、中文对照（便于本人核对，勿作为邮件正文发送）
 
 - **Figshare DOI**：`10.6084/m9.figshare.35018683.v1`、`10.6084/m9.figshare.35018683.v2`（概念 DOI `10.6084/m9.figshare.35018683`）
-- **需下架版本**：v1 与 v2；若平台无法按版本下架，可整条删除旧记录 `35018683`。v3 已是笔名版本，全新干净记录为 `10.6084/m9.figshare.35018998.v1`
-- **requester name**：Didgeridoo（笔名）
-- **reason**：两个历史版本页面的作者字段、以及附件 PDF（`71484547`）的内嵌文档属性中仍含作者不愿公开的法定姓名；作者已改用笔名发表，请求移除，并同步更新／遮蔽 DataCite 中 v1/v2 DOI 的 creators 元数据。邮件中不复述该姓名。
+- **需下架版本**：v1 与 v2；若平台无法按版本下架，可整条删除旧记录 `35018683`。v3 已是英文署名版本，全新干净记录为 `10.6084/m9.figshare.35018998.v1`
+- **requester name**：Didgeridoo（真实英文姓名）
+- **reason**：两个历史版本页面的作者字段、以及附件 PDF（`71484547`）的内嵌文档属性中仍含作者不愿公开的法定姓名；作者现以真实英文姓名 Didgeridoo 发表，请求移除，并同步更新／遮蔽 DataCite 中 v1/v2 DOI 的 creators 元数据。邮件中不复述该姓名。
 
 ## 三、本轮已尝试但平台拒绝的自动途径（供支持团队参考）
 

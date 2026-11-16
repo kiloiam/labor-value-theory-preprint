@@ -85,7 +85,7 @@ Schema.org JSON-LD 独立文件、Atom / RSS / OAI-DC / DataCite `rel=alternate`
 | OpenAlex | API 返回 `404`，尚未收录（DataCite 自动抓取时滞，通常数周） |
 | Semantic Scholar | API 返回 `404`，尚未收录（自动抓取） |
 | Google Scholar / CORE / BASE / Unpaywall | 无匿名人工提交入口，依赖自动抓取；本轮只提高可发现性 |
-| OSF Preprints | **未创建**：OSF 账号贡献者显示名为账号名而非笔名 Didgeridoo，新建预印本会生成带非笔名署名的公开页面，与去标识化要求冲突；改为向现有项目上传元数据副本 |
+| OSF Preprints | **未创建**：OSF 账号贡献者显示名为账号名而非署名 Didgeridoo，新建预印本会生成带其他署名的公开页面，与仅使用 Didgeridoo 的要求冲突；改为向现有项目上传元数据副本 |
 | arXiv / HAL / SSRN / ResearchGate / Academia.edu / RePEc | 均需实名注册、机构认证或本人确认，本环境不代注册、不代投稿 |
 
 ## 五、边界
@@ -223,8 +223,8 @@ Schema.org JSON-LD 独立文件、Atom / RSS / OAI-DC / DataCite `rel=alternate`
 | archive.today / archive.is / archive.li | 各镜像连接超时，本网络不可达 |
 | Common Crawl | `No Captures found`；不提供单 URL 人工提交入口 |
 | Yahoo sitemap ping | `500`；Bing `410` / Google `404`（2023 年起弃用），已由 IndexNow 替代 |
-| Figshare 新建版本 | **未创建**：已发布版本的作者字段曾出现非笔名，新建版本有重新带出非笔名署名的风险；改用 Zenodo 新版本与 OSF/GitHub 追加副本 |
-| OSF Preprints | **未创建**：OSF 贡献者显示名为账号名而非笔名，会生成带非笔名署名的公开页 |
+| Figshare 新建版本 | **未创建**：已发布版本的作者字段曾出现非笔名，新建版本有重新带出其他署名的风险；改用 Zenodo 新版本与 OSF/GitHub 追加副本 |
+| OSF Preprints | **未创建**：OSF 贡献者显示名与 Didgeridoo 不一致，会生成带其他署名的公开页 |
 | arXiv / HAL / SSRN / ResearchGate / Academia.edu / RePEc / 百度搜索资源平台 | 需实名注册、机构认证或站点所有权验证，不代注册、不代投稿 |
 | OpenAlex / Semantic Scholar | 仍 `404`，属 DataCite 自动抓取时滞；不作人工收录承诺 |
 

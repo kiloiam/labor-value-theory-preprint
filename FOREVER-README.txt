@@ -17,7 +17,7 @@ FOREVER README — 长期保存与恢复说明
 
 身份信息（重建时必须一并保留）
 --------------------------------------------------------------------------------
-  署名      : Didgeridoo（笔名，不披露真实身份）
+  署名      : Didgeridoo（真实英文姓名，不披露其他身份信息）
   首发日期  : 2026-11-16
   许可      : CC BY 4.0  https://creativecommons.org/licenses/by/4.0/
   主 DOI    : 10.5281/zenodo.24270266
@@ -159,5 +159,5 @@ E) Machine-readable recovery metadata
    ro-crate-metadata.json (per-file SHA-256), .well-known/linkset.json (FAIR Signposting),
    llms-full.txt (plain-text corpus for AI/answer engines), CHECKSUMS.sha256.
 
-All public copies use only the pen name Didgeridoo. Do not redistribute
+All public copies use only the author name Didgeridoo. Do not redistribute
 Figshare historical record 35018683 v1/v2 (early non-pseudonymous signature).

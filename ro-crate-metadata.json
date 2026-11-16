@@ -15,7 +15,7 @@
       "@id": "./",
       "@type": "Dataset",
       "name": "劳动价值论是历史性范畴：当代价值危机 / The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value",
-      "description": "Open-access preprint and its cross-institution preservation bundle. All public copies use the pen name Didgeridoo only.",
+      "description": "Open-access preprint and its cross-institution preservation bundle. All public copies use the author name Didgeridoo only.",
       "datePublished": "2026-11-16",
       "dateModified": "2026-11-16",
       "license": {
@@ -144,7 +144,7 @@
       "@id": "#didgeridoo",
       "@type": "Person",
       "name": "Didgeridoo",
-      "description": "Pen name; no real-world identity is attached to this public deposit."
+      "description": "Author name; no real-world identity is attached to this public deposit."
     },
     {
       "@id": "https://creativecommons.org/licenses/by/4.0/",

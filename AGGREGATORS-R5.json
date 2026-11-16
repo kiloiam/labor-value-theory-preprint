@@ -1,0 +1,78 @@
+{
+  "schema": "workbuddy.aggregator-check/1.0",
+  "checked_at": "2026-11-16T09:32:40Z",
+  "doi": "10.5281/zenodo.24270266",
+  "doi_latest": "10.5281/zenodo.24274919",
+  "results": [
+    {
+      "service": "DataCite",
+      "endpoint": "https://api.datacite.org/dois/10.5281/zenodo.24270266",
+      "http": 200,
+      "indexed": true,
+      "note": "DOI registered; creators verified as only Didgeridoo on the newest version."
+    },
+    {
+      "service": "OpenAIRE",
+      "endpoint": "https://api.openaire.eu/search/publications?doi=10.5281/zenodo.24270266",
+      "http": 200,
+      "indexed": true,
+      "total": 1,
+      "curation": "UNDER_CURATION",
+      "note": "Already harvested from the Zenodo/DataCite chain."
+    },
+    {
+      "service": "OpenAlex",
+      "endpoint": "https://api.openalex.org/works/doi:10.5281/zenodo.24270266",
+      "http": 404,
+      "indexed": false,
+      "note": "Automatic harvest only; no individual paper submission accepted. Expect a delay."
+    },
+    {
+      "service": "Semantic Scholar",
+      "endpoint": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.5281/zenodo.24270266",
+      "http": 404,
+      "indexed": false,
+      "note": "Automatic harvest only; not yet ingested."
+    },
+    {
+      "service": "Crossref",
+      "endpoint": "https://api.crossref.org/works/10.5281/zenodo.24270266",
+      "http": 404,
+      "indexed": false,
+      "note": "Expected: Zenodo DOIs are registered with DataCite, not Crossref."
+    },
+    {
+      "service": "CORE",
+      "endpoint": "https://api.core.ac.uk/v3/search/works",
+      "http": 429,
+      "indexed": null,
+      "note": "Rate limited during check; policy not asserted."
+    },
+    {
+      "service": "BASE",
+      "endpoint": "https://www.base-search.net/about/en/submit.php",
+      "http": 200,
+      "indexed": null,
+      "note": "Anti-bot (Anubis) page blocked the actual policy text; no claim made about single-paper submission."
+    },
+    {
+      "service": "Google sitemap ping",
+      "endpoint": "https://www.google.com/ping?sitemap=...",
+      "http": 404,
+      "note": "Endpoint retired."
+    },
+    {
+      "service": "Bing sitemap ping",
+      "endpoint": "https://www.bing.com/ping?sitemap=...",
+      "http": 410,
+      "note": "Endpoint retired. IndexNow is the supported channel."
+    },
+    {
+      "service": "WebSub hub",
+      "endpoint": "https://pubsubhubbub.appspot.com/",
+      "http": 204,
+      "note": "Publish ping accepted for Atom/RSS feeds."
+    }
+  ],
+  "policy_note": "These aggregators harvest DOI registries and OAI-PMH sources; they do not accept individual paper submissions. No submission was fabricated and no ranking was manipulated."
+}

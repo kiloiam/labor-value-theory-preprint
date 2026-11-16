@@ -1,4 +1,4 @@
-Source-Organization: Didgeridoo (open preprint, pen name)
+Source-Organization: Didgeridoo (open preprint, real English name)
 Organization-Address: https://kiloiam.github.io/labor-value-theory-preprint/
 Contact-Name: Didgeridoo
 Contact-Email: didgeridoo@users.noreply.github.com

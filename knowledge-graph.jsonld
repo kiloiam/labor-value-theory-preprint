@@ -34,7 +34,7 @@
       "@id": "https://kiloiam.github.io/labor-value-theory-preprint/#author",
       "name": "Didgeridoo",
       "alternateName": "Didgeridoo",
-      "description": "Pen name used for this open preprint."
+      "description": "Real English author name used for this open preprint."
     },
     {
       "@type": "ScholarlyArticle",
@@ -597,7 +597,7 @@
       "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "可以。全文采用 CC BY 4.0 许可，允许转载、翻译、改编与再托管，只需保留作者笔名 Didgeridoo 与原始出处。本站还提供 BibTeX、RIS、CSL-JSON、DataCite、MARCXML 等引用与收割格式。",
+        "text": "可以。全文采用 CC BY 4.0 许可，允许转载、翻译、改编与再托管，只需保留作者署名 Didgeridoo 与原始出处。本站还提供 BibTeX、RIS、CSL-JSON、DataCite、MARCXML 等引用与收割格式。",
         "inLanguage": "zh-CN",
         "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
       }
@@ -609,7 +609,7 @@
       "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. The work is CC BY 4.0: reposting, translation, adaptation and re-hosting are permitted with attribution to the pen name Didgeridoo and the original source. BibTeX, RIS, CSL-JSON, DataCite and MARCXML metadata are provided.",
+        "text": "Yes. The work is CC BY 4.0: reposting, translation, adaptation and re-hosting are permitted with attribution to the author name Didgeridoo and the original source. BibTeX, RIS, CSL-JSON, DataCite and MARCXML metadata are provided.",
         "inLanguage": "en",
         "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
       }

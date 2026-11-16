@@ -1,0 +1,258 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/#website",
+      "name": "劳动价值论是历史性范畴：当代价值危机 — 开放预印本站点",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/",
+      "inLanguage": "zh-CN",
+      "author": {
+        "@type": "Person",
+        "name": "Didgeridoo"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://kiloiam.github.io/labor-value-theory-preprint/search.html?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/#article",
+      "headline": "劳动价值论是历史性范畴：当代价值危机",
+      "alternativeHeadline": "The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value",
+      "author": {
+        "@type": "Person",
+        "name": "Didgeridoo"
+      },
+      "datePublished": "2026-11-16",
+      "dateModified": "2026-11-16",
+      "inLanguage": "zh-CN",
+      "isAccessibleForFree": true,
+      "creativeWorkStatus": "Preprint",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "DOI",
+          "value": "10.5281/zenodo.24270266"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "DOI",
+          "value": "10.5281/zenodo.24274919"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "DOI",
+          "value": "10.6084/m9.figshare.35018998.v1"
+        }
+      ],
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/",
+      "mainEntityOfPage": "https://kiloiam.github.io/labor-value-theory-preprint/",
+      "sameAs": [
+        "https://zenodo.org/records/24270266",
+        "https://doi.org/10.5281/zenodo.24274919",
+        "https://osf.io/wubs2/",
+        "https://github.com/kiloiam/labor-value-theory-preprint"
+      ],
+      "about": [
+        {
+          "@type": "Thing",
+          "@id": "https://www.wikidata.org/wiki/Q584987",
+          "name": "劳动价值论"
+        },
+        {
+          "@type": "Thing",
+          "@id": "https://www.wikidata.org/wiki/Q854537",
+          "name": "马克思经济学"
+        },
+        {
+          "@type": "Thing",
+          "@id": "https://www.wikidata.org/wiki/Q185661",
+          "name": "历史唯物主义"
+        },
+        {
+          "@type": "Thing",
+          "@id": "https://www.wikidata.org/wiki/Q164011",
+          "name": "自动化"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "Thing",
+          "name": "社会必要劳动时间"
+        },
+        {
+          "@type": "Thing",
+          "name": "剩余价值"
+        },
+        {
+          "@type": "Thing",
+          "name": "可变资本"
+        },
+        {
+          "@type": "Thing",
+          "name": "商品形式"
+        },
+        {
+          "@type": "Thing",
+          "name": "转型问题"
+        },
+        {
+          "@type": "Thing",
+          "name": "数字劳动"
+        },
+        {
+          "@type": "Thing",
+          "name": "无人工厂"
+        }
+      ],
+      "isPartOf": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/#website"
+      },
+      "hasPart": [
+        {
+          "@type": "WebPage",
+          "name": "劳动价值论过时了吗",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-outdated.html"
+        },
+        {
+          "@type": "WebPage",
+          "name": "自动化生产与劳动价值论",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-automation.html"
+        },
+        {
+          "@type": "WebPage",
+          "name": "人工智能会推翻劳动价值论吗",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-ai.html"
+        },
+        {
+          "@type": "WebPage",
+          "name": "「历史性范畴」是什么意思",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-historical-category.html"
+        },
+        {
+          "@type": "WebPage",
+          "name": "自动化时代的剩余价值",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-surplus-value.html"
+        },
+        {
+          "@type": "WebPage",
+          "name": "社会必要劳动时间今天还适用吗",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-socially-necessary.html"
+        },
+        {
+          "@type": "WebPage",
+          "name": "转型问题与本文的关系",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-transformation.html"
+        },
+        {
+          "@type": "WebPage",
+          "name": "什么是价值范畴危机",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-crisis-of-value.html"
+        },
+        {
+          "@type": "WebPage",
+          "name": "数字劳动与劳动价值论",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-digital-labour.html"
+        },
+        {
+          "@type": "WebPage",
+          "name": "无人工厂还创造价值吗",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-workerless-factory.html"
+        }
+      ],
+      "workTranslation": [
+        {
+          "@type": "CreativeWork",
+          "name": "The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value",
+          "inLanguage": "en",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/en.html"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value",
+          "inLanguage": "ja",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ja.html"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value",
+          "inLanguage": "es",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/es.html"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value",
+          "inLanguage": "fr",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/fr.html"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value",
+          "inLanguage": "de",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/de.html"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value",
+          "inLanguage": "ru",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ru.html"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value",
+          "inLanguage": "pt",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/pt.html"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value",
+          "inLanguage": "it",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/it.html"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value",
+          "inLanguage": "ko",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ko.html"
+        }
+      ],
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "劳动价值论是历史性范畴：当代价值危机",
+          "author": {
+            "@type": "Person",
+            "name": "Didgeridoo"
+          },
+          "datePublished": "2026-11-16",
+          "identifier": "https://doi.org/10.5281/zenodo.24270266",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/",
+          "creativeWorkStatus": "Preprint"
+        }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".en-title",
+          ".metaline"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Zenodo",
+        "url": "https://zenodo.org/"
+      },
+      "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip",
+        "encodingFormat": "application/zip"
+      }
+    }
+  ]
+}
