@@ -1,0 +1,40 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "labor-value-theory-preprint",
+  "description": "Static open-access site, full text and preservation bundle for an open preprint on the labor theory of value.",
+  "codeRepository": "https://github.com/kiloiam/labor-value-theory-preprint",
+  "url": "https://kiloiam.github.io/labor-value-theory-preprint/",
+  "dateCreated": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "datePublished": "2026-11-16",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Didgeridoo"
+    }
+  ],
+  "identifier": "https://doi.org/10.5281/zenodo.24270266",
+  "keywords": [
+    "labor theory of value",
+    "Marxian economics",
+    "automation",
+    "preprint",
+    "open access",
+    "digital preservation",
+    "historical materialism"
+  ],
+  "programmingLanguage": [
+    "HTML",
+    "Python"
+  ],
+  "developmentStatus": "active",
+  "readme": "https://kiloiam.github.io/labor-value-theory-preprint/README.md",
+  "citation": "https://kiloiam.github.io/labor-value-theory-preprint/CITATION.cff",
+  "sameAs": [
+    "https://github.com/kiloiam/labor-value-theory-preprint",
+    "https://doi.org/10.5281/zenodo.24273568",
+    "https://osf.io/wubs2/"
+  ]
+}

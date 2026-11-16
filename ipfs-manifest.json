@@ -1,0 +1,211 @@
+{
+  "schema": "workbuddy.ipfs-cid-manifest/1.0",
+  "generated": "2026-11-16T08:45:04Z",
+  "encoding": "CIDv1, codec=raw (0x55), multihash=sha2-256 (0x12 0x20), base32 lowercase",
+  "work": {
+    "title": "劳动价值论是历史性范畴：当代价值危机",
+    "author": "Didgeridoo",
+    "doi": "10.5281/zenodo.24270266",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "status": "open preprint, not peer reviewed"
+  },
+  "pinning_status": "NOT PINNED. Public pinning services require an account/credential; no account was created on the author's behalf. CIDs are computed so any IPFS node can re-add and pin the exact bytes.",
+  "how_to_pin": "ipfs add --cid-version=1 --raw-leaves <file>   # then verify the CID matches",
+  "items": [
+    {
+      "file": "paper.pdf",
+      "cidv1_raw": "bafkreia37boproyksh7ac44oq5ntmayzdaeff7ipb7qk5nnlmkh5hwcmhi",
+      "sha256": "1bf85cf8bb0a91fe01738e875b360319180852fd0f0fe0aeb5ab628fd3d84c3a",
+      "bytes": 1389530,
+      "gateways": [
+        "https://ipfs.io/ipfs/bafkreia37boproyksh7ac44oq5ntmayzdaeff7ipb7qk5nnlmkh5hwcmhi",
+        "https://dweb.link/ipfs/bafkreia37boproyksh7ac44oq5ntmayzdaeff7ipb7qk5nnlmkh5hwcmhi",
+        "https://cloudflare-ipfs.com/ipfs/bafkreia37boproyksh7ac44oq5ntmayzdaeff7ipb7qk5nnlmkh5hwcmhi",
+        "https://gateway.pinata.cloud/ipfs/bafkreia37boproyksh7ac44oq5ntmayzdaeff7ipb7qk5nnlmkh5hwcmhi",
+        "https://w3s.link/ipfs/bafkreia37boproyksh7ac44oq5ntmayzdaeff7ipb7qk5nnlmkh5hwcmhi",
+        "https://4everland.io/ipfs/bafkreia37boproyksh7ac44oq5ntmayzdaeff7ipb7qk5nnlmkh5hwcmhi"
+      ],
+      "https_source": "https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf"
+    },
+    {
+      "file": "PAPER-PLAINTEXT.txt",
+      "cidv1_raw": "bafkreiafcgwbiquhnjvrqn7wh7jnbvfaoaj6k5iqyvjpfymtagm54f4imy",
+      "sha256": "0511ac1442876a6b1837f63fd2d0d4a07013e57510c552f2e1930199de178866",
+      "bytes": 36319,
+      "gateways": [
+        "https://ipfs.io/ipfs/bafkreiafcgwbiquhnjvrqn7wh7jnbvfaoaj6k5iqyvjpfymtagm54f4imy",
+        "https://dweb.link/ipfs/bafkreiafcgwbiquhnjvrqn7wh7jnbvfaoaj6k5iqyvjpfymtagm54f4imy",
+        "https://cloudflare-ipfs.com/ipfs/bafkreiafcgwbiquhnjvrqn7wh7jnbvfaoaj6k5iqyvjpfymtagm54f4imy",
+        "https://gateway.pinata.cloud/ipfs/bafkreiafcgwbiquhnjvrqn7wh7jnbvfaoaj6k5iqyvjpfymtagm54f4imy",
+        "https://w3s.link/ipfs/bafkreiafcgwbiquhnjvrqn7wh7jnbvfaoaj6k5iqyvjpfymtagm54f4imy",
+        "https://4everland.io/ipfs/bafkreiafcgwbiquhnjvrqn7wh7jnbvfaoaj6k5iqyvjpfymtagm54f4imy"
+      ],
+      "https_source": "https://kiloiam.github.io/labor-value-theory-preprint/PAPER-PLAINTEXT.txt"
+    },
+    {
+      "file": "paper-standalone.html",
+      "cidv1_raw": "bafkreigfm7js75gqsonfroqyynd6vdtcpkxcxm4euncd2sv6oh64enpxze",
+      "sha256": "c567d32ff4d0939a58ba18c347ea8e627aae2bb384a3443d4abe71fdc235f7c9",
+      "bytes": 47482,
+      "gateways": [
+        "https://ipfs.io/ipfs/bafkreigfm7js75gqsonfroqyynd6vdtcpkxcxm4euncd2sv6oh64enpxze",
+        "https://dweb.link/ipfs/bafkreigfm7js75gqsonfroqyynd6vdtcpkxcxm4euncd2sv6oh64enpxze",
+        "https://cloudflare-ipfs.com/ipfs/bafkreigfm7js75gqsonfroqyynd6vdtcpkxcxm4euncd2sv6oh64enpxze",
+        "https://gateway.pinata.cloud/ipfs/bafkreigfm7js75gqsonfroqyynd6vdtcpkxcxm4euncd2sv6oh64enpxze",
+        "https://w3s.link/ipfs/bafkreigfm7js75gqsonfroqyynd6vdtcpkxcxm4euncd2sv6oh64enpxze",
+        "https://4everland.io/ipfs/bafkreigfm7js75gqsonfroqyynd6vdtcpkxcxm4euncd2sv6oh64enpxze"
+      ],
+      "https_source": "https://kiloiam.github.io/labor-value-theory-preprint/paper-standalone.html"
+    },
+    {
+      "file": "manuscript.md",
+      "cidv1_raw": "bafkreiee74i2jlbsvysevnha56jbff77oy7pq2ju6bpunoe3y74izoil4e",
+      "sha256": "84ff11a4ac32ae244ab4e0ef921297ff763ef86934f05f46b89bc7f88cb90be1",
+      "bytes": 34169,
+      "gateways": [
+        "https://ipfs.io/ipfs/bafkreiee74i2jlbsvysevnha56jbff77oy7pq2ju6bpunoe3y74izoil4e",
+        "https://dweb.link/ipfs/bafkreiee74i2jlbsvysevnha56jbff77oy7pq2ju6bpunoe3y74izoil4e",
+        "https://cloudflare-ipfs.com/ipfs/bafkreiee74i2jlbsvysevnha56jbff77oy7pq2ju6bpunoe3y74izoil4e",
+        "https://gateway.pinata.cloud/ipfs/bafkreiee74i2jlbsvysevnha56jbff77oy7pq2ju6bpunoe3y74izoil4e",
+        "https://w3s.link/ipfs/bafkreiee74i2jlbsvysevnha56jbff77oy7pq2ju6bpunoe3y74izoil4e",
+        "https://4everland.io/ipfs/bafkreiee74i2jlbsvysevnha56jbff77oy7pq2ju6bpunoe3y74izoil4e"
+      ],
+      "https_source": "https://kiloiam.github.io/labor-value-theory-preprint/manuscript.md"
+    },
+    {
+      "file": "metadata.json",
+      "cidv1_raw": "bafkreib6xclg7fy72kiilfvuqaovapyp2bptm7h7da5i4zqmoqeseodyxq",
+      "sha256": "3eb8966f971fd2908596b4801d503f0fd05f367cff183a8e660c7409223878bc",
+      "bytes": 6651,
+      "gateways": [
+        "https://ipfs.io/ipfs/bafkreib6xclg7fy72kiilfvuqaovapyp2bptm7h7da5i4zqmoqeseodyxq",
+        "https://dweb.link/ipfs/bafkreib6xclg7fy72kiilfvuqaovapyp2bptm7h7da5i4zqmoqeseodyxq",
+        "https://cloudflare-ipfs.com/ipfs/bafkreib6xclg7fy72kiilfvuqaovapyp2bptm7h7da5i4zqmoqeseodyxq",
+        "https://gateway.pinata.cloud/ipfs/bafkreib6xclg7fy72kiilfvuqaovapyp2bptm7h7da5i4zqmoqeseodyxq",
+        "https://w3s.link/ipfs/bafkreib6xclg7fy72kiilfvuqaovapyp2bptm7h7da5i4zqmoqeseodyxq",
+        "https://4everland.io/ipfs/bafkreib6xclg7fy72kiilfvuqaovapyp2bptm7h7da5i4zqmoqeseodyxq"
+      ],
+      "https_source": "https://kiloiam.github.io/labor-value-theory-preprint/metadata.json"
+    },
+    {
+      "file": "llms-full.txt",
+      "cidv1_raw": "bafkreigpj3uawdfodougpirh52qo55tqb5cn3u5igr4xxbw2rzs3pnklgm",
+      "sha256": "cf4ee80b0cae1ba867a227eea0eef6700f44ddd3a834797b86da8e65b7b54b33",
+      "bytes": 48413,
+      "gateways": [
+        "https://ipfs.io/ipfs/bafkreigpj3uawdfodougpirh52qo55tqb5cn3u5igr4xxbw2rzs3pnklgm",
+        "https://dweb.link/ipfs/bafkreigpj3uawdfodougpirh52qo55tqb5cn3u5igr4xxbw2rzs3pnklgm",
+        "https://cloudflare-ipfs.com/ipfs/bafkreigpj3uawdfodougpirh52qo55tqb5cn3u5igr4xxbw2rzs3pnklgm",
+        "https://gateway.pinata.cloud/ipfs/bafkreigpj3uawdfodougpirh52qo55tqb5cn3u5igr4xxbw2rzs3pnklgm",
+        "https://w3s.link/ipfs/bafkreigpj3uawdfodougpirh52qo55tqb5cn3u5igr4xxbw2rzs3pnklgm",
+        "https://4everland.io/ipfs/bafkreigpj3uawdfodougpirh52qo55tqb5cn3u5igr4xxbw2rzs3pnklgm"
+      ],
+      "https_source": "https://kiloiam.github.io/labor-value-theory-preprint/llms-full.txt"
+    },
+    {
+      "file": "ro-crate-metadata.json",
+      "cidv1_raw": "bafkreigwi4mkvlqcjvfxy4aq27t4365qfcgntjea4vvthk3rydfgkszkga",
+      "sha256": "d64718aaae024d4b7c7010d7e7cdfbb0288cd9a480e56b33ab71c0ca654b2a30",
+      "bytes": 12092,
+      "gateways": [
+        "https://ipfs.io/ipfs/bafkreigwi4mkvlqcjvfxy4aq27t4365qfcgntjea4vvthk3rydfgkszkga",
+        "https://dweb.link/ipfs/bafkreigwi4mkvlqcjvfxy4aq27t4365qfcgntjea4vvthk3rydfgkszkga",
+        "https://cloudflare-ipfs.com/ipfs/bafkreigwi4mkvlqcjvfxy4aq27t4365qfcgntjea4vvthk3rydfgkszkga",
+        "https://gateway.pinata.cloud/ipfs/bafkreigwi4mkvlqcjvfxy4aq27t4365qfcgntjea4vvthk3rydfgkszkga",
+        "https://w3s.link/ipfs/bafkreigwi4mkvlqcjvfxy4aq27t4365qfcgntjea4vvthk3rydfgkszkga",
+        "https://4everland.io/ipfs/bafkreigwi4mkvlqcjvfxy4aq27t4365qfcgntjea4vvthk3rydfgkszkga"
+      ],
+      "https_source": "https://kiloiam.github.io/labor-value-theory-preprint/ro-crate-metadata.json"
+    },
+    {
+      "file": "PRESERVATION-MANIFEST.json",
+      "cidv1_raw": "bafkreifdn345uj2cfbk72xmb5joryewgrchiz2m7vndjq2f3rumzq6qi5y",
+      "sha256": "a36ef9da27422855fd5d81ea5d1c12c6888e8ce99fab469868bb8d19987a08ee",
+      "bytes": 11755,
+      "gateways": [
+        "https://ipfs.io/ipfs/bafkreifdn345uj2cfbk72xmb5joryewgrchiz2m7vndjq2f3rumzq6qi5y",
+        "https://dweb.link/ipfs/bafkreifdn345uj2cfbk72xmb5joryewgrchiz2m7vndjq2f3rumzq6qi5y",
+        "https://cloudflare-ipfs.com/ipfs/bafkreifdn345uj2cfbk72xmb5joryewgrchiz2m7vndjq2f3rumzq6qi5y",
+        "https://gateway.pinata.cloud/ipfs/bafkreifdn345uj2cfbk72xmb5joryewgrchiz2m7vndjq2f3rumzq6qi5y",
+        "https://w3s.link/ipfs/bafkreifdn345uj2cfbk72xmb5joryewgrchiz2m7vndjq2f3rumzq6qi5y",
+        "https://4everland.io/ipfs/bafkreifdn345uj2cfbk72xmb5joryewgrchiz2m7vndjq2f3rumzq6qi5y"
+      ],
+      "https_source": "https://kiloiam.github.io/labor-value-theory-preprint/PRESERVATION-MANIFEST.json"
+    },
+    {
+      "file": "CHECKSUMS.sha256",
+      "cidv1_raw": "bafkreifab3h4ve3afqixm6t3lvd2wocn2kofcmfwdvm2inkcz6553fegqy",
+      "sha256": "a00ecfca93602c11767a7b5d47ab384dd29c5130b61d59a43542cfbbdd948686",
+      "bytes": 5557,
+      "gateways": [
+        "https://ipfs.io/ipfs/bafkreifab3h4ve3afqixm6t3lvd2wocn2kofcmfwdvm2inkcz6553fegqy",
+        "https://dweb.link/ipfs/bafkreifab3h4ve3afqixm6t3lvd2wocn2kofcmfwdvm2inkcz6553fegqy",
+        "https://cloudflare-ipfs.com/ipfs/bafkreifab3h4ve3afqixm6t3lvd2wocn2kofcmfwdvm2inkcz6553fegqy",
+        "https://gateway.pinata.cloud/ipfs/bafkreifab3h4ve3afqixm6t3lvd2wocn2kofcmfwdvm2inkcz6553fegqy",
+        "https://w3s.link/ipfs/bafkreifab3h4ve3afqixm6t3lvd2wocn2kofcmfwdvm2inkcz6553fegqy",
+        "https://4everland.io/ipfs/bafkreifab3h4ve3afqixm6t3lvd2wocn2kofcmfwdvm2inkcz6553fegqy"
+      ],
+      "https_source": "https://kiloiam.github.io/labor-value-theory-preprint/CHECKSUMS.sha256"
+    },
+    {
+      "file": "MIRRORS.md",
+      "cidv1_raw": "bafkreihvk5q7rqclp52evrnqiqb537d6f3jvycsag4dj4dzhvf6pe3vvx4",
+      "sha256": "f55761f8c04b7f744ac5b04403ddfc7e2ed35c0a4037069e0f27a97cf26eb5bf",
+      "bytes": 6095,
+      "gateways": [
+        "https://ipfs.io/ipfs/bafkreihvk5q7rqclp52evrnqiqb537d6f3jvycsag4dj4dzhvf6pe3vvx4",
+        "https://dweb.link/ipfs/bafkreihvk5q7rqclp52evrnqiqb537d6f3jvycsag4dj4dzhvf6pe3vvx4",
+        "https://cloudflare-ipfs.com/ipfs/bafkreihvk5q7rqclp52evrnqiqb537d6f3jvycsag4dj4dzhvf6pe3vvx4",
+        "https://gateway.pinata.cloud/ipfs/bafkreihvk5q7rqclp52evrnqiqb537d6f3jvycsag4dj4dzhvf6pe3vvx4",
+        "https://w3s.link/ipfs/bafkreihvk5q7rqclp52evrnqiqb537d6f3jvycsag4dj4dzhvf6pe3vvx4",
+        "https://4everland.io/ipfs/bafkreihvk5q7rqclp52evrnqiqb537d6f3jvycsag4dj4dzhvf6pe3vvx4"
+      ],
+      "https_source": "https://kiloiam.github.io/labor-value-theory-preprint/MIRRORS.md"
+    },
+    {
+      "file": "preservation-bundle.zip",
+      "cidv1_raw": "bafkreife6ocrkip6otwmvtpnw7dkrta26unll57xo5nvzfz6iag2u5r5ve",
+      "sha256": "a4f3851521fe74eccacdedb7c6a8cc1af51ab5f7f7775b5c973e400daa763da9",
+      "bytes": 1557043,
+      "gateways": [
+        "https://ipfs.io/ipfs/bafkreife6ocrkip6otwmvtpnw7dkrta26unll57xo5nvzfz6iag2u5r5ve",
+        "https://dweb.link/ipfs/bafkreife6ocrkip6otwmvtpnw7dkrta26unll57xo5nvzfz6iag2u5r5ve",
+        "https://cloudflare-ipfs.com/ipfs/bafkreife6ocrkip6otwmvtpnw7dkrta26unll57xo5nvzfz6iag2u5r5ve",
+        "https://gateway.pinata.cloud/ipfs/bafkreife6ocrkip6otwmvtpnw7dkrta26unll57xo5nvzfz6iag2u5r5ve",
+        "https://w3s.link/ipfs/bafkreife6ocrkip6otwmvtpnw7dkrta26unll57xo5nvzfz6iag2u5r5ve",
+        "https://4everland.io/ipfs/bafkreife6ocrkip6otwmvtpnw7dkrta26unll57xo5nvzfz6iag2u5r5ve"
+      ],
+      "https_source": "https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip"
+    },
+    {
+      "file": "bagit-holey.zip",
+      "cidv1_raw": "bafkreic5hs6jtj4ltqmd4trzbo4jrqezcm63yd6qa6kkxazyrg2fibi4da",
+      "sha256": "5d3cbc99a78b9c183e4e390bb898c099133dbc0fd00794ab833889b454051c18",
+      "bytes": 3369,
+      "gateways": [
+        "https://ipfs.io/ipfs/bafkreic5hs6jtj4ltqmd4trzbo4jrqezcm63yd6qa6kkxazyrg2fibi4da",
+        "https://dweb.link/ipfs/bafkreic5hs6jtj4ltqmd4trzbo4jrqezcm63yd6qa6kkxazyrg2fibi4da",
+        "https://cloudflare-ipfs.com/ipfs/bafkreic5hs6jtj4ltqmd4trzbo4jrqezcm63yd6qa6kkxazyrg2fibi4da",
+        "https://gateway.pinata.cloud/ipfs/bafkreic5hs6jtj4ltqmd4trzbo4jrqezcm63yd6qa6kkxazyrg2fibi4da",
+        "https://w3s.link/ipfs/bafkreic5hs6jtj4ltqmd4trzbo4jrqezcm63yd6qa6kkxazyrg2fibi4da",
+        "https://4everland.io/ipfs/bafkreic5hs6jtj4ltqmd4trzbo4jrqezcm63yd6qa6kkxazyrg2fibi4da"
+      ],
+      "https_source": "https://kiloiam.github.io/labor-value-theory-preprint/bagit-holey.zip"
+    },
+    {
+      "file": "LICENSE",
+      "cidv1_raw": "bafkreibcg2kfc46loxfym6vtsbnp6emrjd23kj3vcj3lotx6z6kkbdg27e",
+      "sha256": "2236945173cb75cb867ab3905aff119148f5b527751276b74efecf94a08cdaf9",
+      "bytes": 1149,
+      "gateways": [
+        "https://ipfs.io/ipfs/bafkreibcg2kfc46loxfym6vtsbnp6emrjd23kj3vcj3lotx6z6kkbdg27e",
+        "https://dweb.link/ipfs/bafkreibcg2kfc46loxfym6vtsbnp6emrjd23kj3vcj3lotx6z6kkbdg27e",
+        "https://cloudflare-ipfs.com/ipfs/bafkreibcg2kfc46loxfym6vtsbnp6emrjd23kj3vcj3lotx6z6kkbdg27e",
+        "https://gateway.pinata.cloud/ipfs/bafkreibcg2kfc46loxfym6vtsbnp6emrjd23kj3vcj3lotx6z6kkbdg27e",
+        "https://w3s.link/ipfs/bafkreibcg2kfc46loxfym6vtsbnp6emrjd23kj3vcj3lotx6z6kkbdg27e",
+        "https://4everland.io/ipfs/bafkreibcg2kfc46loxfym6vtsbnp6emrjd23kj3vcj3lotx6z6kkbdg27e"
+      ],
+      "https_source": "https://kiloiam.github.io/labor-value-theory-preprint/LICENSE"
+    }
+  ]
+}

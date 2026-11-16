@@ -1,6 +1,6 @@
 {
-  "schema": "workbuddy.preservation-manifest/1.0",
-  "generated": "2026-11-16T08:17:35Z",
+  "schema": "workbuddy.preservation-manifest/1.1",
+  "generated": "2026-11-16T08:45:04Z",
   "work": {
     "title_zh": "劳动价值论是历史性范畴：当代价值危机",
     "title_en": "The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value",
@@ -297,22 +297,163 @@
       "payload": "63 URLs, HTTP 200 × 4",
       "doi": null,
       "layer": "index"
+    },
+    {
+      "id": "p2p-webseed-swarm",
+      "org": "BitTorrent DHT + public web seeds",
+      "jurisdiction": "decentralised / global",
+      "kind": "peer-to-peer swarm with HTTP web seeds",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/torrents.html",
+      "payload": "preservation-bundle.zip + paper.pdf",
+      "layer": "p2p"
+    },
+    {
+      "id": "bagit-holey",
+      "org": "BagIt (RFC 8498) tag-only bag",
+      "jurisdiction": "decentralised / global",
+      "kind": "reconstruction manifest via fetch.txt",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/bag/fetch.txt",
+      "payload": "28 files / 1711330 bytes",
+      "layer": "manifest"
+    },
+    {
+      "id": "ipfs-cid-manifest",
+      "org": "IPFS content addressing",
+      "jurisdiction": "decentralised / global",
+      "kind": "CIDv1 raw inventory (not pinned)",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/ipfs-manifest.json",
+      "payload": "13 CIDs",
+      "layer": "manifest"
+    },
+    {
+      "id": "memento-timemap",
+      "org": "Internet Archive / Memento",
+      "jurisdiction": "US",
+      "kind": "RFC 7089 TimeMap linkset",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/timemap.json",
+      "payload": "40 indexed snapshots",
+      "layer": "index"
+    },
+    {
+      "id": "ai-crawler-optin",
+      "org": "Search & answer engines",
+      "jurisdiction": "global",
+      "kind": "robots.txt explicit AI-crawler allow + llms-full.txt",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/llms-full.txt",
+      "payload": "full plain-text LLM corpus",
+      "layer": "index"
+    },
+    {
+      "id": "ro-crate",
+      "org": "RO-Crate / FAIR research object",
+      "jurisdiction": "global",
+      "kind": "machine-readable research object with per-file SHA-256",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/ro-crate-metadata.json",
+      "payload": "crate metadata",
+      "layer": "metadata"
     }
   ],
   "offline_bundle": [
-    "PAPER-PLAINTEXT.txt",
-    "paper-standalone.html",
-    "FOREVER-README.txt",
-    "MIRRORS.md",
     "CHECKSUMS.sha256",
-    "PRESERVATION-MANIFEST.json",
-    "paper.pdf",
-    "manuscript.md",
-    "citation.bib",
     "CITATION.cff",
-    "datacite.xml",
-    "abstracts.json",
     "DISTRIBUTION.md",
-    "PRESERVATION.md"
-  ]
+    "FOREVER-README.txt",
+    "MIRROR-HEALTH.json",
+    "MIRRORS.md",
+    "P2P-MANIFEST.json",
+    "PAPER-PLAINTEXT.txt",
+    "PRESERVATION-MANIFEST.json",
+    "PRESERVATION.md",
+    "abstracts.json",
+    "bag/bagit.txt",
+    "bag/fetch.txt",
+    "bagit-holey.zip",
+    "citation.bib",
+    "datacite.xml",
+    "faq.jsonld",
+    "ipfs-manifest.json",
+    "knowledge-graph.jsonld",
+    "llms-full.txt",
+    "manuscript.md",
+    "paper-standalone.html",
+    "paper.pdf",
+    "paper.pdf.torrent",
+    "preservation-bundle.zip.torrent",
+    "ro-crate-metadata.json",
+    "terms.jsonld",
+    "timemap.json"
+  ],
+  "frontier_layers": {
+    "signposting": ".well-known/linkset.json + <link rel> injected into 15 pages",
+    "ro_crate": "ro-crate-metadata.json (per-file SHA-256)",
+    "codemeta": "codemeta.json",
+    "oai_pmh_snapshots": "oai/*.xml (static, not a live endpoint)",
+    "generative_engine": [
+      "llms-full.txt",
+      "terms.jsonld",
+      "faq.jsonld",
+      "knowledge-graph.jsonld",
+      "topic-ltv.html",
+      "discovery-qa.html",
+      "robots.txt AI-crawler opt-in"
+    ],
+    "p2p": "P2P-MANIFEST.json, torrents.html, two WebSeed torrents",
+    "bagit": "bag/ (holey bag, fetch.txt), bagit-holey.zip",
+    "ipfs": "ipfs-manifest.json (CIDv1 raw, NOT pinned)",
+    "memento": "timemap.json (RFC 7089 linkset)",
+    "broadcast": "broadcast.html, BROADCAST-KIT.md (author clicks to publish)"
+  },
+  "p2p": {
+    "swarms": [
+      {
+        "payload": "preservation-bundle.zip",
+        "infohash": "082de4532ad5f64f76cf5a77b8600c52f1662e27",
+        "magnet": "magnet:?xt=urn:btih:082de4532ad5f64f76cf5a77b8600c52f1662e27&dn=preservation-bundle.zip&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=wss://tracker.openwebtorrent.com&ws=https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip&ws=https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint%40main/preservation-bundle.zip&ws=https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/preservation-bundle.zip&ws=https://raw.githack.com/kiloiam/labor-value-theory-preprint/main/preservation-bundle.zip&ws=https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint%4049a0fc78f5953c47add0a39e78c4b6bf0dac9c69/preservation-bundle.zip&xs=https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip.torrent",
+        "webseeds": [
+          "https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip",
+          "https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/preservation-bundle.zip",
+          "https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/preservation-bundle.zip",
+          "https://raw.githack.com/kiloiam/labor-value-theory-preprint/main/preservation-bundle.zip",
+          "https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/preservation-bundle.zip"
+        ]
+      },
+      {
+        "payload": "paper.pdf",
+        "infohash": "ec199cb84de837112352cc1327a202c84e555b15",
+        "magnet": "magnet:?xt=urn:btih:ec199cb84de837112352cc1327a202c84e555b15&dn=paper.pdf&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=wss://tracker.openwebtorrent.com&ws=https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf&ws=https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint%40main/paper.pdf&ws=https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/paper.pdf&ws=https://raw.githack.com/kiloiam/labor-value-theory-preprint/main/paper.pdf&ws=https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint%4049a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf&ws=https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf&ws=https://zenodo.org/records/24270266/files/paper.pdf?download=1&xs=https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf.torrent",
+        "webseeds": [
+          "https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf",
+          "https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf",
+          "https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/paper.pdf",
+          "https://raw.githack.com/kiloiam/labor-value-theory-preprint/main/paper.pdf",
+          "https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf",
+          "https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf",
+          "https://zenodo.org/records/24270266/files/paper.pdf?download=1"
+        ]
+      }
+    ]
+  },
+  "bagit": {
+    "type": "holey bag (RFC 8498)",
+    "payload_files": 28,
+    "payload_bytes": 1711330,
+    "fetch": "https://kiloiam.github.io/labor-value-theory-preprint/bag/fetch.txt"
+  },
+  "ipfs": {
+    "count": 13,
+    "pinned": false,
+    "note": "Content-addressed CIDs only; pinning requires a credentialed service."
+  },
+  "memento_snapshots_indexed": 40,
+  "bundle_v4": {
+    "entries": 55,
+    "bytes": 1557043,
+    "sha256": "a4f3851521fe74eccacdedb7c6a8cc1af51ab5f7f7775b5c973e400daa763da9",
+    "verify_file": "preservation-bundle.zip.sha256"
+  },
+  "mirror_health": {
+    "probed": 29,
+    "reachable": 28,
+    "report": "https://kiloiam.github.io/labor-value-theory-preprint/MIRROR-HEALTH.json"
+  }
 }

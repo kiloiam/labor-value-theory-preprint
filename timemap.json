@@ -1,0 +1,186 @@
+{
+  "@context": "https://w3id.org/linkset/1.0/",
+  "linkset": [
+    {
+      "anchor": "https://kiloiam.github.io/labor-value-theory-preprint/",
+      "original": [
+        {
+          "href": "https://kiloiam.github.io/labor-value-theory-preprint/"
+        }
+      ],
+      "timegate": [
+        {
+          "href": "https://web.archive.org/web/https://kiloiam.github.io/labor-value-theory-preprint/"
+        }
+      ],
+      "timemap": [
+        {
+          "href": "https://kiloiam.github.io/labor-value-theory-preprint/timemap.json",
+          "type": "application/linkset+json"
+        }
+      ],
+      "memento": [
+        {
+          "href": "https://web.archive.org/web/20261116061932/https://kiloiam.github.io/labor-value-theory-preprint/",
+          "datetime": "20261116061932"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116063441/https://kiloiam.github.io/labor-value-theory-preprint/distribution.html",
+          "datetime": "20261116063441"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116063502/https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf",
+          "datetime": "20261116063502"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116063617/https://kiloiam.github.io/labor-value-theory-preprint/manuscript.md",
+          "datetime": "20261116063617"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116063625/https://kiloiam.github.io/labor-value-theory-preprint/datacite.xml",
+          "datetime": "20261116063625"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116063639/https://zenodo.org/records/24270266",
+          "datetime": "20261116063639"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116063709/https://figshare.com/articles/preprint/_/35018998",
+          "datetime": "20261116063709"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116063738/https://osf.io/wubs2/",
+          "datetime": "20261116063738"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116063802/https://github.com/kiloiam/labor-value-theory-preprint",
+          "datetime": "20261116063802"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116063826/https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0",
+          "datetime": "20261116063826"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116063848/https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf",
+          "datetime": "20261116063848"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116063948/https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG",
+          "datetime": "20261116063948"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116080148/https://kiloiam.github.io/labor-value-theory-preprint/forever.html",
+          "datetime": "20261116080148"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116080148/https://kiloiam.github.io/labor-value-theory-preprint/favicon.svg",
+          "datetime": "20261116080148"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116080256/https://kiloiam.github.io/labor-value-theory-preprint/en.html",
+          "datetime": "20261116080256"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116080319/https://kiloiam.github.io/labor-value-theory-preprint/ja.html",
+          "datetime": "20261116080319"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116080336/https://kiloiam.github.io/labor-value-theory-preprint/es.html",
+          "datetime": "20261116080336"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116080336/https://kiloiam.github.io/labor-value-theory-preprint/fr.html",
+          "datetime": "20261116080336"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116080404/https://kiloiam.github.io/labor-value-theory-preprint/de.html",
+          "datetime": "20261116080404"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116080608/https://kiloiam.github.io/labor-value-theory-preprint/ru.html",
+          "datetime": "20261116080608"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116080632/https://kiloiam.github.io/labor-value-theory-preprint/pt.html",
+          "datetime": "20261116080632"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116080651/https://kiloiam.github.io/labor-value-theory-preprint/it.html",
+          "datetime": "20261116080651"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116080713/https://kiloiam.github.io/labor-value-theory-preprint/ko.html",
+          "datetime": "20261116080713"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116080746/https://kiloiam.github.io/labor-value-theory-preprint/llms.txt",
+          "datetime": "20261116080746"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116080755/https://kiloiam.github.io/labor-value-theory-preprint/humans.txt",
+          "datetime": "20261116080755"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116080816/https://kiloiam.github.io/labor-value-theory-preprint/opensearch.xml",
+          "datetime": "20261116080816"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116080829/https://kiloiam.github.io/labor-value-theory-preprint/search.html",
+          "datetime": "20261116080829"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116080913/https://kiloiam.github.io/labor-value-theory-preprint/paper-standalone.html",
+          "datetime": "20261116080913"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116080932/https://kiloiam.github.io/labor-value-theory-preprint/FOREVER-README.txt",
+          "datetime": "20261116080932"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116080942/https://kiloiam.github.io/labor-value-theory-preprint/MIRRORS.md",
+          "datetime": "20261116080942"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116081017/https://kiloiam.github.io/labor-value-theory-preprint/CHECKSUMS.sha256",
+          "datetime": "20261116081017"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116081032/https://kiloiam.github.io/labor-value-theory-preprint/PRESERVATION-MANIFEST.json",
+          "datetime": "20261116081032"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116081141/https://kiloiam.github.io/labor-value-theory-preprint/sitemap-index.xml",
+          "datetime": "20261116081141"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116081146/https://kiloiam.github.io/labor-value-theory-preprint/sitemap.xml",
+          "datetime": "20261116081146"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116081200/https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v2.0.0",
+          "datetime": "20261116081200"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116081222/https://gist.github.com/kiloiam/d286d7f3b8ee3adf0e8f2ba0595f7ab7",
+          "datetime": "20261116081222"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116081242/https://kiloiam.github.io/labor-value-theory-preprint/PAPER-PLAINTEXT.txt",
+          "datetime": "20261116081242"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116081256/https://zenodo.org/records/24273568",
+          "datetime": "20261116081256"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116081325/https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf",
+          "datetime": "20261116081325"
+        },
+        {
+          "href": "https://web.archive.org/web/20261116081331/https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf",
+          "datetime": "20261116081331"
+        }
+      ]
+    }
+  ]
+}

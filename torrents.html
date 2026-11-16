@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BitTorrent / WebSeed 去中心化留存 — Didgeridoo</title>
+<meta name="description" content="磁力链接、WebSeed 与浏览器内 P2P 下载">
+<link rel="canonical" href="https://kiloiam.github.io/labor-value-theory-preprint/torrents.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<!-- FRONTIER-SIG: FAIR Signposting https://signposting.org/ -->
+<link rel="cite-as" href="https://doi.org/10.5281/zenodo.24270266">
+<link rel="type" href="https://schema.org/ScholarlyArticle">
+<link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+<link rel="item" type="application/pdf" href="https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf">
+<link rel="item" type="text/plain" href="https://kiloiam.github.io/labor-value-theory-preprint/PAPER-PLAINTEXT.txt">
+<link rel="describedby" type="application/vnd.datacite.datacite+xml" href="https://kiloiam.github.io/labor-value-theory-preprint/datacite.xml">
+<link rel="describedby" type="application/ld+json" href="https://kiloiam.github.io/labor-value-theory-preprint/schema.jsonld">
+<link rel="describedby" type="application/xml" href="https://kiloiam.github.io/labor-value-theory-preprint/oai_dc.xml">
+<link rel="describedby" type="application/ld+json" href="https://kiloiam.github.io/labor-value-theory-preprint/ro-crate-metadata.json">
+<link rel="collection" href="https://doi.org/10.5281/zenodo.24269665">
+<link rel="alternate" type="text/markdown" href="https://kiloiam.github.io/labor-value-theory-preprint/manuscript.md">
+<link rel="alternate" type="text/html" href="https://kiloiam.github.io/labor-value-theory-preprint/paper-standalone.html">
+<link rel="linkset" type="application/linkset+json" href="https://kiloiam.github.io/labor-value-theory-preprint/.well-known/linkset.json">
+<!-- /FRONTIER-SIG -->
+<style>
+:root{--bg:#f5f3ee;--paper:#fffefa;--ink:#2b2926;--muted:#7a756c;--line:#e5e0d6;--accent:#8c3333;--soft:#f7efeb;--sans:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;--serif:"Noto Serif SC","Source Han Serif SC","Songti SC",Georgia,serif}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--serif);line-height:1.9}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:940px;margin:0 auto;padding:0 24px}
+header{background:var(--paper);border-bottom:1px solid var(--line);padding:34px 0 26px}
+.kick{font-family:var(--sans);font-size:11px;letter-spacing:.22em;color:var(--accent);text-transform:uppercase;margin-bottom:12px}
+h1{font-size:29px;line-height:1.5;margin:0 0 10px}h2{font-size:20px;margin:2.2em 0 .8em;border-left:4px solid var(--accent);padding-left:12px}
+h3{font-size:16px;margin:1.9em 0 .5em}p{margin:0 0 1.1em;text-align:justify}
+.sub{font-family:var(--sans);font-size:13px;color:var(--muted);line-height:1.8}
+main{padding:34px 0 60px}.card{background:var(--paper);border:1px solid var(--line);padding:28px 34px;margin-bottom:22px}
+.notice{background:var(--soft);border-left:3px solid var(--accent);padding:12px 18px;font-family:var(--sans);font-size:12.5px;margin:18px 0}
+table{width:100%;border-collapse:collapse;font-family:var(--sans);font-size:13px;margin:14px 0}
+th,td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}th{background:#faf7f2;font-weight:600}
+code{font-family:ui-monospace,Consolas,monospace;font-size:.88em;background:#f3efe8;padding:2px 5px;border-radius:2px;word-break:break-all}
+.qa{border-bottom:1px solid var(--line);padding:16px 0}.qa:last-child{border:0}.qa .q{font-weight:700;margin-bottom:8px}
+.btn{display:inline-block;font-family:var(--sans);font-size:12.5px;border:1px solid var(--accent);color:var(--accent);border-radius:3px;padding:7px 14px;margin:4px 6px 4px 0;background:transparent;cursor:pointer}
+.btn:hover,.btn.on{background:var(--accent);color:#fff;text-decoration:none}
+.btn.ghost{border-color:var(--line);color:var(--muted)}.btn.ghost:hover{background:var(--soft);color:var(--accent)}
+textarea,select{font-family:var(--sans);font-size:13px;border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:3px;padding:9px 12px}
+textarea{width:100%;min-height:150px;line-height:1.7}select{max-width:100%}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(175px,1fr));gap:8px;margin:14px 0}
+.tile{display:block;border:1px solid var(--line);background:var(--paper);padding:10px 12px;font-family:var(--sans);font-size:13px;border-radius:3px}
+.tile:hover{border-color:var(--accent);text-decoration:none}.tile small{display:block;color:var(--muted);font-size:11px;margin-top:3px}
+footer{border-top:1px solid var(--line);padding:22px 0 40px;font-family:var(--sans);font-size:12px;color:var(--muted);line-height:2.1}
+footer a{margin-right:14px}
+@media(max-width:700px){.card{padding:20px 18px}h1{font-size:23px}.wrap{padding:0 16px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><div class="kick">Open preprint / Didgeridoo / CC BY 4.0</div><h1>BitTorrent / WebSeed 去中心化留存</h1><div class="sub">磁力链接、WebSeed 与浏览器内 P2P 下载</div></div></header>
+<main><div class="wrap"><div class="notice">BitTorrent 把保存包变成<b>不依赖任何单一网站的分布式副本</b>：任何人下载后即自动做种；同时 <code>url-list</code>（BEP 19 WebSeed）把 GitHub Pages、jsDelivr、raw.githubusercontent、Zenodo 的 HTTP 直链作为永久种子源，即使一个 peer 都没有，客户端仍可从 WebSeed 取回完整文件并校验 SHA-1 分片。全文 CC BY 4.0，欢迎长期做种与再分发，保留署名 Didgeridoo。</div><div class="card"><h2>浏览器内 P2P 下载（WebTorrent）</h2><div id="status" class="sub">正在初始化 …</div><div id="dl" style="margin-top:12px"></div><p class="sub">WebTorrent 通过公共 CDN 加载，仅在联网时可用；离线时请使用下方磁力链接或 .torrent 文件。</p></div><div class="card"><h2>preservation-bundle.zip</h2><table><tr><th>大小</th><td>1,557,043 字节 / 6 片</td></tr><tr><th>SHA-256</th><td><code>a4f3851521fe74eccacdedb7c6a8cc1af51ab5f7f7775b5c973e400daa763da9</code></td></tr><tr><th>InfoHash</th><td><code>082de4532ad5f64f76cf5a77b8600c52f1662e27</code></td></tr></table><p><a class="btn" href="preservation-bundle.zip.torrent">下载 .torrent</a><button class="btn ghost" onclick="cp('mag_preservation-bundle_zip_torrent')">复制磁力链接</button></p><textarea id="mag_preservation-bundle_zip_torrent" style="min-height:90px;font-family:monospace;font-size:11px">magnet:?xt=urn:btih:082de4532ad5f64f76cf5a77b8600c52f1662e27&amp;dn=preservation-bundle.zip&amp;tr=udp://tracker.opentrackr.org:1337/announce&amp;tr=udp://open.stealth.si:80/announce&amp;tr=udp://tracker.torrent.eu.org:451/announce&amp;tr=wss://tracker.openwebtorrent.com&amp;ws=https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip&amp;ws=https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint%40main/preservation-bundle.zip&amp;ws=https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/preservation-bundle.zip&amp;ws=https://raw.githack.com/kiloiam/labor-value-theory-preprint/main/preservation-bundle.zip&amp;ws=https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint%4049a0fc78f5953c47add0a39e78c4b6bf0dac9c69/preservation-bundle.zip&amp;xs=https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip.torrent</textarea><p class="sub">WebSeed（HTTP 永久种子源）：</p><ul class="sub"><li><a href="https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip">https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip</a></li><li><a href="https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/preservation-bundle.zip">https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/preservation-bundle.zip</a></li><li><a href="https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/preservation-bundle.zip">https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/preservation-bundle.zip</a></li><li><a href="https://raw.githack.com/kiloiam/labor-value-theory-preprint/main/preservation-bundle.zip">https://raw.githack.com/kiloiam/labor-value-theory-preprint/main/preservation-bundle.zip</a></li><li><a href="https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/preservation-bundle.zip">https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/preservation-bundle.zip</a></li></ul></div><div class="card"><h2>paper.pdf</h2><table><tr><th>大小</th><td>1,389,530 字节 / 6 片</td></tr><tr><th>SHA-256</th><td><code>1bf85cf8bb0a91fe01738e875b360319180852fd0f0fe0aeb5ab628fd3d84c3a</code></td></tr><tr><th>InfoHash</th><td><code>ec199cb84de837112352cc1327a202c84e555b15</code></td></tr></table><p><a class="btn" href="paper.pdf.torrent">下载 .torrent</a><button class="btn ghost" onclick="cp('mag_paper_pdf_torrent')">复制磁力链接</button></p><textarea id="mag_paper_pdf_torrent" style="min-height:90px;font-family:monospace;font-size:11px">magnet:?xt=urn:btih:ec199cb84de837112352cc1327a202c84e555b15&amp;dn=paper.pdf&amp;tr=udp://tracker.opentrackr.org:1337/announce&amp;tr=udp://open.stealth.si:80/announce&amp;tr=udp://tracker.torrent.eu.org:451/announce&amp;tr=wss://tracker.openwebtorrent.com&amp;ws=https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf&amp;ws=https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint%40main/paper.pdf&amp;ws=https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/paper.pdf&amp;ws=https://raw.githack.com/kiloiam/labor-value-theory-preprint/main/paper.pdf&amp;ws=https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint%4049a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf&amp;ws=https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf&amp;ws=https://zenodo.org/records/24270266/files/paper.pdf?download=1&amp;xs=https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf.torrent</textarea><p class="sub">WebSeed（HTTP 永久种子源）：</p><ul class="sub"><li><a href="https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf">https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf</a></li><li><a href="https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf">https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf</a></li><li><a href="https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/paper.pdf">https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/paper.pdf</a></li><li><a href="https://raw.githack.com/kiloiam/labor-value-theory-preprint/main/paper.pdf">https://raw.githack.com/kiloiam/labor-value-theory-preprint/main/paper.pdf</a></li><li><a href="https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf">https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf</a></li><li><a href="https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf">https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf</a></li><li><a href="https://zenodo.org/records/24270266/files/paper.pdf?download=1">https://zenodo.org/records/24270266/files/paper.pdf?download=1</a></li></ul></div><div class="card"><h2>如何长期做种</h2><p>任意 BT 客户端（qBittorrent / Transmission / aria2 / WebTorrent）添加磁力链接或 .torrent，保持文件在线即可。也可用命令行：<code>aria2c --seed-time=0 "magnet:?xt=urn:btih:…"</code>。由于 CC BY 4.0，任何机构都可把本包纳入自己的镜像与做种计划，无需另行授权。</p></div><script src="https://cdn.jsdelivr.net/npm/webtorrent@2/webtorrent.min.js"></script><script>
+const D = {"torrents": [{"payload": "preservation-bundle.zip", "torrent": "preservation-bundle.zip.torrent", "torrent_url": "https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip.torrent", "size": 1557043, "piece_length": 262144, "pieces": 6, "sha256": "a4f3851521fe74eccacdedb7c6a8cc1af51ab5f7f7775b5c973e400daa763da9", "infohash_sha1": "082de4532ad5f64f76cf5a77b8600c52f1662e27", "magnet": "magnet:?xt=urn:btih:082de4532ad5f64f76cf5a77b8600c52f1662e27&dn=preservation-bundle.zip&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=wss://tracker.openwebtorrent.com&ws=https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip&ws=https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint%40main/preservation-bundle.zip&ws=https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/preservation-bundle.zip&ws=https://raw.githack.com/kiloiam/labor-value-theory-preprint/main/preservation-bundle.zip&ws=https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint%4049a0fc78f5953c47add0a39e78c4b6bf0dac9c69/preservation-bundle.zip&xs=https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip.torrent", "webseeds": ["https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip", "https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/preservation-bundle.zip", "https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/preservation-bundle.zip", "https://raw.githack.com/kiloiam/labor-value-theory-preprint/main/preservation-bundle.zip", "https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/preservation-bundle.zip"], "trackers": ["udp://tracker.opentrackr.org:1337/announce", "udp://open.stealth.si:80/announce", "udp://tracker.torrent.eu.org:451/announce", "wss://tracker.openwebtorrent.com"]}, {"payload": "paper.pdf", "torrent": "paper.pdf.torrent", "torrent_url": "https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf.torrent", "size": 1389530, "piece_length": 262144, "pieces": 6, "sha256": "1bf85cf8bb0a91fe01738e875b360319180852fd0f0fe0aeb5ab628fd3d84c3a", "infohash_sha1": "ec199cb84de837112352cc1327a202c84e555b15", "magnet": "magnet:?xt=urn:btih:ec199cb84de837112352cc1327a202c84e555b15&dn=paper.pdf&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=wss://tracker.openwebtorrent.com&ws=https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf&ws=https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint%40main/paper.pdf&ws=https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/paper.pdf&ws=https://raw.githack.com/kiloiam/labor-value-theory-preprint/main/paper.pdf&ws=https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint%4049a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf&ws=https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf&ws=https://zenodo.org/records/24270266/files/paper.pdf?download=1&xs=https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf.torrent", "webseeds": ["https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf", "https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf", "https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/paper.pdf", "https://raw.githack.com/kiloiam/labor-value-theory-preprint/main/paper.pdf", "https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf", "https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf", "https://zenodo.org/records/24270266/files/paper.pdf?download=1"], "trackers": ["udp://tracker.opentrackr.org:1337/announce", "udp://open.stealth.si:80/announce", "udp://tracker.torrent.eu.org:451/announce", "wss://tracker.openwebtorrent.com"]}], "base": "https://kiloiam.github.io/labor-value-theory-preprint/", "note": "BitTorrent + WebSeed. Any node may seed; HTTP mirrors act as permanent web seeds."};
+const box = document.getElementById('status');
+function fmt(n){if(n<1024)return n+' B';if(n<1048576)return (n/1024).toFixed(1)+' KB';return (n/1048576).toFixed(1)+' MB';}
+function boot(){
+  if(typeof WebTorrent==='undefined'){
+    box.innerHTML='<b>浏览器端 P2P 客户端未能加载</b>（可能离线或 CDN 不可达）。<br>仍可使用下方磁力链接与 .torrent 文件，用任意 BT 客户端下载。';
+    return;
+  }
+  const client=new WebTorrent();
+  box.textContent='正在连接 tracker 与 WebSeed …';
+  client.add(D.base+'preservation-bundle.zip.torrent',function(t){
+    box.innerHTML='<b>'+esc(t.name)+'</b> · '+fmt(t.length)+' · 进度 <span id="pc">0%</span> · 节点 <span id="np">0</span> · '+fmt(0)+'/s';
+    t.on('download',function(){
+      document.getElementById('pc').textContent=(t.progress*100).toFixed(1)+'%';
+      document.getElementById('np').textContent=t.numPeers;
+    });
+    t.on('done',function(){
+      box.innerHTML='<b>完成</b> — 文件已在浏览器内存中，可保存。';
+      t.files.forEach(function(f){
+        const b=document.createElement('button');b.className='btn';b.textContent='保存 '+f.name;
+        b.onclick=function(){f.getBlob(function(err,blob){if(err)return;const a=document.createElement('a');
+          a.href=URL.createObjectURL(blob);a.download=f.name;a.click();});};
+        document.getElementById('dl').appendChild(b);
+      });
+    });
+  });
+  client.on('error',function(e){box.textContent='P2P 客户端错误：'+e.message+'（可改用磁力链接）';});
+}
+function esc(s){return String(s).replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c];});}
+function cp(id){const e=document.getElementById(id);e.select();navigator.clipboard.writeText(e.value);}
+boot();
+</script></div></main>
+<footer><div class="wrap"><b>开放获取 · CC BY 4.0 · 笔名 Didgeridoo</b><br><a href="index.html">首页 / 全文</a><a href="topic-ltv.html">主题导览</a><a href="discovery-qa.html">问答</a><a href="terms.html">术语表</a><a href="broadcast.html">一键传播台</a><a href="torrents.html">P2P 留存</a><a href="forever.html">冗余地图</a><a href="signposting.html">Signposting</a><a href="llms.txt">llms.txt</a><a href="llms-full.txt">llms-full.txt</a><a href="sitemap.xml">站点地图</a><a href="ro-crate-metadata.json">RO-Crate</a><br><br>网络预发布预印本，有 DOI、未经同行评审，不等同于期刊正式发表。不含真实姓名、邮箱或即时通讯账号。请勿传播 Figshare 旧记录 35018683 的历史版本。</div></footer>
+</body>
+</html>

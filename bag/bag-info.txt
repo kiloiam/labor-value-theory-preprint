@@ -1,0 +1,13 @@
+Source-Organization: Didgeridoo (open preprint, pen name)
+Organization-Address: https://kiloiam.github.io/labor-value-theory-preprint/
+Contact-Name: Didgeridoo
+Contact-Email: didgeridoo@users.noreply.github.com
+External-Identifier: https://doi.org/10.5281/zenodo.24270266
+External-Identifier: https://doi.org/10.5281/zenodo.24269665
+External-Description: 劳动价值论是历史性范畴：当代价值危机 / The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value
+Bagging-Date: 2026-11-16
+Payload-Oxum: 1711330.28
+Bag-Size: 1711330 bytes (holey bag: payload fetched from global mirrors)
+Bag-Type: holey (fetch.txt references remote payload)
+Licence: CC BY 4.0 — re-hosting and re-seeding explicitly permitted
+Note: This is a holey bag. Only tag files are present locally; fetch.txt lists a URL and byte count for every payload file, and manifest-sha256.txt lists its SHA-256 for verification.

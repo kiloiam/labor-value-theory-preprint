@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"><responseDate>2026-11-16T00:00:00Z</responseDate>
+<request verb="ListIdentifiers" metadataPrefix="oai_dc">https://kiloiam.github.io/labor-value-theory-preprint/oai/</request>
+<ListIdentifiers><header><identifier>oai:labor-value-theory-preprint:2026-11-16</identifier><datestamp>2026-11-16</datestamp><setSpec>preprint</setSpec><setSpec>preservation</setSpec></header></ListIdentifiers></OAI-PMH>

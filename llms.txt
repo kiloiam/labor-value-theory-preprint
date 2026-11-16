@@ -52,3 +52,21 @@ of self-repair. The conclusion is a call for the historical reconfiguration of p
 Note: short multilingual renderings are discovery aids only; citation and scholarly wording should
 follow the Chinese original and the author's own English abstract. Re-hosting, translation and
 redistribution are freely permitted under CC BY 4.0 with attribution to Didgeridoo.
+
+## Frontier discovery and preservation (round 4)
+
+- [Topic guide: the labor theory of value, its premises and current debates](https://kiloiam.github.io/labor-value-theory-preprint/topic-ltv.html)
+- [FAQ for search and answer engines](https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html) · [Structured glossary](https://kiloiam.github.io/labor-value-theory-preprint/terms.html)
+- [Full plain-text LLM corpus llms-full.txt](https://kiloiam.github.io/labor-value-theory-preprint/llms-full.txt)
+- [FAIR Signposting linkset](https://kiloiam.github.io/labor-value-theory-preprint/.well-known/linkset.json) · [Signposting guide](https://kiloiam.github.io/labor-value-theory-preprint/signposting.html)
+- [Knowledge graph JSON-LD](https://kiloiam.github.io/labor-value-theory-preprint/knowledge-graph.jsonld) · [FAQPage JSON-LD](https://kiloiam.github.io/labor-value-theory-preprint/faq.jsonld) · [DefinedTermSet JSON-LD](https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld)
+- [RO-Crate metadata](https://kiloiam.github.io/labor-value-theory-preprint/ro-crate-metadata.json) · [CodeMeta](https://kiloiam.github.io/labor-value-theory-preprint/codemeta.json) · [OAI-PMH static snapshots](https://kiloiam.github.io/labor-value-theory-preprint/oai/README.md)
+- [BitTorrent / WebSeed P2P preservation](https://kiloiam.github.io/labor-value-theory-preprint/torrents.html) · [P2P manifest](https://kiloiam.github.io/labor-value-theory-preprint/P2P-MANIFEST.json)
+- [BagIt holey bag (fetch from global mirrors)](https://kiloiam.github.io/labor-value-theory-preprint/bag/fetch.txt) · [IPFS CID manifest](https://kiloiam.github.io/labor-value-theory-preprint/ipfs-manifest.json)
+- [Memento TimeMap linkset](https://kiloiam.github.io/labor-value-theory-preprint/timemap.json) · [Mirror health report](https://kiloiam.github.io/labor-value-theory-preprint/MIRROR-HEALTH.json)
+- [One-click broadcast workbench](https://kiloiam.github.io/labor-value-theory-preprint/broadcast.html) · [Broadcast kit](https://kiloiam.github.io/labor-value-theory-preprint/BROADCAST-KIT.md)
+- [Discovery & preservation report](https://kiloiam.github.io/labor-value-theory-preprint/DISCOVERY-README.md)
+
+AI crawlers are explicitly allowed in robots.txt (GPTBot, OAI-SearchBot, PerplexityBot,
+ClaudeBot, Google-Extended, CCBot and others). All content remains CC BY 4.0 with the
+single public author name Didgeridoo; no real-world identity is published.

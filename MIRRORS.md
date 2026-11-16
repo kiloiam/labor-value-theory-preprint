@@ -61,3 +61,21 @@
 - 所有公开副本统一署名 `Didgeridoo`，不含真实姓名、通讯邮箱、QQ 号或 QQ 邮箱。
 - Figshare 旧记录 `35018683` 的 v1 / v2 含早期署名，已提交官方下架工单，**不在本表内、请勿传播**。
 - 以上均为网络预发布预印本，有 DOI、可引用，但未经同行评审，不等同期刊正式发表。
+
+
+## 第四轮：去中心化留存层（2026-11-16）
+
+以下不是「又一个网站副本」，而是**不依赖任何单一网站**的四种留存机制。
+
+| 机制 | 标准 | 入口 | 状态 |
+|---|---|---|---|
+| BitTorrent + WebSeed + Magnet | BEP 17 / BEP 19 | https://kiloiam.github.io/labor-value-theory-preprint/torrents.html | 2 个 swarm，7 个 HTTP 永久种子源 |
+| BagIt holey bag | RFC 8498 | https://kiloiam.github.io/labor-value-theory-preprint/bag/fetch.txt | 28 个文件 / 1711330 字节，仅凭标签文件即可重建 |
+| IPFS CIDv1 | multiformats / raw codec | https://kiloiam.github.io/labor-value-theory-preprint/ipfs-manifest.json | 已计算 CID，**未代注册 pinning 服务** |
+| Memento TimeMap | RFC 7089 | https://kiloiam.github.io/labor-value-theory-preprint/timemap.json | 40 个 Wayback 快照的机器可读索引 |
+| RO-Crate | RO-Crate 1.1 | https://kiloiam.github.io/labor-value-theory-preprint/ro-crate-metadata.json | 逐文件 SHA-256 |
+
+离线保存包已重建为 `55` 个条目、`1,557,043` 字节，SHA-256 `a4f3851521fe74eccacdedb7c6a8cc1af51ab5f7f7775b5c973e400daa763da9`，独立校验文件 `preservation-bundle.zip.sha256`（避免自引用）。
+镜像实测：29 个端点中 28 个可达，明细见 `MIRROR-HEALTH.json`。
+
+**边界**：torrent 需要有人做种或 WebSeed 在线；IPFS 网关需要节点提供 block；BagIt 依赖 `fetch.txt` 中的 URL 仍可访问；Memento 依赖 Internet Archive。它们提高的是冗余度与可重建性，不是「永恒」承诺。全文 CC BY 4.0，欢迎任何人复刻、做种与再托管。

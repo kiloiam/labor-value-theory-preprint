@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"><responseDate>2026-11-16T00:00:00Z</responseDate>
+<request verb="ListSets">https://kiloiam.github.io/labor-value-theory-preprint/oai/</request><ListSets>
+<set><setSpec>preprint</setSpec><setName>Open preprint full text and citation metadata</setName></set>
+<set><setSpec>preservation</setSpec><setName>Redundancy, checksums and recovery manifests</setName></set>
+</ListSets></OAI-PMH>

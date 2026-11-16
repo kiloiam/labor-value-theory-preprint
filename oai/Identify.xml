@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2026-11-16T00:00:00Z</responseDate><request verb="Identify">https://kiloiam.github.io/labor-value-theory-preprint/oai/</request>
+<Identify><repositoryName>Didgeridoo open preprint static metadata snapshot</repositoryName>
+<baseURL>https://kiloiam.github.io/labor-value-theory-preprint/oai/</baseURL><protocolVersion>2.0</protocolVersion>
+<adminEmail>didgeridoo@users.noreply.github.com</adminEmail>
+<earliestDatestamp>2026-11-16</earliestDatestamp><deletedRecord>no</deletedRecord>
+<granularity>YYYY-MM-DD</granularity><compression>none</compression>
+<description><oai-identifier xmlns="http://www.openarchives.org/OAI/2.0/oai-identifier" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai-identifier http://www.openarchives.org/OAI/2.0/oai-identifier.xsd"><scheme>oai</scheme><repositoryIdentifier>labor-value-theory-preprint</repositoryIdentifier><delimiter>:</delimiter><sampleIdentifier>oai:labor-value-theory-preprint:2026-11-16</sampleIdentifier></oai-identifier></description>
+</Identify></OAI-PMH>

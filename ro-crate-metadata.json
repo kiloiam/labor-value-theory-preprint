@@ -1,0 +1,425 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "劳动价值论是历史性范畴：当代价值危机 / The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value",
+      "description": "Open-access preprint and its cross-institution preservation bundle. All public copies use the pen name Didgeridoo only.",
+      "datePublished": "2026-11-16",
+      "dateModified": "2026-11-16",
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": {
+        "@id": "#didgeridoo"
+      },
+      "identifier": [
+        {
+          "@id": "https://doi.org/10.5281/zenodo.24270266"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.24269665"
+        }
+      ],
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/",
+      "inLanguage": [
+        "zh-CN",
+        "en"
+      ],
+      "keywords": [
+        "labor theory of value",
+        "historical materialism",
+        "automation",
+        "preprint",
+        "open access"
+      ],
+      "hasPart": [
+        {
+          "@id": "paper.pdf"
+        },
+        {
+          "@id": "manuscript.md"
+        },
+        {
+          "@id": "PAPER-PLAINTEXT.txt"
+        },
+        {
+          "@id": "paper-standalone.html"
+        },
+        {
+          "@id": "metadata.json"
+        },
+        {
+          "@id": "datacite.xml"
+        },
+        {
+          "@id": "oai_dc.xml"
+        },
+        {
+          "@id": "dublincore.xml"
+        },
+        {
+          "@id": "marcxml.xml"
+        },
+        {
+          "@id": "mets.xml"
+        },
+        {
+          "@id": "schema.jsonld"
+        },
+        {
+          "@id": "citation.bib"
+        },
+        {
+          "@id": "citation.ris"
+        },
+        {
+          "@id": "citation.csl.json"
+        },
+        {
+          "@id": "CITATION.cff"
+        },
+        {
+          "@id": "abstracts.json"
+        },
+        {
+          "@id": "CHECKSUMS.sha256"
+        },
+        {
+          "@id": "MIRRORS.md"
+        },
+        {
+          "@id": "PRESERVATION-MANIFEST.json"
+        },
+        {
+          "@id": "FOREVER-README.txt"
+        },
+        {
+          "@id": "llms.txt"
+        },
+        {
+          "@id": "llms-full.txt"
+        },
+        {
+          "@id": "terms.jsonld"
+        },
+        {
+          "@id": "faq.jsonld"
+        },
+        {
+          "@id": "knowledge-graph.jsonld"
+        },
+        {
+          "@id": "preservation-bundle.zip"
+        },
+        {
+          "@id": "bagit-holey.zip"
+        },
+        {
+          "@id": "ipfs-manifest.json"
+        },
+        {
+          "@id": "P2P-MANIFEST.json"
+        },
+        {
+          "@id": "MIRROR-HEALTH.json"
+        }
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      }
+    },
+    {
+      "@id": "#didgeridoo",
+      "@type": "Person",
+      "name": "Didgeridoo",
+      "description": "Pen name; no real-world identity is attached to this public deposit."
+    },
+    {
+      "@id": "https://creativecommons.org/licenses/by/4.0/",
+      "@type": "CreativeWork",
+      "name": "CC BY 4.0"
+    },
+    {
+      "@id": "paper.pdf",
+      "@type": "File",
+      "name": "paper.pdf",
+      "encodingFormat": "application/pdf",
+      "contentSize": "1389530",
+      "sha256": "1bf85cf8bb0a91fe01738e875b360319180852fd0f0fe0aeb5ab628fd3d84c3a",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf"
+    },
+    {
+      "@id": "manuscript.md",
+      "@type": "File",
+      "name": "manuscript.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "34169",
+      "sha256": "84ff11a4ac32ae244ab4e0ef921297ff763ef86934f05f46b89bc7f88cb90be1",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/manuscript.md"
+    },
+    {
+      "@id": "PAPER-PLAINTEXT.txt",
+      "@type": "File",
+      "name": "PAPER-PLAINTEXT.txt",
+      "encodingFormat": "text/plain",
+      "contentSize": "36319",
+      "sha256": "0511ac1442876a6b1837f63fd2d0d4a07013e57510c552f2e1930199de178866",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/PAPER-PLAINTEXT.txt"
+    },
+    {
+      "@id": "paper-standalone.html",
+      "@type": "File",
+      "name": "paper-standalone.html",
+      "encodingFormat": "text/html",
+      "contentSize": "47482",
+      "sha256": "c567d32ff4d0939a58ba18c347ea8e627aae2bb384a3443d4abe71fdc235f7c9",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/paper-standalone.html"
+    },
+    {
+      "@id": "metadata.json",
+      "@type": "File",
+      "name": "metadata.json",
+      "encodingFormat": "application/json",
+      "contentSize": "6651",
+      "sha256": "3eb8966f971fd2908596b4801d503f0fd05f367cff183a8e660c7409223878bc",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/metadata.json"
+    },
+    {
+      "@id": "datacite.xml",
+      "@type": "File",
+      "name": "datacite.xml",
+      "encodingFormat": "application/xml",
+      "contentSize": "6766",
+      "sha256": "c8ba2858b3e9277633d82acb859dc580811e1c7ac025d1fa0696821fe96d0276",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/datacite.xml"
+    },
+    {
+      "@id": "oai_dc.xml",
+      "@type": "File",
+      "name": "oai_dc.xml",
+      "encodingFormat": "application/xml",
+      "contentSize": "6349",
+      "sha256": "77d559c168c56a25651b8df798bc54d024f82351d5c30a3b42de19f00140a445",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/oai_dc.xml"
+    },
+    {
+      "@id": "dublincore.xml",
+      "@type": "File",
+      "name": "dublincore.xml",
+      "encodingFormat": "application/xml",
+      "contentSize": "2129",
+      "sha256": "87754f1cf48760f18167736c53484a854bf74381f658ada8081836726e65deff",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/dublincore.xml"
+    },
+    {
+      "@id": "marcxml.xml",
+      "@type": "File",
+      "name": "marcxml.xml",
+      "encodingFormat": "application/xml",
+      "contentSize": "3909",
+      "sha256": "34059e04f4f05700c98e6bed07587780a92a7c9ed0ae7c00f127cedfd5e7be6f",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/marcxml.xml"
+    },
+    {
+      "@id": "mets.xml",
+      "@type": "File",
+      "name": "mets.xml",
+      "encodingFormat": "application/xml",
+      "contentSize": "3527",
+      "sha256": "d4968ac48d373331cb81ff48806debcce0309e26586370c114578cb3c1003950",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/mets.xml"
+    },
+    {
+      "@id": "schema.jsonld",
+      "@type": "File",
+      "name": "schema.jsonld",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": "9455",
+      "sha256": "e5db190db4263fc326ede408601bb88d45fb02b291f8e8e78023d1f8895acb94",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/schema.jsonld"
+    },
+    {
+      "@id": "citation.bib",
+      "@type": "File",
+      "name": "citation.bib",
+      "encodingFormat": "application/x-bibtex",
+      "contentSize": "517",
+      "sha256": "4a4debd36a12e68cfcc393e209e91f41d7e0479d777f0b7ab7fbb648dc24e7fc",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/citation.bib"
+    },
+    {
+      "@id": "citation.ris",
+      "@type": "File",
+      "name": "citation.ris",
+      "encodingFormat": "application/x-research-info-systems",
+      "contentSize": "454",
+      "sha256": "24a28a7f72742e9430394bbe4f2f1f1e569cf8904baa0a23c25153f34b806643",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/citation.ris"
+    },
+    {
+      "@id": "citation.csl.json",
+      "@type": "File",
+      "name": "citation.csl.json",
+      "encodingFormat": "application/vnd.citationstyles.csl+json",
+      "contentSize": "717",
+      "sha256": "e2e84151102b9332e16269669b45279e8efcdcf9ae40ad10ee5d1d961eddb991",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/citation.csl.json"
+    },
+    {
+      "@id": "CITATION.cff",
+      "@type": "File",
+      "name": "CITATION.cff",
+      "encodingFormat": "application/x-yaml",
+      "contentSize": "957",
+      "sha256": "184ec057686c4fe1362a4a8917040eabd7c92b2a6dcd313693cc151dc112e680",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/CITATION.cff"
+    },
+    {
+      "@id": "abstracts.json",
+      "@type": "File",
+      "name": "abstracts.json",
+      "encodingFormat": "application/json",
+      "contentSize": "18861",
+      "sha256": "119b8a2e006bae73ae8835b7d6edd5a5c0e1934ed60128be41da3af088a28c86",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/abstracts.json"
+    },
+    {
+      "@id": "CHECKSUMS.sha256",
+      "@type": "File",
+      "name": "CHECKSUMS.sha256",
+      "encodingFormat": "text/plain",
+      "contentSize": "5557",
+      "sha256": "a00ecfca93602c11767a7b5d47ab384dd29c5130b61d59a43542cfbbdd948686",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/CHECKSUMS.sha256"
+    },
+    {
+      "@id": "MIRRORS.md",
+      "@type": "File",
+      "name": "MIRRORS.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "7640",
+      "sha256": "cb94e9888bc2067597136a12be0beaa45bb1391419a76093c4ec3ff88a274f75",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/MIRRORS.md"
+    },
+    {
+      "@id": "PRESERVATION-MANIFEST.json",
+      "@type": "File",
+      "name": "PRESERVATION-MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "19202",
+      "sha256": "8343e9d989bb2a4ae9ec7cfa6a9737febfdf99cc385c58ec5a75a27b7592aef7",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/PRESERVATION-MANIFEST.json"
+    },
+    {
+      "@id": "FOREVER-README.txt",
+      "@type": "File",
+      "name": "FOREVER-README.txt",
+      "encodingFormat": "text/plain",
+      "contentSize": "10103",
+      "sha256": "ad2b56a4792b9699c31b486d597f369887ee1f89f8d739668a52bb6909f50458",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/FOREVER-README.txt"
+    },
+    {
+      "@id": "llms.txt",
+      "@type": "File",
+      "name": "llms.txt",
+      "encodingFormat": "text/plain",
+      "contentSize": "8578",
+      "sha256": "6c0695432b301c10758e309c9717f9e299f3aab66903d901914ec9402a795d1c",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/llms.txt"
+    },
+    {
+      "@id": "llms-full.txt",
+      "@type": "File",
+      "name": "llms-full.txt",
+      "encodingFormat": "text/plain",
+      "contentSize": "48413",
+      "sha256": "cf4ee80b0cae1ba867a227eea0eef6700f44ddd3a834797b86da8e65b7b54b33",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/llms-full.txt"
+    },
+    {
+      "@id": "terms.jsonld",
+      "@type": "File",
+      "name": "terms.jsonld",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": "11844",
+      "sha256": "a51418cfe33bdd1cca473e5d362a4a0e0740ef0a841345110f908a053f3125b5",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld"
+    },
+    {
+      "@id": "faq.jsonld",
+      "@type": "File",
+      "name": "faq.jsonld",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": "14924",
+      "sha256": "7e6306825e7e7d6df65f13cee7d222aa05a42f2c2caddc6a5967cc0088b80d13",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/faq.jsonld"
+    },
+    {
+      "@id": "knowledge-graph.jsonld",
+      "@type": "File",
+      "name": "knowledge-graph.jsonld",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": "32452",
+      "sha256": "22425b51ee05b6aefa2bc8493ea53538c4b575ce87f417e45eaceff187c05b05",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/knowledge-graph.jsonld"
+    },
+    {
+      "@id": "preservation-bundle.zip",
+      "@type": "File",
+      "name": "preservation-bundle.zip",
+      "encodingFormat": "application/zip",
+      "contentSize": "1557043",
+      "sha256": "a4f3851521fe74eccacdedb7c6a8cc1af51ab5f7f7775b5c973e400daa763da9",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip"
+    },
+    {
+      "@id": "bagit-holey.zip",
+      "@type": "File",
+      "name": "bagit-holey.zip",
+      "encodingFormat": "application/zip",
+      "contentSize": "3369",
+      "sha256": "5d3cbc99a78b9c183e4e390bb898c099133dbc0fd00794ab833889b454051c18",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/bagit-holey.zip"
+    },
+    {
+      "@id": "ipfs-manifest.json",
+      "@type": "File",
+      "name": "ipfs-manifest.json",
+      "encodingFormat": "application/json",
+      "contentSize": "13023",
+      "sha256": "0485b458efb558a0fdadf15d33a1824d04e270031dff01194661e2f1659c182e",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/ipfs-manifest.json"
+    },
+    {
+      "@id": "P2P-MANIFEST.json",
+      "@type": "File",
+      "name": "P2P-MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "5272",
+      "sha256": "a4f2249e177ff3a1123644e8c266965810a5223c08170b0155730847b8a4f612",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/P2P-MANIFEST.json"
+    },
+    {
+      "@id": "MIRROR-HEALTH.json",
+      "@type": "File",
+      "name": "MIRROR-HEALTH.json",
+      "encodingFormat": "application/json",
+      "contentSize": "7441",
+      "sha256": "3f9d463cfd4bf3ce9fa8b8cd9f5f8d282a4b75bdb332d51ba7f0228fdc5b5d71",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/MIRROR-HEALTH.json"
+    }
+  ]
+}

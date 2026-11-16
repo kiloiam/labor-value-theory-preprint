@@ -63,4 +63,40 @@
   <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/sitemap-index.xml</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/abstract-original.txt</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/.well-known/linkset.json</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/signposting.html</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/topic-ltv.html</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/terms.html</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/broadcast.html</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/torrents.html</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/llms-full.txt</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/ro-crate-metadata.json</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/codemeta.json</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/faq.jsonld</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/knowledge-graph.jsonld</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/timemap.json</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/sitemap-discovery.xml</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/oai/README.md</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/oai/Identify.xml</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/oai/ListMetadataFormats.xml</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/oai/ListSets.xml</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/oai/ListIdentifiers.xml</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/oai/ListRecords.xml</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/bag/bagit.txt</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/bag/bag-info.txt</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/bag/manifest-sha256.txt</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/bag/fetch.txt</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/bag/tagmanifest-sha256.txt</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/bagit-holey.zip</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/ipfs-manifest.json</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/P2P-MANIFEST.json</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/MIRROR-HEALTH.json</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip.torrent</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf.torrent</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/DISCOVERY-README.md</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/BROADCAST-KIT.md</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/IPFS.md</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kiloiam.github.io/labor-value-theory-preprint/MEMENTO.md</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

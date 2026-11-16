@@ -132,3 +132,32 @@ PAPER-PLAINTEXT.txt 再复制到你自己的设备、你所在的图书馆或你
 
 请勿传播：Figshare 旧记录 35018683 的 v1 / v2 历史版本（含早期署名，下架工单处理中）。
 ================================================================================
+
+
+=== ROUND 4 ADDITIONAL RECOVERY PATHS ===
+
+A) BitTorrent (no account needed)
+   Open https://kiloiam.github.io/labor-value-theory-preprint/torrents.html or add this magnet in any BT client:
+   magnet:?xt=urn:btih:082de4532ad5f64f76cf5a77b8600c52f1662e27&dn=preservation-bundle.zip&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=wss://tracker.openwebtorrent.com&ws=https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip&ws=https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint%40main/preservation-bundle.zip&ws=https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/preservation-bundle.zip&ws=https://raw.githack.com/kiloiam/labor-value-theory-preprint/main/preservation-bundle.zip&ws=https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint%4049a0fc78f5953c47add0a39e78c4b6bf0dac9c69/preservation-bundle.zip&xs=https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip.torrent
+   Web seeds are permanent HTTP mirrors; the client verifies SHA-1 pieces automatically.
+
+B) BagIt holey bag (rebuild from a tiny tag-only bag)
+   Download https://kiloiam.github.io/labor-value-theory-preprint/bagit-holey.zip, unzip, then for each line in
+   bag/fetch.txt fetch <URL> of <length> bytes into data/<filename> and compare with
+   bag/manifest-sha256.txt. No original site is required as long as one URL survives.
+
+C) IPFS content addressing
+   ipfs-manifest.json lists CIDv1 raw for every core file. Re-add with
+   ipfs add --cid-version=1 --raw-leaves <file> and check the CID matches.
+   NOTE: the CIDs are NOT pinned by us; any node may pin them (CC BY 4.0).
+
+D) Memento / Wayback
+   timemap.json is a linkset of all archived versions; use the TimeGate
+   https://web.archive.org/web/https://kiloiam.github.io/labor-value-theory-preprint/
+
+E) Machine-readable recovery metadata
+   ro-crate-metadata.json (per-file SHA-256), .well-known/linkset.json (FAIR Signposting),
+   llms-full.txt (plain-text corpus for AI/answer engines), CHECKSUMS.sha256.
+
+All public copies use only the pen name Didgeridoo. Do not redistribute
+Figshare historical record 35018683 v1/v2 (early non-pseudonymous signature).

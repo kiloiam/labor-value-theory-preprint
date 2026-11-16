@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<responseDate>2026-11-16T00:00:00Z</responseDate>
+<request verb="ListRecords" metadataPrefix="oai_dc">https://kiloiam.github.io/labor-value-theory-preprint/oai/</request><ListRecords>
+<record><header><identifier>oai:labor-value-theory-preprint:2026-11-16</identifier><datestamp>2026-11-16</datestamp><setSpec>preprint</setSpec><setSpec>preservation</setSpec></header><metadata><oai_dc:dc>
+<dc:title>劳动价值论是历史性范畴：当代价值危机</dc:title><dc:title>The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value</dc:title>
+<dc:creator>Didgeridoo</dc:creator><dc:date>2026-11-16</dc:date><dc:type>Text.Preprint</dc:type>
+<dc:language>zh-CN</dc:language><dc:language>en</dc:language>
+<dc:identifier>doi:10.5281/zenodo.24270266</dc:identifier><dc:identifier>https://kiloiam.github.io/labor-value-theory-preprint/</dc:identifier>
+<dc:rights>CC BY 4.0</dc:rights><dc:format>application/pdf</dc:format>
+<dc:subject>labor theory of value</dc:subject><dc:subject>historical materialism</dc:subject>
+<dc:subject>automation</dc:subject><dc:subject>Marxian economics</dc:subject>
+<dc:description>Open preprint, not peer reviewed. Full text and preservation copies listed at https://kiloiam.github.io/labor-value-theory-preprint/</dc:description>
+</oai_dc:dc></metadata></record></ListRecords></OAI-PMH>

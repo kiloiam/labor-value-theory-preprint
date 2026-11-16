@@ -47,12 +47,22 @@
     }
   ],
   "sameAs": [
-    "https://zenodo.org/records/24270266",
-    "https://figshare.com/articles/preprint/_/35018998",
+    "https://doi.org/10.5281/zenodo.24270266",
+    "https://doi.org/10.5281/zenodo.24269665",
+    "https://doi.org/10.5281/zenodo.24273568",
+    "https://doi.org/10.6084/m9.figshare.35018998.v1",
     "https://osf.io/wubs2/",
+    "https://kiloiam.github.io/labor-value-theory-preprint/",
     "https://github.com/kiloiam/labor-value-theory-preprint",
-    "https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0",
-    "https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG"
+    "https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG",
+    "https://archive.softwareheritage.org/swh:1:ori:a6bc3e4959cb552fcb2ea1184de6b2ac58d85533/",
+    "https://web.archive.org/web/20261116061932/https://kiloiam.github.io/labor-value-theory-preprint/",
+    "https://gist.github.com/kiloiam/d286d7f3b8ee3adf0e8f2ba0595f7ab7",
+    "https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf",
+    "https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/paper.pdf",
+    "https://raw.githack.com/kiloiam/labor-value-theory-preprint/main/paper.pdf",
+    "https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf",
+    "https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf"
   ],
   "distribution": [
     {
@@ -62,18 +72,28 @@
     },
     {
       "@type": "DataDownload",
-      "contentUrl": "https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf",
-      "encodingFormat": "application/pdf"
+      "contentUrl": "https://kiloiam.github.io/labor-value-theory-preprint/PAPER-PLAINTEXT.txt",
+      "encodingFormat": "text/plain"
     },
     {
       "@type": "DataDownload",
-      "contentUrl": "https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/paper.pdf",
-      "encodingFormat": "application/pdf"
+      "contentUrl": "https://kiloiam.github.io/labor-value-theory-preprint/paper-standalone.html",
+      "encodingFormat": "text/html"
     },
     {
       "@type": "DataDownload",
       "contentUrl": "https://kiloiam.github.io/labor-value-theory-preprint/manuscript.md",
       "encodingFormat": "text/markdown"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip",
+      "encodingFormat": "application/zip"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://kiloiam.github.io/labor-value-theory-preprint/llms-full.txt",
+      "encodingFormat": "text/plain"
     }
   ],
   "citation": [
@@ -92,5 +112,141 @@
     "name": "Zenodo"
   },
   "accessMode": "textual",
-  "accessibilityFeature": "tableOfContents"
+  "accessibilityFeature": "tableOfContents",
+  "about": [
+    {
+      "@type": "Thing",
+      "@id": "https://www.wikidata.org/wiki/Q584987",
+      "name": "劳动价值论 / labor theory of value"
+    },
+    {
+      "@type": "Thing",
+      "@id": "https://www.wikidata.org/wiki/Q854537",
+      "name": "马克思经济学 / Marxian economics"
+    },
+    {
+      "@type": "Thing",
+      "@id": "https://www.wikidata.org/wiki/Q332425",
+      "name": "剩余价值 / surplus value"
+    }
+  ],
+  "mentions": [
+    {
+      "@type": "Thing",
+      "@id": "https://www.wikidata.org/wiki/Q584987",
+      "name": "劳动价值论"
+    },
+    {
+      "@type": "Thing",
+      "@id": "https://www.wikidata.org/wiki/Q1518684",
+      "name": "社会必要劳动时间"
+    },
+    {
+      "@type": "Thing",
+      "@id": "https://www.wikidata.org/wiki/Q1759266",
+      "name": "可变资本"
+    },
+    {
+      "@type": "Thing",
+      "@id": "https://www.wikidata.org/wiki/Q332425",
+      "name": "剩余价值"
+    },
+    {
+      "@type": "Thing",
+      "@id": "https://www.wikidata.org/wiki/Q1497178",
+      "name": "使用价值"
+    },
+    {
+      "@type": "Thing",
+      "@id": "https://www.wikidata.org/wiki/Q2549288",
+      "name": "商品拜物教"
+    },
+    {
+      "@type": "Thing",
+      "@id": "https://www.wikidata.org/wiki/Q854537",
+      "name": "马克思经济学"
+    }
+  ],
+  "hasPart": [
+    {
+      "@type": "WebPage",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/zh.html",
+      "inLanguage": "zh-CN"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/en.html",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/ja.html",
+      "inLanguage": "ja"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/es.html",
+      "inLanguage": "es"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/fr.html",
+      "inLanguage": "fr"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/de.html",
+      "inLanguage": "de"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/ru.html",
+      "inLanguage": "ru"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/pt.html",
+      "inLanguage": "pt"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/it.html",
+      "inLanguage": "it"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/ko.html",
+      "inLanguage": "ko"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/topic-ltv.html"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/broadcast.html"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/torrents.html"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/signposting.html"
+    }
+  ],
+  "usageInfo": "https://creativecommons.org/licenses/by/4.0/",
+  "conditionsOfAccess": "open access, no registration or paywall",
+  "potentialAction": {
+    "@type": "ReadAction",
+    "target": "https://kiloiam.github.io/labor-value-theory-preprint/index.html"
+  }
 }

@@ -1,0 +1,642 @@
+{
+  "@context": [
+    "https://schema.org",
+    {
+      "@language": "zh-CN"
+    }
+  ],
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/#website",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/",
+      "name": "劳动价值论是历史性范畴：当代价值危机",
+      "inLanguage": [
+        "zh-CN",
+        "en"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "publisher": {
+        "@type": "Person",
+        "name": "Didgeridoo"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://kiloiam.github.io/labor-value-theory-preprint/search.html?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/#author",
+      "name": "Didgeridoo",
+      "alternateName": "Didgeridoo",
+      "description": "Pen name used for this open preprint."
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/#article",
+      "headline": "劳动价值论是历史性范畴：当代价值危机",
+      "alternativeHeadline": "The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value",
+      "author": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/#author"
+      },
+      "datePublished": "2026-11-16",
+      "dateModified": "2026-11-16",
+      "inLanguage": [
+        "zh-CN",
+        "en"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "creativeWorkStatus": "Preprint",
+      "identifier": [
+        "https://doi.org/10.5281/zenodo.24270266",
+        "https://doi.org/10.6084/m9.figshare.35018998.v1",
+        "https://doi.org/10.5281/zenodo.24269665",
+        "https://doi.org/10.5281/zenodo.24273568"
+      ],
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/",
+      "mainEntityOfPage": "https://kiloiam.github.io/labor-value-theory-preprint/",
+      "about": [
+        {
+          "@id": "https://www.wikidata.org/wiki/Q584987"
+        },
+        {
+          "@id": "https://www.wikidata.org/wiki/Q854537"
+        }
+      ],
+      "sameAs": [
+        "https://doi.org/10.5281/zenodo.24270266",
+        "https://doi.org/10.5281/zenodo.24269665",
+        "https://doi.org/10.5281/zenodo.24273568",
+        "https://doi.org/10.6084/m9.figshare.35018998.v1",
+        "https://osf.io/wubs2/",
+        "https://kiloiam.github.io/labor-value-theory-preprint/",
+        "https://github.com/kiloiam/labor-value-theory-preprint",
+        "https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG",
+        "https://archive.softwareheritage.org/swh:1:ori:a6bc3e4959cb552fcb2ea1184de6b2ac58d85533/",
+        "https://web.archive.org/web/20261116061932/https://kiloiam.github.io/labor-value-theory-preprint/",
+        "https://gist.github.com/kiloiam/d286d7f3b8ee3adf0e8f2ba0595f7ab7",
+        "https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf",
+        "https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/paper.pdf",
+        "https://raw.githack.com/kiloiam/labor-value-theory-preprint/main/paper.pdf",
+        "https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf",
+        "https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf"
+      ],
+      "hasPart": [
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/zh.html",
+          "inLanguage": "zh-CN"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/en.html",
+          "inLanguage": "en"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ja.html",
+          "inLanguage": "ja"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/es.html",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/fr.html",
+          "inLanguage": "fr"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/de.html",
+          "inLanguage": "de"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ru.html",
+          "inLanguage": "ru"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/pt.html",
+          "inLanguage": "pt"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/it.html",
+          "inLanguage": "it"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ko.html",
+          "inLanguage": "ko"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/topic-ltv.html"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/broadcast.html"
+        }
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "contentUrl": "https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf",
+          "encodingFormat": "application/pdf"
+        },
+        {
+          "@type": "DataDownload",
+          "contentUrl": "https://kiloiam.github.io/labor-value-theory-preprint/PAPER-PLAINTEXT.txt",
+          "encodingFormat": "text/plain"
+        },
+        {
+          "@type": "DataDownload",
+          "contentUrl": "https://kiloiam.github.io/labor-value-theory-preprint/paper-standalone.html",
+          "encodingFormat": "text/html"
+        },
+        {
+          "@type": "DataDownload",
+          "contentUrl": "https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip",
+          "encodingFormat": "application/zip"
+        },
+        {
+          "@type": "DataDownload",
+          "contentUrl": "https://kiloiam.github.io/labor-value-theory-preprint/llms-full.txt",
+          "encodingFormat": "text/plain"
+        }
+      ],
+      "usageInfo": "https://creativecommons.org/licenses/by/4.0/",
+      "conditionsOfAccess": "open access, no registration",
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": "https://kiloiam.github.io/labor-value-theory-preprint/index.html"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/ro-crate-metadata.json#crate",
+      "name": "Preservation RO-Crate",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/ro-crate-metadata.json",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/#author"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "首页",
+          "item": "https://kiloiam.github.io/labor-value-theory-preprint/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "主题导览",
+          "item": "https://kiloiam.github.io/labor-value-theory-preprint/topic-ltv.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "全文",
+          "item": "https://kiloiam.github.io/labor-value-theory-preprint/index.html"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#36718704fd",
+      "name": "劳动价值论",
+      "alternateName": "labor theory of value",
+      "description": "认为商品价值由生产它所耗费的社会必要劳动时间决定的理论，是古典政治经济学与马克思政治经济学批判的核心范畴。本预印本把它作为一个有历史前提的范畴来考察，而非普适规律。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q584987"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#e115f9e354",
+      "name": "历史性范畴",
+      "alternateName": "historically specific category",
+      "description": "只在特定生产关系与历史条件下成立、随条件消失而失效的概念。本文的核心论断是：劳动价值论属于这一类范畴。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#cbeee9a9cd",
+      "name": "社会必要劳动时间",
+      "alternateName": "socially necessary labour time",
+      "description": "在社会平均生产条件与平均劳动熟练程度下生产某商品所需的时间，是劳动价值论中价值量的尺度。本文把它列为该理论的历史前提之一。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q1518684"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#c3ecf11eb1",
+      "name": "可变资本",
+      "alternateName": "variable capital",
+      "description": "用于购买劳动力、在生产过程中能够带来价值增殖的那部分资本。本文论证自动化生产会把它系统性、不可逆地挤出生产过程。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q1759266"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#b980db690d",
+      "name": "剩余价值",
+      "alternateName": "surplus value",
+      "description": "雇佣劳动创造但被资本占有的、超出劳动力价值的部分。本文认为当活劳动被挤出，剩余价值生产机制趋于枯竭。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q332425"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#5030521b23",
+      "name": "使用价值",
+      "alternateName": "use value",
+      "description": "商品满足人的某种需要的有用性。本文把「使用价值的社会性组织」作为后价值范畴时代生产体系的目标。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q1497178"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#9db6e871da",
+      "name": "自动化技术资本",
+      "alternateName": "automated technological capital",
+      "description": "本文价值修正模型中引入的变量：能够在原则上脱离人类活劳动独立承担生产职能的自动化系统所对应的资本形态。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#64f5546015",
+      "name": "价值范畴危机",
+      "alternateName": "crisis of the value category",
+      "description": "本文用于描述当价值形成的历史前提瓦解时，价值范畴及其依托的商品形式发生的根本性断裂。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#05a0709abc",
+      "name": "负向政治性维稳成本 P",
+      "alternateName": "negative political cost of social stabilization (P)",
+      "description": "本文提出的概念：当利润不再是价值增殖的结果，它转化为维持私有制制度外壳所需的负向政治性成本。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#561d70f95f",
+      "name": "四重不可能",
+      "alternateName": "four-fold impossibility",
+      "description": "本文对商品社会通过自我修复重建价值结构的四重障碍的概括，用以说明价值断裂的不可逆性。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#1815ae0ca8",
+      "name": "后价值范畴时代",
+      "alternateName": "post-value-category era",
+      "description": "本文用以指称价值范畴失效之后的历史阶段，其核心议题是生产关系的历史性重塑。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#4c4d1c2a39",
+      "name": "历史唯物主义",
+      "alternateName": "historical materialism",
+      "description": "本文的分析立场：从生产方式的历史变迁理解经济范畴的成立条件与界限。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#c250ad71f0",
+      "name": "商品拜物教",
+      "alternateName": "commodity fetishism",
+      "description": "马克思用以描述商品形式掩盖人与人之间社会关系的范畴，与价值形式的讨论相关。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q2549288"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#de80eae015",
+      "name": "马克思经济学",
+      "alternateName": "Marxian economics",
+      "description": "以马克思政治经济学批判为基础的经济学研究传统，劳动价值论是其中的核心议题之一。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q854537"
+    },
+    {
+      "@type": "Question",
+      "name": "劳动价值论是什么？",
+      "inLanguage": "zh-CN",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "劳动价值论认为商品的价值由生产它所耗费的社会必要劳动时间决定，是古典政治经济学与马克思政治经济学批判的核心范畴。它通常以雇佣劳动与商品交换的普遍化为前提。本站收录的开放预印本《劳动价值论是历史性范畴：当代价值危机》正是从这一前提出发讨论该理论的界限。",
+        "inLanguage": "zh-CN",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the labor theory of value?",
+      "inLanguage": "en",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The labor theory of value holds that the value of a commodity is determined by the socially necessary labour time required to produce it. It is central to classical political economy and Marx's critique, and normally presupposes wage labour and generalized commodity exchange. The open preprint hosted here, \"The Labor Theory of Value as a Historical Category\", examines precisely those historical premises.",
+        "inLanguage": "en",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "劳动价值论是历史性范畴吗？",
+      "inLanguage": "zh-CN",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "这是该预印本的核心论点：劳动价值论不是适用于一切社会形态的普遍经济原理，而是以雇佣劳动、社会必要劳动时间和商品交换普遍化为前提的历史性理论。作者认为，其失效不是理论被证伪，而是商品社会走到了历史尽头。该文为网络预发布预印本，未经同行评审。",
+        "inLanguage": "zh-CN",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the labor theory of value a historically specific category?",
+      "inLanguage": "en",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "That is the central claim of the preprint: the LTV is not a universal principle but a historically specific theory premised on wage labour, socially necessary labour time and generalized commodity exchange. Its obsolescence, the author argues, does not refute the theory but signals the historical endpoint of commodity society. This is a preprint and has not been peer reviewed.",
+        "inLanguage": "en",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "自动化时代劳动价值论还成立吗？",
+      "inLanguage": "zh-CN",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "该预印本构建包含自动化技术资本的价值修正模型，论证当自动化系统在原则上能脱离人类活劳动独立承担生产职能时，可变资本被系统性挤出，剩余价值生产机制趋于枯竭，价值范畴与商品形式发生根本性瓦解。这是作者提出的待讨论论点，不是学界定论，全文开放可查。",
+        "inLanguage": "zh-CN",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the labor theory of value still hold in the age of automation?",
+      "inLanguage": "en",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The preprint builds a revised value model incorporating automated technological capital and argues that, once automated systems can in principle perform production independently of living labour, variable capital is expelled and surplus-value production tends towards exhaustion. This is the author's argument open for discussion, not a settled scholarly consensus; the full text is freely available.",
+        "inLanguage": "en",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "哪里可以读到关于劳动价值论当代危机的开放获取全文？",
+      "inLanguage": "zh-CN",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "《劳动价值论是历史性范畴：当代价值危机》（Didgeridoo，2026-11-16）以 CC BY 4.0 开放，提供中文全文、PDF、纯文本与离线单文件 HTML，并登记了 Zenodo DOI 10.5281/zenodo.24270266、Figshare、OSF、GitHub Pages 等多个公开副本。全文页：https://kiloiam.github.io/labor-value-theory-preprint/",
+        "inLanguage": "zh-CN",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I read an open-access full text on the contemporary crisis of the labor theory of value?",
+      "inLanguage": "en",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "\"The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value\" (Didgeridoo, 2026-11-16) is CC BY 4.0 and available as Chinese full text, PDF, plain text and an offline single-file HTML, with DOI 10.5281/zenodo.24270266 and copies on Figshare, OSF and GitHub Pages: https://kiloiam.github.io/labor-value-theory-preprint/",
+        "inLanguage": "en",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "劳动价值论成立的历史前提有哪些？",
+      "inLanguage": "zh-CN",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "按该预印本的梳理，主要包括：雇佣劳动的普遍化、以社会必要劳动时间作为价值尺度、以及商品交换的普遍化。文章把三者视为历史条件而非自然事实，并据此讨论当条件改变时范畴的界限。",
+        "inLanguage": "zh-CN",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the historical premises of the labor theory of value?",
+      "inLanguage": "en",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "According to the preprint: the generalization of wage labour, socially necessary labour time as the measure of value, and the universalization of commodity exchange. The paper treats these as historical conditions rather than natural facts, and asks what happens to the category when they change.",
+        "inLanguage": "en",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "「维稳成本 P」是什么意思？",
+      "inLanguage": "zh-CN",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "这是该预印本提出的概念：当利润不再是价值增殖的结果，它转化为维持私有制外壳所需的负向政治性维稳成本 P。作者用它描述价值机制枯竭后利润形态的质变。具体推导见全文第三节。",
+        "inLanguage": "zh-CN",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the 'cost of social stabilization P' mean?",
+      "inLanguage": "en",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A concept introduced in the preprint: when profit no longer results from valorization, it becomes transmuted into a negative political cost of maintaining the institutional shell of private property, denoted P. The derivation is in section three of the full text.",
+        "inLanguage": "en",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "什么是商品社会的「四重不可能」？",
+      "inLanguage": "zh-CN",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "该预印本用它概括商品社会试图通过自我修复重建价值结构时面临的四重障碍，并据此论证价值结构存在不可逆的内在断裂。四项内容见全文第四节，本站问答只作检索导览，不替代原文。",
+        "inLanguage": "zh-CN",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the 'four-fold impossibility' of commodity society?",
+      "inLanguage": "en",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The preprint's term for four obstacles commodity society faces when attempting to repair its value structure, used to argue for an irreversible internal rupture. The four items are in section four of the full text; this Q&A is a discovery aid, not a substitute for the paper.",
+        "inLanguage": "en",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "这篇论文正式发表了吗？",
+      "inLanguage": "zh-CN",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "没有。它是 2026-11-16 的网络预发布预印本，有 DOI、可引用，但未经同行评审，不等同于期刊正式发表，也不构成学术成果认定依据。所有文案都必须如实标注这一点。",
+        "inLanguage": "zh-CN",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Has this paper been formally published?",
+      "inLanguage": "en",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. It is an online preprint released 2026-11-16: it has a DOI and is citable, but it has not been peer reviewed, is not a journal publication, and must not be described as one.",
+        "inLanguage": "en",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "这篇论文可以转载或翻译吗？",
+      "inLanguage": "zh-CN",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "可以。全文采用 CC BY 4.0 许可，允许转载、翻译、改编与再托管，只需保留作者笔名 Didgeridoo 与原始出处。本站还提供 BibTeX、RIS、CSL-JSON、DataCite、MARCXML 等引用与收割格式。",
+        "inLanguage": "zh-CN",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "May this paper be reposted or translated?",
+      "inLanguage": "en",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The work is CC BY 4.0: reposting, translation, adaptation and re-hosting are permitted with attribution to the pen name Didgeridoo and the original source. BibTeX, RIS, CSL-JSON, DataCite and MARCXML metadata are provided.",
+        "inLanguage": "en",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "如果网站打不开，还能从哪里找回全文？",
+      "inLanguage": "zh-CN",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "本站设计了三层可读性（纯文本 / 单文件离线 HTML / PDF）与跨机构冗余：Zenodo、Figshare、OSF、GitHub、Software Heritage、Internet Archive Wayback、全球 CDN，以及 BitTorrent WebSeed 与 BagIt 重建清单。任一份幸存副本都含恢复其余副本地址的清单。",
+        "inLanguage": "zh-CN",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If the site is down, where else can the full text be recovered?",
+      "inLanguage": "en",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Three readability layers (plain text / offline single-file HTML / PDF) plus cross-institution redundancy: Zenodo, Figshare, OSF, GitHub, Software Heritage, Wayback, global CDNs, BitTorrent WebSeed and a BagIt fetch manifest. Any surviving copy contains the addresses needed to recover the others.",
+        "inLanguage": "en",
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html"
+      }
+    }
+  ]
+}

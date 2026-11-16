@@ -1,0 +1,236 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+      "name": "劳动价值论与价值范畴术语集 / Glossary of the Labor Theory of Value",
+      "description": "检索与知识图谱用的结构化术语集，释义为导览性描述，不替代论文原文。",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html",
+      "inLanguage": [
+        "zh-CN",
+        "en"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "hasDefinedTerm": [
+        {
+          "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#36718704fd"
+        },
+        {
+          "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#e115f9e354"
+        },
+        {
+          "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#cbeee9a9cd"
+        },
+        {
+          "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#c3ecf11eb1"
+        },
+        {
+          "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#b980db690d"
+        },
+        {
+          "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#5030521b23"
+        },
+        {
+          "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#9db6e871da"
+        },
+        {
+          "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#64f5546015"
+        },
+        {
+          "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#05a0709abc"
+        },
+        {
+          "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#561d70f95f"
+        },
+        {
+          "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#1815ae0ca8"
+        },
+        {
+          "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#4c4d1c2a39"
+        },
+        {
+          "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#c250ad71f0"
+        },
+        {
+          "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#de80eae015"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#36718704fd",
+      "name": "劳动价值论",
+      "alternateName": "labor theory of value",
+      "description": "认为商品价值由生产它所耗费的社会必要劳动时间决定的理论，是古典政治经济学与马克思政治经济学批判的核心范畴。本预印本把它作为一个有历史前提的范畴来考察，而非普适规律。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q584987"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#e115f9e354",
+      "name": "历史性范畴",
+      "alternateName": "historically specific category",
+      "description": "只在特定生产关系与历史条件下成立、随条件消失而失效的概念。本文的核心论断是：劳动价值论属于这一类范畴。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#cbeee9a9cd",
+      "name": "社会必要劳动时间",
+      "alternateName": "socially necessary labour time",
+      "description": "在社会平均生产条件与平均劳动熟练程度下生产某商品所需的时间，是劳动价值论中价值量的尺度。本文把它列为该理论的历史前提之一。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q1518684"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#c3ecf11eb1",
+      "name": "可变资本",
+      "alternateName": "variable capital",
+      "description": "用于购买劳动力、在生产过程中能够带来价值增殖的那部分资本。本文论证自动化生产会把它系统性、不可逆地挤出生产过程。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q1759266"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#b980db690d",
+      "name": "剩余价值",
+      "alternateName": "surplus value",
+      "description": "雇佣劳动创造但被资本占有的、超出劳动力价值的部分。本文认为当活劳动被挤出，剩余价值生产机制趋于枯竭。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q332425"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#5030521b23",
+      "name": "使用价值",
+      "alternateName": "use value",
+      "description": "商品满足人的某种需要的有用性。本文把「使用价值的社会性组织」作为后价值范畴时代生产体系的目标。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q1497178"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#9db6e871da",
+      "name": "自动化技术资本",
+      "alternateName": "automated technological capital",
+      "description": "本文价值修正模型中引入的变量：能够在原则上脱离人类活劳动独立承担生产职能的自动化系统所对应的资本形态。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#64f5546015",
+      "name": "价值范畴危机",
+      "alternateName": "crisis of the value category",
+      "description": "本文用于描述当价值形成的历史前提瓦解时，价值范畴及其依托的商品形式发生的根本性断裂。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#05a0709abc",
+      "name": "负向政治性维稳成本 P",
+      "alternateName": "negative political cost of social stabilization (P)",
+      "description": "本文提出的概念：当利润不再是价值增殖的结果，它转化为维持私有制制度外壳所需的负向政治性成本。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#561d70f95f",
+      "name": "四重不可能",
+      "alternateName": "four-fold impossibility",
+      "description": "本文对商品社会通过自我修复重建价值结构的四重障碍的概括，用以说明价值断裂的不可逆性。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#1815ae0ca8",
+      "name": "后价值范畴时代",
+      "alternateName": "post-value-category era",
+      "description": "本文用以指称价值范畴失效之后的历史阶段，其核心议题是生产关系的历史性重塑。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#4c4d1c2a39",
+      "name": "历史唯物主义",
+      "alternateName": "historical materialism",
+      "description": "本文的分析立场：从生产方式的历史变迁理解经济范畴的成立条件与界限。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#c250ad71f0",
+      "name": "商品拜物教",
+      "alternateName": "commodity fetishism",
+      "description": "马克思用以描述商品形式掩盖人与人之间社会关系的范畴，与价值形式的讨论相关。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q2549288"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html#de80eae015",
+      "name": "马克思经济学",
+      "alternateName": "Marxian economics",
+      "description": "以马克思政治经济学批判为基础的经济学研究传统，劳动价值论是其中的核心议题之一。",
+      "inDefinedTermSet": {
+        "@id": "https://kiloiam.github.io/labor-value-theory-preprint/terms.jsonld#set",
+        "name": "劳动价值论与价值范畴术语集"
+      },
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html",
+      "sameAs": "https://www.wikidata.org/wiki/Q854537"
+    }
+  ]
+}
