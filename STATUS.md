@@ -44,4 +44,4 @@ python submit_all.py --live --only zenodo   # 仅提交指定平台（注意避�
 
 应作者要求，本预印本在所有**对外分享**的公开页面、元数据、引用文件、投稿材料与 PDF 内嵌属性中统一使用笔名 **Didgeridoo**，不含真实姓名、通讯邮箱、单位等个人识别信息。PDF 的 `/Author`、`/Creator` 及创建/修改时间等文档属性已清洗。许可仍为 CC BY 4.0，引用时请著录笔名。**例外**：Figshare 旧记录 `35018683` 的 v1/v2 历史版本页及其附件 PDF 文档属性仍含早期署名，属平台只读快照，账号令牌无法改写。
 
-注：Figshare 旧记录 `35018683` 的 v1/v2 版本快照、DataCite 中对应 DOI 的 creators 元数据，以及 Zenodo 旧版本的历史 PDF 文档属性仍可能保留早期署名，作者无法自行抹除。已按 Figshare 官方流程备妥 `Take down request`（见 `FIGSHARE-TAKEDOWN-REQUEST.md`），请由本人用注册邮箱发送；当前对外分享的版本与本站全部内容均为笔名。
+注：Figshare 旧记录 `35018683` 的 v1/v2 版本快照、DataCite 中对应 DOI 的 creators 元数据，以及 Zenodo 旧版本的历史 PDF 文档属性仍可能保留早期署名，作者无法自行抹除。已按 Figshare 官方流程备妥并由本人于 2026-11-16 提交 `Take down request` 工单（见 `FIGSHARE-TAKEDOWN-REQUEST.md`），等待团队下架；当前对外分享的版本与本站全部内容均为笔名。

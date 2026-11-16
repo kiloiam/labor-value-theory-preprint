@@ -111,6 +111,8 @@
 同时请求同步更新 DataCite 中 v1/v2 DOI 的 creators 元数据。
 工作区所有对外链接已统一为干净记录 `10.6084/m9.figshare.35018998.v1`，并明确标注不再传播旧链接。
 
+**提交状态（2026-11-16 14:06）**：作者本人已在 https://support.figshare.com/en/contact-us 提交该 `Take down request` 工单并关闭浏览器窗口；本环境无法再读取确认页，以作者告知为准。**Figshare 团队执行下架前，v1/v2 页面与附件 PDF 的早期署名仍可见**；处理周期通常为 48 小时内回复。
+
 ## 平台限制造成的残留（无法通过 API 抹除）
 
 1. **Zenodo 旧版本 `24269666` 的历史 PDF**：Zenodo 对已发布记录锁定存储桶，
@@ -131,10 +133,9 @@
    请求更新或遮蔽该 DOI 的历史元数据。其余三个 DOI 的 creators 均为 Didgeridoo。
 
 > 本轮已把所有对外分享链接切换到上述**干净记录**，不再指向含早期署名的页面。
-> 若需彻底清除第 1–3、5 项，须由作者本人分别联系 Zenodo 与 Figshare 支持
-> （Figshare：support@figshare.com，工单标题 `Take down request`，正文见
-> `FIGSHARE-TAKEDOWN-REQUEST.md`）请求删除或遮蔽历史版本，并请求搜索引擎刷新缓存；
-> 本环境没有该权限。
+> Figshare 的 `Take down request` 工单已由本人于 2026-11-16 提交，等待团队执行下架；
+> 第 1、3、5 项（Zenodo 旧 PDF、DataCite / 搜索引擎缓存）仍须作者本人联系相应平台处理，
+> 本环境没有该权限。**工单处理完成前，第 2 项残留仍然可见。**
 
 ## 引用格式
 

@@ -31,5 +31,5 @@ Didgeridoo. 劳动价值论是历史性范畴：当代价值危机[Z/OL]. Zenodo
 
 - 以上均为**网络预发布预印本**，无同行评审，**不等同于期刊正式发表**，不构成成果认定依据。
 - DOI 解决的是可引用性与长期保存，不替代期刊评审。
-- **Figshare 旧记录 `35018683` 已弃用**：其 v1/v2 为只读历史版本，页面作者字段与附件 PDF 文档属性仍含早期署名；该记录不在本表内，请勿引用或传播其版本链接。官方 `Take down request` 模板见 `FIGSHARE-TAKEDOWN-REQUEST.md`，须由本人用注册邮箱提交 `support@figshare.com`。
+- **Figshare 旧记录 `35018683` 已弃用**：其 v1/v2 为只读历史版本，页面作者字段与附件 PDF 文档属性仍含早期署名；该记录不在本表内，请勿引用或传播其版本链接。官方 `Take down request` 模板见 `FIGSHARE-TAKEDOWN-REQUEST.md`；该工单已由本人提交，等待 Figshare 团队处理。
 - 目标期刊《中南大学学报(社会科学版)》只接受作者本人在 https://zndxsk.csu.edu.cn 的「作者在线投稿」系统提交，且明文禁止代投；投稿前须核实该刊预印本政策，并如实说明本稿已有公开记录与 DOI。
