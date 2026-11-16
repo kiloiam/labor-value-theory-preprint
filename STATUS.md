@@ -112,3 +112,14 @@ python submit_all.py --live --only zenodo   # 仅提交指定平台（注意避�
 - viXra：**已由作者本人提交，待管理员处理**（回执两天内无回复即视为未接受、`Do not resubmit`）；一经接受则永久记录；
   arXiv 需背书与机构认证，其余需账号/机构邮箱/同行评审；不承诺排名；
   WorkBuddy 线上站点已按作者选择重新发布，`verified=true`，分享链接不变；可在「设置 — 数据管理 — 应用」中管理。完整报告见 `ROUND5-REPORT.md`。
+
+## 第六轮：继续全球开放发布与 SEO 深化（2026-11-16）
+
+- 新增 10 个与第五轮不重叠的真实检索意图 × 中英双版 = **20 页**；重建第五轮 20 页使 40 页互链完整；
+  `llms-topics-r6.txt`、`schema-round6.jsonld`、站点地图 **132 → 158 URL**。
+- 外部实测回执：Zenodo 第三版本 DOI `10.5281/zenodo.24279668`（28 资产）、Release `v5.0.0`（34 资产）、OSF 30/30、Gist 7/7、
+  Telegraph 2 个索引页、IndexNow 158 URL × 4 端点全 200、WebSub 204、SWH 请求 2655381（scheduled）。
+- 如实保留的失败项：Figshare `versions` 端点 404 未新建版本；Wayback 本轮被 `429`/`523` 限流，
+  25 个目标仅 1 个 CDX 确认、慢速重试 8 个 0 确认；OpenAlex / Semantic Scholar / Crossref 仍 404。
+- 边界不变：不承诺排名、不刷量买链、不代注册账号与权属声明；viXra 仍待审核、其余 B/C 档需作者本人。
+- 完整报告 `ROUND6-REPORT.md`；回执 `EXTERNAL-R6.json` / `AGGREGATORS-R6.json` / `VERIFY-R6.json`。

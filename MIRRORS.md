@@ -109,3 +109,14 @@
 - ko → https://telegra.ph/노동가치론은-역사적-범주이다-현대적-가치의-위기-11-16
 
 以上页面仅含摘要与规范链接，不复制全文；署名为真实英文姓名 `Didgeridoo`。
+
+## 第六轮：继续全球开放发布与 SEO 深化（2026-11-16）
+
+- 新增 10 个与第五轮不重叠的真实检索意图 × 中英双版 = **20 页**；重建第五轮 20 页使 40 页互链完整；
+  `llms-topics-r6.txt`、`schema-round6.jsonld`、站点地图 **132 → 158 URL**。
+- 外部实测回执：Zenodo 第三版本 DOI `10.5281/zenodo.24279668`（28 资产）、Release `v5.0.0`（34 资产）、OSF 30/30、Gist 7/7、
+  Telegraph 2 个索引页、IndexNow 158 URL × 4 端点全 200、WebSub 204、SWH 请求 2655381（scheduled）。
+- 如实保留的失败项：Figshare `versions` 端点 404 未新建版本；Wayback 本轮被 `429`/`523` 限流，
+  25 个目标仅 1 个 CDX 确认、慢速重试 8 个 0 确认；OpenAlex / Semantic Scholar / Crossref 仍 404。
+- 边界不变：不承诺排名、不刷量买链、不代注册账号与权属声明；viXra 仍待审核、其余 B/C 档需作者本人。
+- 完整报告 `ROUND6-REPORT.md`；回执 `EXTERNAL-R6.json` / `AGGREGATORS-R6.json` / `VERIFY-R6.json`。

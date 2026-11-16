@@ -1,0 +1,29 @@
+{
+  "verified_at": "2026-11-16T11:40:28Z",
+  "checksums": {
+    "entries": 197,
+    "ok": 197,
+    "bad": 0,
+    "missing": 0
+  },
+  "sitemap": {
+    "urls": 158,
+    "missing_local_targets": []
+  },
+  "jsonld": {
+    "blocks": 57,
+    "invalid": 0
+  },
+  "internal_links": {
+    "broken": 0
+  },
+  "anonymity": {
+    "verdict": "PASS",
+    "summary": [
+      "[scan] files scanned: 207",
+      "[scan] qq-mail-pattern        0 ",
+      "[scan] hard violations: 0 | old-figshare links confined to take-down ticket: True",
+      "[scan] VERDICT: PASS"
+    ]
+  }
+}

@@ -59,3 +59,13 @@ Didgeridoo. 劳动价值论是历史性范畴：当代价值危机[Z/OL]. Zenodo
 
 > 撤销需在回执的 cancellation form 中使用其 form reference；该编号与作者联系邮箱均**未写入任何公开文件**。
 > 待 viXra 分配正式编号／URL 后，请把链接补进本表与 `MIRRORS.md`，重提 IndexNow，并更新 `ROUND5-REPORT.md` 第九节。
+
+## 第六轮新增（2026-11-16）
+
+| 平台 | 标识 | 链接 | 说明 |
+|---|---|---|---|
+| Zenodo 第三版本 | `10.5281/zenodo.24279668` | https://doi.org/10.5281/zenodo.24279668 | 28 个资产；概念 DOI `10.5281/zenodo.24269665` 现指向此版本 |
+| GitHub Release | `v5.0.0` | https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v5.0.0 | 34 个不可变资产 |
+| Telegraph 索引页 | zh / en | https://telegra.ph/劳动价值论常见检索问题导览二-11-16 · https://telegra.ph/Labor-theory-of-value-a-guide-to-further-search-questions-11-16 | 只放问题索引与规范链接 |
+| Figshare 干净记录 | `10.6084/m9.figshare.35018998.v1` | 保持不变 | 本轮实测 `versions` 端点 404，未新建版本 |
+| viXra | 已提交待审核 | *暂无* | 详见 `VIXRA-SUBMISSION-STATUS.md`；不得重复提交 |

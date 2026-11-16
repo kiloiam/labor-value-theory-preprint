@@ -33,7 +33,7 @@
 | 渠道 | 本轮结论 |
 |---|---|
 | Figshare | 干净记录 `35018998` v1 保持不动。`POST /account/articles/{id}/versions` 实测返回 **404**（该 API 无此路径），因此**未新建版本**，避免伪造成功或破坏唯一干净 DOI |
-| Zenodo | 见 `EXTERNAL-R6.json` 的 `zenodo_v3` 回执；若失败则如实记录失败步骤与状态码 |
+| Zenodo | **第三版本已发布**：DOI `10.5281/zenodo.24279668`，28 个资产，`publish 202`。首次尝试因 bucket PUT 缺少 `Content-Type` 全部返回 `415`、publish 因「无文件」返回 `400`；复用同一 draft 补上 `application/octet-stream` 后 28/28 成功，未伪造中间结果 |
 | viXra | 作者本人已于本轮前提交，状态为「已接收 · 待管理员检查」，**尚无编号或链接**，详见 `VIXRA-SUBMISSION-STATUS.md`；不得重复提交 |
 | OpenAlex / Semantic Scholar / Crossref | 第五轮与本轮实测均 `404`：只从登记源自动收割，不接受单篇投稿；Crossref 404 属预期（Zenodo DOI 属 DataCite） |
 | CORE / BASE | `429` 限流／反爬验证页，本轮不对二者单篇政策作断言 |
@@ -41,10 +41,28 @@
 | arXiv / HAL / SSRN / RePEc / ResearchGate / Academia.edu | 需背书、机构认证或同行评审；不代注册、不绕过 |
 | OSF Preprints / SocArXiv / PhilArchive / Preprints.org / IA item | 需作者本人账号与权属声明；不代做 |
 
-## 四、外部发布与索引提交
+## 四、外部发布与索引提交（真实回执）
 
-详见 `EXTERNAL-R6.json`（每步即时落盘，只记录真实 API 回执）。本轮覆盖：
-Telegraph 索引页、GitHub Release `v5.0.0`、OSF 增量、公开 Gist、Software Heritage、Wayback、IndexNow 四端点、WebSub 两 feed。
+| 通道 | 结果 |
+|---|---|
+| Zenodo 第三版本 | DOI `10.5281/zenodo.24279668`，**28 / 28 资产上传成功**，`publish 202`；概念 DOI 仍为 `10.5281/zenodo.24269665` |
+| GitHub Release `v5.0.0` | **34 个不可变资产**（含 20 个新长尾页、语料、页面图、报告、回执） |
+| OSF 项目 `wubs2` | **30 / 30** 文件上传成功（1 个网络错误经重试返回 201 修复） |
+| 公开 Gist | **7 / 7** 个文件更新成功 |
+| Telegraph | **2 / 2** 个索引页上线，各含 10 个问题入口；只放索引与规范链接，不复制全文 |
+| IndexNow | **158 个 URL × 4 端点**，全部 `200` |
+| WebSub | `feed.xml` / `rss.xml` 均 `204` |
+| Software Heritage | 存档请求 `2655381`，状态 `scheduled` |
+| Wayback Machine | 首轮 **1 / 25** 个经 CDX 确认；慢速重试 **0 / 8** 确认。大量 `429` / `523` 限流，如实记为未存档，不伪造快照 |
+
+完整机器可读回执：`EXTERNAL-R6.json`、`AGGREGATORS-R6.json`、`BUILD-R6.json`、`VERIFY-R6.json`。
+
+### 学术数据库复测（针对新 DOI）
+
+DataCite `200`、OpenAIRE `200` 且 `total=1`（新版本已登记）；OpenAlex / Semantic Scholar / Crossref 仍 `404`
+（自动收割延迟，不接受单篇投稿；Crossref 404 属预期）；CORE 本轮 `429` 限流、BASE 返回 `200` 但可能为反爬页，
+故均不对单篇收录政策作断言；Google sitemap ping `404`、Bing `410` 仍为停用端点。
+
 
 ## 五、边界与待办
 
@@ -53,3 +71,26 @@ Telegraph 索引页、GitHub Release `v5.0.0`、OSF 增量、公开 Gist、Softw
 3. Figshare 旧记录 `35018683` v1/v2 的下架工单仍等待官方执行，完整链接仅存在于工单材料，**请勿传播**。
 4. OAI-PMH 为静态快照、IPFS 只算 CID 未永久 pin、torrent 需做种或 WebSeed 在线。
 5. WorkBuddy 线上阅读页是否覆盖已分享链接，需作者本轮明确授权；未获授权不擅自重新发布。
+
+## 六、最终复验
+
+| 项目 | 结果 |
+|---|---|
+| SHA-256 | **197 / 197 OK**，0 处不一致、0 处缺失 |
+| sitemap | 158 个 URL，0 个本地目标缺失 |
+| 内联 JSON-LD | 57 块，0 块无效 |
+| 内部链接 | 0 处断链 |
+| 脱敏回归 | **PASS**（QQ 号 / QQ 邮箱 / 旧号 / OSF 显示名 0 命中，传播面 0 泄露） |
+| 任务跟踪 | 第六轮 5 项全部完成 |
+
+## 七、本轮结论与未竟事项
+
+本轮把「能力范围内的最大值」落实为**可验证的增量**：新增 20 个实质长尾页、40 页完整互链图、
+158 URL 站点地图、1 个新的正式 Zenodo DOI 版本、1 个 34 资产 Release、OSF/Gist 增量、2 个 Telegraph 索引页、
+IndexNow 四端点全量重提。同时如实保留失败项：Figshare 新版本端点不存在、Wayback 本轮被限流、
+OpenAlex 等仍需等待自动收割。
+
+仍未完成且**不能代做**：viXra 待管理员审核（尚无编号）；OSF Preprints / SocArXiv / PhilArchive /
+Preprints.org / IA item 需作者本人账号；arXiv / HAL / SSRN 等需背书或机构认证；正式期刊需同行评审。
+Figshare 旧记录 `35018683` 下架工单仍等官方执行，请勿传播。
+不承诺搜索排名、不承诺推送到每个关注者眼前、不承诺绝对永久；所有记录仍为未经同行评审的预印本。

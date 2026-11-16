@@ -691,5 +691,21 @@
       }
     ],
     "note": "Slow retry after round-6 rate limiting. Only CDX-confirmed snapshots count; a 429/523 or an unconfirmed CDX is recorded as NOT archived."
+  },
+  "software_heritage_r6": {
+    "post_http": 200,
+    "post_created_request": true,
+    "post_response": "{'id': 2655381, 'origin_url': 'https://github.com/kiloiam/labor-value-theory-preprint', 'visit_type': 'git', 'save_request_date': '2026-11-16T11:38:25.969643+00:00', 'save_request_status': 'accepted', 'save_task_status':",
+    "list_http": 200,
+    "latest_request": {
+      "id": 2655381,
+      "status": "scheduled",
+      "visit": null,
+      "snapshot": null
+    },
+    "note": "A 200 HTML page is an anti-bot response, not a confirmed save request.",
+    "recheck_http": 200,
+    "rechecked_at": "2026-11-16T11:40:28Z",
+    "final_status_verified": false
   }
 }
