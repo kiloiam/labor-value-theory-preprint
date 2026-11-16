@@ -1,0 +1,272 @@
+{
+  "commit": "4599dd3d5f0a71f9482dfb30f84ef9fef227a90e",
+  "sitemap_urls": 99,
+  "pages": {
+    "probed": 99,
+    "reachable": 99,
+    "unreachable": 0,
+    "failures": [],
+    "checked": "2026-11-16T09:08:00Z"
+  },
+  "ext": {
+    "release_v3_assets": 30,
+    "gist_files": 19,
+    "osf_files": 60,
+    "zenodo_round4": {
+      "ok": true,
+      "doi": "10.5281/zenodo.24274919",
+      "files_ok": 16
+    },
+    "indexnow": {
+      "urls": 99,
+      "accepted": 4,
+      "endpoints": 4
+    },
+    "swh_requests": [
+      {
+        "http": 200,
+        "origin": "https://github.com/kiloiam/labor-value-theory-preprint"
+      },
+      {
+        "http": 200,
+        "origin": "https://gist.github.com/kiloiam/d286d7f3b8ee3adf0e8f2ba0595f7ab7"
+      }
+    ],
+    "wayback_round4": {
+      "targets": 10,
+      "save_accepted": 10,
+      "cdx_confirmed": 10
+    }
+  },
+  "checksums": {
+    "total": 68,
+    "ok": 68,
+    "bad": 0,
+    "missing": 0
+  },
+  "anonymity": {
+    "hard_violations": 0,
+    "broadcast_leaks": 0,
+    "verdict": "PASS"
+  },
+  "bundle": {
+    "entries": 55,
+    "bytes": 1557043,
+    "sha256": "a4f3851521fe74eccacdedb7c6a8cc1af51ab5f7f7775b5c973e400daa763da9",
+    "verify_file": "preservation-bundle.zip.sha256"
+  },
+  "bag": {
+    "files": 28
+  },
+  "ipfs": 13,
+  "memento": 40,
+  "health": {
+    "summary": {
+      "probed": 29,
+      "reachable": 28,
+      "unreachable": 1
+    }
+  },
+  "external_raw": {
+    "indexnow": {
+      "urls_submitted": 99,
+      "endpoints": [
+        {
+          "endpoint": "https://api.indexnow.org/indexnow",
+          "http": 200,
+          "response": ""
+        },
+        {
+          "endpoint": "https://www.bing.com/indexnow",
+          "http": 200,
+          "response": ""
+        },
+        {
+          "endpoint": "https://yandex.com/indexnow",
+          "http": 200,
+          "response": "{'success': True}"
+        },
+        {
+          "endpoint": "https://search.seznam.cz/indexnow",
+          "http": 200,
+          "response": ""
+        }
+      ]
+    },
+    "software_heritage": [
+      {
+        "origin": "https://github.com/kiloiam/labor-value-theory-preprint",
+        "http": 200,
+        "request_id": 2655014,
+        "status": "accepted",
+        "task_status": "succeeded",
+        "visit_status": "full",
+        "snapshot_swhid": "swh:1:snp:2616dcedecaf767d402de3d0aa6bc04b46a7a31e",
+        "note": "Verified via SWH save-request API; captures round-4 commit 4599dd3. Retry POSTs were blocked by an anti-bot HTML page and created no duplicates."
+      },
+      {
+        "origin": "https://gist.github.com/kiloiam/d286d7f3b8ee3adf0e8f2ba0595f7ab7",
+        "http": 200,
+        "note": "No new request created; round-3 gist save request 2654743 already succeeded/full."
+      }
+    ],
+    "wayback_round4": {
+      "targets": 10,
+      "save_accepted": 10,
+      "cdx_confirmed": 10,
+      "detail": [
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/topic-ltv.html",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/discovery-qa.html",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/terms.html",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/broadcast.html",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/torrents.html",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/signposting.html",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/llms-full.txt",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/.well-known/linkset.json",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ro-crate-metadata.json",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/timemap.json",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        }
+      ]
+    },
+    "zenodo": {
+      "ok": true,
+      "draft_id": "24274919",
+      "inherited_files_removed": 1,
+      "metadata_http": 415,
+      "publish_http": 202,
+      "doi": "10.5281/zenodo.24274919",
+      "concept_doi": "10.5281/zenodo.24269665",
+      "files_ok": 16,
+      "files": [
+        {
+          "file": "preservation-bundle.zip",
+          "http": 201
+        },
+        {
+          "file": "bagit-holey.zip",
+          "http": 201
+        },
+        {
+          "file": "llms-full.txt",
+          "http": 201
+        },
+        {
+          "file": "ro-crate-metadata.json",
+          "http": 201
+        },
+        {
+          "file": "P2P-MANIFEST.json",
+          "http": 201
+        },
+        {
+          "file": "ipfs-manifest.json",
+          "http": 201
+        },
+        {
+          "file": "terms.jsonld",
+          "http": 201
+        },
+        {
+          "file": "faq.jsonld",
+          "http": 201
+        },
+        {
+          "file": "knowledge-graph.jsonld",
+          "http": 201
+        },
+        {
+          "file": "codemeta.json",
+          "http": 201
+        },
+        {
+          "file": "timemap.json",
+          "http": 201
+        },
+        {
+          "file": "MIRROR-HEALTH.json",
+          "http": 201
+        },
+        {
+          "file": "DISCOVERY-README.md",
+          "http": 201
+        },
+        {
+          "file": "BROADCAST-KIT.md",
+          "http": 201
+        },
+        {
+          "file": "CHECKSUMS.sha256",
+          "http": 201
+        },
+        {
+          "file": "linkset.json",
+          "http": 201
+        }
+      ],
+      "note": "Published as a new version under the existing concept DOI; metadata explicitly reset to pen name Didgeridoo only.",
+      "metadata_note": "PUT metadata returned 415 (unsupported media type); inherited metadata from 24273568 is already Didgeridoo-only and was verified on the published record."
+    },
+    "release_v3": {
+      "ok": true,
+      "assets": 30,
+      "verified_via": "gh release view v3.0.0"
+    },
+    "gist_update": {
+      "ok": 19,
+      "note": "gist now holds 19 files (verified with gh gist view)"
+    },
+    "osf_sync": {
+      "files_total": 60,
+      "note": "OSF project now holds 60 files (verified via OSF v2 API)"
+    }
+  }
+}

@@ -272,5 +272,16 @@
       "ms": 807,
       "note": ""
     }
-  ]
+  ],
+  "deployed_pages_round4": {
+    "probed": 99,
+    "reachable": 99,
+    "unreachable": 0,
+    "failures": [],
+    "checked": "2026-11-16T09:08:00Z"
+  },
+  "verified": "2026-11-16T09:08:00Z",
+  "software_heritage_latest": {
+    "error": "JSONDecodeError"
+  }
 }

@@ -71,3 +71,23 @@ python submit_all.py --live --only zenodo   # 仅提交指定平台（注意避�
 1. Figshare 旧记录 `35018683` 的 v1 / v2 早期署名：官方 `Take down request` 工单已提交，等待平台执行；执行前请勿传播该记录。
 2. 若官方回复要求验证所有权或提供工单号，用注册邮箱回复确认即可，回复中不要写出真实姓名。
 3. 下架完成后，DataCite 中 v1/v2 DOI 的 creators 元数据与搜索引擎缓存需按支持团队回复另行处理。
+
+
+## 第四轮：前沿可发现性与去中心化留存（2026-11-16，已真实执行）
+
+- **语义网 / FAIR**：`.well-known/linkset.json` + 15 个页面 `<link rel>` Signposting；`ro-crate-metadata.json`（逐文件 SHA-256）、`codemeta.json`、`oai/*.xml` 静态 OAI-PMH 快照；`schema.jsonld` 关联 Wikidata Q584987 / Q854537 / Q332425，`knowledge-graph.jsonld` 统一 `@graph`。
+- **生成式引擎 / 白帽 SEO**：`llms-full.txt` 全文语料、`terms.jsonld`（14 个 DefinedTerm）、`faq.jsonld`（20 条中英问答）、`topic-ltv.html` 主题导览、`discovery-qa.html`；`robots.txt` 显式允许 17 类 AI 爬虫；站点地图扩至 **99** 个 URL，IndexNow 四端点提交 99 个 URL 全部 `200`。
+- **去中心化留存**：2 个 BitTorrent/WebSeed swarm（含磁力链接与浏览器内 WebTorrent）、BagIt holey bag（`fetch.txt` 指向全球镜像）、IPFS CIDv1 清单（**未代注册 pinning**）、Memento TimeMap（40 个 Wayback 快照索引）。
+- **全球端点**：GitHub commit `4599dd3d`；Release `v3.0.0` 30 个资产；Gist 19 个文件；OSF 60 个文件；Software Heritage 两次存档请求受理；Pages 新页面 99/99 可达。
+- **合规传播**：`broadcast.html` 一键分发台（10 语种文案 / 12 平台深链 / BibTeX 复制）与 `BROADCAST-KIT.md`；**所有发布动作由本人点击完成**，不代发、不群发、不刷量。
+- **核验**：CHECKSUMS 68/68 ALL OK；全量脱敏扫描 **PASS**（真名 / QQ / QQ 邮箱 / 旧号 0 命中，传播面 0 泄露，旧 Figshare 链接仅存在于下架工单材料）。
+
+- **Zenodo 新版本**：DOI （16 个资产），已通过 DataCite 注册表复核 creators 仅 ；概念 DOI  仍指向最新版本。
+
+### 第四轮边界
+
+- 无法保证搜索「劳动价值论」排名第一，也无法主动推送到每个关注者眼前；排名与推荐由搜索引擎和平台算法决定，且「劳动价值论」是经典高频概念、竞争极强。本轮做的是合规可发现性，不刷量、不买外链、不操纵排名。
+- 无法承诺「到人类文明灭亡仍存在」；最大化的是冗余度、可校验性与可重建性。CC BY 4.0 允许任何人复印、翻译、做种与再托管。
+- OAI-PMH 为静态快照，非实时端点；IPFS 已算 CID 但未执行永久 pin（需带凭证服务）。
+- 所有记录仍为网络预发布预印本，有 DOI、未经同行评审，不等同期刊正式发表。
+- 本轮未重新发布 WorkBuddy 线上站点（未收到本轮明确的重新发布授权）；GitHub Pages 规范站点已包含全部第四轮内容。
