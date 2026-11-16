@@ -10,6 +10,11 @@
 | 在线阅读页 | — | https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG | 全文 + 9 页原稿影印 |
 | GitHub | v1.0.0 Release | https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0 | 版本快照，附 PDF |
 
+## 全球分发台账
+
+全部干净入口、CDN 副本、12 处 Wayback 永久快照、Software Heritage / OpenAIRE / IndexNow 状态与机器可读元数据清单，见
+`DISTRIBUTION.md`、`distribution.html` 与 `PRESERVATION.md`。
+
 ## 建议引用格式
 
 ```

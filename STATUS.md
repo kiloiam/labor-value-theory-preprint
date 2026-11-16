@@ -12,6 +12,17 @@
 8. **百晓智能**：期刊匹配、10/10 条参考文献核验、审稿人候选、预印本政策检索，结果已写入投递台。
 9. **一键脚本已按实测修复**：Zenodo 的 related_identifiers/500 与 license 写法、Figshare 的 upload_url 分片端点、license id、必填 categories；dry-run 通过。
 
+## 全球留存与分发（2026-11-16 追加，已真实执行）
+
+10. **Software Heritage**：仓库已完整存档，`visit_status=full`；另发请求 2654599 抓取含新增元数据的最新提交。
+11. **Internet Archive Wayback**：12 个干净公开入口全部生成永久快照（含阅读页、分发页、PDF、Zenodo / Figshare / OSF / GitHub / Release / CDN）。
+12. **IndexNow**：26 个 URL 提交至官方聚合、Bing、Yandex、Seznam，全部受理。
+13. **机器可读元数据**：新增 DataCite 4.5、OAI-PMH oai_dc、Dublin Core、MARC21、METS、Schema.org JSON-LD、EndNote、Zotero RDF、APA / MLA / Chicago、7 语种摘要、Atom / RSS；两个阅读页注入 Highwire / DC / EPrints / COinS 标签。
+14. **冗余副本**：OSF 项目上传 16 个元数据文件，GitHub Release 挂载 15 个元数据资产，仓库主题标签扩至 11 个。
+15. **索引核验**：OpenAIRE 已收录主 DOI（`total=1`）；Zenodo 社区 `political economy` 收录申请已提交（status `submitted`）；OpenAlex / Semantic Scholar 尚未收录，属自动抓取时滞。
+
+完整链接与返回码见 `DISTRIBUTION.md`、`distribution.html`、`PRESERVATION.md`。
+
 ## 未执行与原因
 
 - **未向编辑部发送投稿信**：《中南大学学报(社会科学版)》2026-06-08 官方声明明确「通常情况下只接受在线投稿」「从未授权任何机构或个人代投」，`znsk@csu.edu.cn` 仅作咨询核实。填写页虽勾选授权，但未提供收件邮箱，且期刊规则排除代投。请本人在 https://zndxsk.csu.edu.cn 的「作者在线投稿」系统提交，正文见 `cover-letter.md`。

@@ -29,13 +29,18 @@
 
 | 服务 | 类型 | 状态 | 核验说明 |
 |---|---|---|---|
-| Software Heritage | 永久源码/文档存档 | 已受理 | save-code-now 请求 2654490，visit_type=git，status=accepted；UNESCO 支持的长期存档 |
+| Software Heritage | 永久源码/文档存档 | 已存档 | 请求 2654490：`save_task_status=succeeded`、`visit_status=full`（2026-11-16 06:18 UTC）；最新提交另发请求 2654599 重抓 |
+| Internet Archive Wayback | 网页时间胶囊 | 已存档 12 处 | 阅读页、分发页、PDF、Markdown、DataCite XML、Zenodo、Figshare、OSF、GitHub、Release、CDN、在线阅读页，12/12 成功 |
+| IndexNow | 搜索引擎即时收录 | 已受理 26 个 URL | 官方聚合 202、Bing 202、Yandex 202（success=true）、Seznam 200 |
 | OpenAIRE | 欧盟开放学术索引 | 已收录 | 查询结果 total=1，标题与 DOI 均命中 |
 | DataCite | DOI 注册元数据 | 已注册 | api.datacite.org/dois/10.5281/zenodo.24270266 返回 200 |
-| Internet Archive Wayback | 网页时间胶囊 | 受限于 bot 限流 | Save Page Now 返回 429；已改用 Software Heritage 与多 CDN 副本长期留存 |
+| Zenodo 社区 political economy | 主题社区收录 | 申请已提交 | 收录申请 21fad38a… 状态 submitted，等待社区处理；主 DOI 与记录不受影响 |
+| OSF 项目 | 额外元数据副本 | 已上传 16 个 | DataCite / OAI-DC / MARCXML / METS / JSON-LD / Atom / RSS / 多语种摘要 / 分发台账等，全部 201 |
+| GitHub Release v1.0.0 | 版本化资产 | 已挂载 16 个资产 | PDF 之外新增 15 个机器可读元数据文件 |
+| GitHub 主题标签 | 站内与搜索引擎检索 | 已扩展至 11 个 | 新增 automation、historical-materialism、marxian-economics、open-access、zenodo、political-philosophy |
 | OpenAlex | 开放学术图谱 | 尚未收录 | 由 DataCite 周期性抓取，通常需数周；当前 API 返回 404 |
 | Semantic Scholar | 学术索引 | 尚未收录 | 自动抓取，当前 API 返回 404；不作人工提交承诺 |
-| Google Scholar / CORE / BASE / Unpaywall | 自动聚合索引 | 等待自动抓取 | 页面已提供 Highwire、Dublin Core、COinS、OAI-DC 与 sitemap，供抓取器识别 |
+| Google Scholar / CORE / BASE / Unpaywall | 自动聚合索引 | 等待自动抓取 | 页面已提供 Highwire、Dublin Core、EPrints、COinS、OAI-DC、Schema.org 与 sitemap，供抓取器识别 |
 
 ## 四、机器可读元数据
 
@@ -80,7 +85,24 @@ Didgeridoo. 劳动价值论是历史性范畴：当代价值危机[Z/OL]. Zenodo
 `abstracts.json` 含中文、英文、日文、西班牙文、法文、德文、俄文简要摘要与关键词，仅供检索；
 引用与学术表述以中文原文与作者英文摘要为准。
 
-## 注意
+## 七、Internet Archive 永久快照（12 处）
+
+| 原始地址 | 永久快照 |
+|---|---|
+| https://kiloiam.github.io/labor-value-theory-preprint/ | https://web.archive.org/web/20261116061932/https://kiloiam.github.io/labor-value-theory-preprint/ |
+| https://kiloiam.github.io/labor-value-theory-preprint/distribution.html | https://web.archive.org/web/20261116063441/https://kiloiam.github.io/labor-value-theory-preprint/distribution.html |
+| https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf | https://web.archive.org/web/20261116063502/https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf |
+| https://kiloiam.github.io/labor-value-theory-preprint/manuscript.md | https://web.archive.org/web/20261116063617/https://kiloiam.github.io/labor-value-theory-preprint/manuscript.md |
+| https://kiloiam.github.io/labor-value-theory-preprint/datacite.xml | https://web.archive.org/web/20261116063625/https://kiloiam.github.io/labor-value-theory-preprint/datacite.xml |
+| https://zenodo.org/records/24270266 | https://web.archive.org/web/20261116063639/https://zenodo.org/records/24270266 |
+| https://figshare.com/articles/preprint/_/35018998 | https://web.archive.org/web/20261116063709/https://figshare.com/articles/preprint/_/35018998 |
+| https://osf.io/wubs2/ | https://web.archive.org/web/20261116063738/https://osf.io/wubs2/ |
+| https://github.com/kiloiam/labor-value-theory-preprint | https://web.archive.org/web/20261116063802/https://github.com/kiloiam/labor-value-theory-preprint |
+| https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0 | https://web.archive.org/web/20261116063826/https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0 |
+| https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf | https://web.archive.org/web/20261116063848/https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf |
+| https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG | https://web.archive.org/web/20261116063948/https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG |
+
+## 八、注意
 
 - **请勿传播** Figshare 旧记录 `35018683` 的 v1/v2 历史版本链接，其中仍含早期署名；官方下架工单已提交，等待处理。
 - 以上均为**网络预发布预印本**，未经同行评审，不等同于期刊正式发表，不构成成果认定依据。

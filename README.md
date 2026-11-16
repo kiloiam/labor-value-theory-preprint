@@ -22,6 +22,11 @@
 | `submit_all.py` | 一键分发脚本（默认 dry-run） |
 | `STATUS.md` | 已完成 / 待本人操作清单 |
 | `ARCHIVE-LINKS.md` | 三个公开存档、两个 DOI 与引用格式 |
+| `DISTRIBUTION.md` / `distribution.html` | **全球分发台账**：全部干净入口、存档状态、引用与永久快照 |
+| `PRESERVATION.md` | 长期留存与索引提交的执行记录（含真实返回码） |
+| `datacite.xml` / `oai_dc.xml` / `dublincore.xml` / `marcxml.xml` / `mets.xml` | 供 DOI 机构、OAI 收割器与图书馆系统读取的机器可读元数据 |
+| `schema.jsonld` / `citation.enw` / `citation.rdf` / `citation-*.txt` | Schema.org、EndNote、Zotero RDF 与 APA / MLA / Chicago 引用格式 |
+| `abstracts.json` / `feed.xml` / `rss.xml` | 7 语种检索摘要、Atom 与 RSS 订阅源 |
 
 ## 引用
 
@@ -48,7 +53,10 @@ Didgeridoo. 劳动价值论是历史性范畴：当代价值危机[Z/OL]. Zenodo
 - **Figshare DOI**：https://doi.org/10.6084/m9.figshare.35018998.v1 （作者署名已修正）
 - **OSF 公开项目**：https://osf.io/wubs2/ （PDF 完整）
 - 在线阅读页（全文 + 原稿影印）：https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG
-- 本仓库 v1.0.0 Release（含 PDF 附件）：https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0
+- GitHub Pages 阅读页：https://kiloiam.github.io/labor-value-theory-preprint/
+- **全球分发清单**：https://kiloiam.github.io/labor-value-theory-preprint/distribution.html
+- jsDelivr 全球 CDN（PDF）：https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf
+- 本仓库 v1.0.0 Release（含 PDF 与 15 个元数据资产）：https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0
 - 在线投递工作台：https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/submission-kit.html?sharecode=ZILGUJCJKG
   （也可在在线阅读页顶部「投递工作台与完整提交包」入口进入）
 
@@ -57,6 +65,17 @@ Didgeridoo. 劳动价值论是历史性范畴：当代价值危机[Z/OL]. Zenodo
 本轮已通过作者授权的平台令牌真实提交，取得 Zenodo 主 DOI `10.5281/zenodo.24270266` 与 Figshare `10.6084/m9.figshare.35018998.v1`，并在 OSF 建立公开项目；三处均为 CC BY 4.0、作者署名「Didgeridoo」、附完整 paper.pdf。详见 `ARCHIVE-LINKS.md`。
 
 > DOI 只提供可引用性与长期保存，**不等同于期刊正式发表**，未经同行评审。
+
+## 全球留存与分发（2026-11-16 追加）
+
+- **Software Heritage** 已完整存档本仓库（`visit_status=full`），并另发请求抓取含新增元数据的最新提交。
+- **Internet Archive Wayback** 已为 12 个干净公开入口生成永久快照（阅读页、分发页、PDF、Zenodo / Figshare / OSF / GitHub / Release / CDN 等）。
+- **IndexNow** 已向官方聚合、Bing、Yandex、Seznam 提交 26 个 URL，全部受理。
+- **OpenAIRE** 已收录主 DOI；**Zenodo 社区 political economy** 的收录申请已提交、等待社区处理。
+- **OSF 项目**新增 16 个机器可读元数据副本；GitHub Release 挂载 15 个元数据资产；仓库主题标签扩展至 11 个。
+- 页面提供 Highwire `citation_*`、Dublin Core、EPrints、COinS、Schema.org JSON-LD、OAI-DC、DataCite XML、MARCXML、METS、Atom / RSS 与 7 语种检索元数据，便于聚合器自动收割。
+
+完整链接、状态与返回码见 `DISTRIBUTION.md` 与 `PRESERVATION.md`。OpenAlex、Semantic Scholar 等自动抓取型索引尚未收录，属正常时滞，不作人工收录承诺。
 
 ## 期刊投稿入口
 
