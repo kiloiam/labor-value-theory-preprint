@@ -1,0 +1,96 @@
+# 劳动价值论是历史性范畴：当代价值危机 — round 6 long-tail Q&A corpus
+# Explanatory guides, NOT the paper. The preprint is not peer reviewed.
+# Question | short answer | canonical page
+
+## 劳动价值论与主观价值论有什么区别 / Labor theory of value vs subjective theory of value
+Q(zh): 劳动价值论与主观价值论有什么区别
+A(zh): 两者回答的不是同一个问题。劳动价值论追问的是：在商品交换普遍化的社会里，是什么使不同商品能够按某种比例相互交换，以及利润的来源是什么；主观价值论（边际效用理论）追问的是：单个消费者如何根据偏好与稀缺性对物品作出评价，价格如何由此形成。 因此在标准经济学教科书里，19 世纪后期以来的边际革命常被描述为研究重心从「生产与供给侧的客观成本」转向「需求侧的主观评价」。但把这一转向直接读成「劳动价值论被证伪」，是后来的论战修辞，而不是两种提问方式之间的逻辑关系。
+Link(zh): https://kiloiam.github.io/labor-value-theory-preprint/ltv-vs-subjective-value.html
+Q(en): Labor theory of value vs subjective theory of value
+A(en): The two theories answer different questions. The labor theory of value asks what makes heterogeneous commodities exchangeable in definite proportions when commodity exchange is generalized, and where profit comes from. The subjective (marginal-utility) theory asks how an individual consumer ranks goods given preferences and scarcity, and how prices emerge from that. Standard textbooks therefore describe the marginal revolution of the late nineteenth century as a shift of attention from objective production-side cost to demand-side subjective valuation. Reading that shift as a straightforward falsification of the LTV is a polemical gloss, not a logical relation between the two questions.
+Link(en): https://kiloiam.github.io/labor-value-theory-preprint/ltv-vs-subjective-value-en.html
+Scope: background explainer; the preprint itself addresses the historical limit of the value-category under automation, not the general debate above.
+
+## 马克思与李嘉图的劳动价值论有何不同 / Marx vs Ricardo on the labor theory of value
+Q(zh): 马克思与李嘉图的劳动价值论有何不同
+A(zh): 在古典政治经济学里，李嘉图把耗费劳动量作为决定商品相对价格的主要原则，并把它当作适用于商品生产的一般规律。马克思继承了这一问题框架，但改变了提问方式：他追问的不是「劳动量如何决定价格」，而是「在什么样的社会关系下，劳动才必须表现为价值」。 由此产生的关键区分包括：劳动力与劳动的区分、抽象劳动与具体劳动的区分，以及价值形式如何使私人劳动取得社会性。这些概念把价值从一种技术性的计量规则，变成对特定社会形式的分析。这也是为什么许多二手文献把马克思的工作称为对古典政治经济学的批判，而非简单延续。
+Link(zh): https://kiloiam.github.io/labor-value-theory-preprint/ltv-marx-ricardo.html
+Q(en): Marx vs Ricardo on the labor theory of value
+A(en): In classical political economy, Ricardo treated the quantity of labor expended as the main principle determining relative prices, and as a general law of commodity production. Marx inherited that framework but changed the question: not how labor quantities determine prices, but under what social relations labor must take the form of value. That shift produces the familiar distinctions between labor power and labor, between abstract and concrete labor, and the analysis of the value-form through which private labor acquires social validity. Value becomes an analysis of a specific social form rather than a technical measuring rule; this is why secondary literature usually describes Marx's work as a critique of classical political economy.
+Link(en): https://kiloiam.github.io/labor-value-theory-preprint/ltv-marx-ricardo-en.html
+Scope: background explainer; the preprint itself addresses the historical limit of the value-category under automation, not the general debate above.
+
+## 价值与价格有什么区别 / Value and price: what is the difference?
+Q(zh): 价值与价格有什么区别
+A(zh): 在马克思经济学的术语里，价值不是价格的另一个名字。价值指的是在特定社会关系下，抽象劳动时间取得的社会形式；价格则是这一关系在货币与市场交易中表现出来的可观察数量。二者不处于同一层次，因此不能要求它们逐项相等。 中间还隔着若干环节：部门间资本有机构成与利润率的平均化、市场供求、货币表现，以及竞争。所谓「转型问题」讨论的正是价值如何经过这些环节转化为生产价格，这是长期存在争议的技术性文献，不是本页能裁定的问题。
+Link(zh): https://kiloiam.github.io/labor-value-theory-preprint/ltv-value-price.html
+Q(en): Value and price: what is the difference?
+A(en): In Marxian terminology, value is not another word for price. Value names the social form that abstract labor time acquires under definite social relations; price is the observable magnitude in which that relation appears in money and market transactions. They sit at different levels, so pointwise equality is not to be expected. Several mediations lie between them: equalization of profit rates across sectors with different organic compositions of capital, supply and demand, monetary expression, and competition. The transformation problem concerns precisely how values are converted into prices of production through these mediations; it is a long-running contested technical literature.
+Link(en): https://kiloiam.github.io/labor-value-theory-preprint/ltv-value-price-en.html
+Scope: background explainer; the preprint itself addresses the historical limit of the value-category under automation, not the general debate above.
+
+## 抽象劳动与具体劳动是什么 / Abstract labor vs concrete labor
+Q(zh): 抽象劳动与具体劳动是什么
+A(zh): 具体劳动指有特定目的、工具、对象与结果的劳动——织布、编程、装配各不相同，它生产的是使用价值。抽象劳动则不是另一种劳动，而是同一劳动在商品交换中被抽去具体规定性后，作为可通约的人类劳动支出所取得的社会规定。 这一区分之所以关键，是因为它解释了异质商品为何能相互交换：不是在物理属性上可比，而是在交换实践中被还原为可通约的抽象劳动时间，并以社会必要劳动时间为尺度。价值因此是社会关系，而不是物品自带的属性。
+Link(zh): https://kiloiam.github.io/labor-value-theory-preprint/ltv-abstract-labour.html
+Q(en): Abstract labor vs concrete labor
+A(en): Concrete labor is labor with a definite purpose, instruments, object and result — weaving, programming, assembling — and it produces use-values. Abstract labor is not a second kind of labor; it is the social determination the same labor acquires when, in commodity exchange, its concrete specificity is set aside and it counts as commensurable human labor expenditure. The distinction explains how heterogeneous goods become exchangeable: not because their physical properties are comparable, but because exchange practice reduces them to commensurable abstract labor time measured by socially necessary labor time. Value is therefore a social relation rather than an intrinsic property of things.
+Link(en): https://kiloiam.github.io/labor-value-theory-preprint/ltv-abstract-labour-en.html
+Scope: background explainer; the preprint itself addresses the historical limit of the value-category under automation, not the general debate above.
+
+## 什么是价值形式 / What is the value-form?
+Q(zh): 什么是价值形式
+A(zh): 价值形式问的是：价值既不是物品的物理属性，也不是单纯的主观评价，那么它究竟以什么方式表现出来？在《资本论》的分析里，答案从最简单的「一种商品与另一种商品相交换」的关系开始，逐步展开到一般等价物与货币形式。 要点在于：价值只能在商品与商品的关系中取得客观表现，一个商品的价值要通过另一个商品的使用价值来体现。由此，人与人之间的社会关系采取了物与物之间关系的形式，这通常被归入商品拜物教这一主题。价值形式分析因此不是价格理论的技术附录，而是对特定社会形式的说明。
+Link(zh): https://kiloiam.github.io/labor-value-theory-preprint/ltv-value-form.html
+Q(en): What is the value-form?
+A(en): The value-form asks: if value is neither a physical property of a thing nor a merely subjective evaluation, in what way does it appear at all? In Capital the analysis begins with the simplest relation — one commodity exchanged for another — and develops through the general equivalent to the money form. The point is that value can acquire objective expression only within a relation between commodities: the value of one commodity is expressed in the use-value of another. Social relations between people thus take the form of relations between things, the theme usually treated under commodity fetishism. Value-form analysis is therefore not a technical appendix to price theory but an account of a specific social form.
+Link(en): https://kiloiam.github.io/labor-value-theory-preprint/ltv-value-form-en.html
+Scope: background explainer; the preprint itself addresses the historical limit of the value-category under automation, not the general debate above.
+
+## 生产劳动与非生产劳动如何区分 / Productive vs unproductive labor
+Q(zh): 生产劳动与非生产劳动如何区分
+A(zh): 在马克思经济学的用法里，这一区分不是道德评价，也不是「有用／没用」之分，而是看劳动是否处于资本增殖关系之中、是否直接生产剩余价值。同一类工作在不同生产关系下可以落在不同的位置。 由此常见的争论是：运输、保管、商业与流通环节的劳动如何归类，管理劳动与监督劳动如何计算，以及服务与公共部门劳动的地位。这些问题在不同解读传统里答案并不一致，本页不作裁决，只提示「生产劳动」是关系性范畴而非行业清单。
+Link(zh): https://kiloiam.github.io/labor-value-theory-preprint/ltv-productive-labour.html
+Q(en): Productive vs unproductive labor
+A(en): In Marxian usage this distinction is neither a moral judgment nor a useful/useless split. It asks whether a labor stands within the capital-valorization relation and directly produces surplus value. The same kind of work can fall on different sides under different relations of production. Recurring disputes concern transport and storage, commercial and circulation labor, the treatment of management and supervision, and the status of service and public-sector work. Different interpretive traditions answer differently. This page does not adjudicate; it notes that 'productive labor' is a relational category, not a list of industries.
+Link(en): https://kiloiam.github.io/labor-value-theory-preprint/ltv-productive-labour-en.html
+Scope: background explainer; the preprint itself addresses the historical limit of the value-category under automation, not the general debate above.
+
+## 服务业劳动创造价值吗 / Does service-sector labor create value?
+Q(zh): 服务业劳动创造价值吗
+A(zh): 这个问题通常不能用一个「是」或「否」回答，因为答案取决于采用的是哪套概念：价值是指生产剩余价值的雇佣劳动，还是指更宽泛的社会有用劳动；服务是以商品形式出售，还是由公共财政支付；劳动是物质产品生产，还是提供即时活动。 常见的讨论路径包括：运输与保管被视为生产过程的延续，商业与纯粹流通费用另作处理，个人服务、平台劳动与「非物质劳动」则引出更多分歧。不同解读传统给出的边界并不一致，本页只整理提问层次，不作定论。
+Link(zh): https://kiloiam.github.io/labor-value-theory-preprint/ltv-service-sector.html
+Q(en): Does service-sector labor create value?
+A(en): There is usually no simple yes or no, because the answer depends on the conceptual frame: whether value means wage labor producing surplus value or socially useful labor more broadly; whether a service is sold as a commodity or paid from public funds; whether labor yields a material product or an activity consumed as it is performed. Standard discussions treat transport and storage as continuations of the production process, handle commercial activity and pure circulation costs separately, and disagree over personal services, platform labor and 'immaterial labor'. Different interpretive traditions draw different boundaries; this page maps the questions rather than settling them.
+Link(en): https://kiloiam.github.io/labor-value-theory-preprint/ltv-service-sector-en.html
+Scope: background explainer; the preprint itself addresses the historical limit of the value-category under automation, not the general debate above.
+
+## 利润率趋向下降与劳动价值论是什么关系 / The falling rate of profit and the labor theory of value
+Q(zh): 利润率趋向下降与劳动价值论是什么关系
+A(zh): 在马克思经济学的框架里，利润率趋向下降规律通常与资本有机构成提高相关：当不变资本相对活劳动增长，而剩余价值被归结为活劳动所创造，利润率就面临下行压力，并有若干「反作用因素」被同时讨论。这一规律的解释与经验地位长期存在争论。 它与劳动价值论的关系在于共享同一套前提：价值增殖依赖可变资本所购买的劳动力。也正因如此，围绕自动化、生产率提高与利润率的各种当代讨论，常常回到「活劳动还是不是价值的源泉」这一根本问题上。
+Link(zh): https://kiloiam.github.io/labor-value-theory-preprint/ltv-profit-rate.html
+Q(en): The falling rate of profit and the labor theory of value
+A(en): In the Marxian framework, the tendency of the rate of profit to fall is usually linked to a rising organic composition of capital: as constant capital grows relative to living labor while surplus value is attributed to living labor, downward pressure on the profit rate emerges, alongside a set of counteracting factors. Both the interpretation and the empirical standing of the law remain contested. Its connection to the labor theory of value lies in a shared premise: valorization depends on the labor power purchased by variable capital. That is why contemporary debates about automation, productivity and profitability repeatedly return to the question of whether living labor remains the source of value.
+Link(en): https://kiloiam.github.io/labor-value-theory-preprint/ltv-profit-rate-en.html
+Scope: background explainer; the preprint itself addresses the historical limit of the value-category under automation, not the general debate above.
+
+## 劳动价值论能被经验检验吗 / Can the labor theory of value be empirically tested?
+Q(zh): 劳动价值论能被经验检验吗
+A(zh): 有一整支文献尝试用投入产出表检验劳动价值与市场价格之间的相关性，讨论「价值能否预测价格」、偏离程度如何度量，以及聚合层次与价格口径对结果的影响。这些研究属于转型问题与计量经济学的范围，结论并不一致。 但「能否检验」还取决于把理论理解成什么：若把它读作价格预测模型，就可以设定数据与检验；若把它读作对特定社会形式的分析，则其核心主张关乎范畴成立的历史条件，无法用一组价格相关系数直接证实或证伪。这两种读法对应不同层次的问题。
+Link(zh): https://kiloiam.github.io/labor-value-theory-preprint/ltv-empirical.html
+Q(en): Can the labor theory of value be empirically tested?
+A(en): A substantial literature uses input-output tables to test the correlation between labor values and market prices, asking whether values predict prices, how deviations should be measured, and how aggregation levels and price definitions affect results. This belongs to the transformation-problem and econometric literature, and its findings are not uniform. Whether the theory is testable at all depends on what one takes it to be. Read as a price-prediction model, data and tests can be specified. Read as an analysis of a specific social form, its core claim concerns the historical conditions under which the category is valid and cannot be directly confirmed or refuted by a price correlation coefficient. These are different levels of question.
+Link(en): https://kiloiam.github.io/labor-value-theory-preprint/ltv-empirical-en.html
+Scope: background explainer; the preprint itself addresses the historical limit of the value-category under automation, not the general debate above.
+
+## 劳动价值论入门应该按什么顺序读 / A reading order for the labor theory of value
+Q(zh): 劳动价值论入门应该按什么顺序读
+A(zh): 一条常见路径是：先掌握基本术语（使用价值与价值、具体劳动与抽象劳动、社会必要劳动时间、剩余价值、可变资本与不变资本），再进入价值形式与商品交换的分析，然后读剩余价值生产与资本积累，最后才是利率、利润率与危机理论等更复杂的层次。 入门阶段最容易被两件事绊住：一是把价值当成价格的另一个说法，二是把「抽象劳动」误解成脑力劳动。站内术语表与「价值与价格」「抽象劳动与具体劳动」两页专门处理这两处混淆。二手导读可以帮助建立框架，但不同解读传统差异很大，最好对照原文与多种导读阅读。
+Link(zh): https://kiloiam.github.io/labor-value-theory-preprint/ltv-reading-guide.html
+Q(en): A reading order for the labor theory of value
+A(en): A common route is: first master the basic vocabulary (use-value and value, concrete and abstract labor, socially necessary labor time, surplus value, variable and constant capital), then the value-form and commodity exchange, then surplus-value production and accumulation, and only later the harder layers of interest, profit rates and crisis theory. Two stumbling blocks recur at the start: treating value as merely another word for price, and mistaking 'abstract labor' for mental labor. This site's glossary and its pages on value versus price and on abstract versus concrete labor address exactly those confusions. Secondary guides help build a frame, but interpretive traditions differ considerably, so reading them alongside primary texts is advisable.
+Link(en): https://kiloiam.github.io/labor-value-theory-preprint/ltv-reading-guide-en.html
+Scope: background explainer; the preprint itself addresses the historical limit of the value-category under automation, not the general debate above.
+
+Canonical full text: https://kiloiam.github.io/labor-value-theory-preprint/
+DOI: https://doi.org/10.5281/zenodo.24270266 | CC BY 4.0 | author Didgeridoo

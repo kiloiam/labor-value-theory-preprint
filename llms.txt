@@ -93,3 +93,23 @@ with QAPage/FAQPage structured data. These are explanatory guides, not the paper
 - [Search engine indexing kit](https://kiloiam.github.io/labor-value-theory-preprint/search-console-kit.html)
 - [Round 5 report](https://kiloiam.github.io/labor-value-theory-preprint/ROUND5-REPORT.md)
 
+## Round 6 - further long-tail discovery pages
+
+Ten more real search questions (concepts, history, empirical scope, reading order),
+each answered substantively in Chinese and English. Explanatory guides, not the paper.
+
+- [劳动价值论与主观价值论有什么区别](https://kiloiam.github.io/labor-value-theory-preprint/ltv-vs-subjective-value.html) / [Labor theory of value vs subjective theory of value](https://kiloiam.github.io/labor-value-theory-preprint/ltv-vs-subjective-value-en.html)
+- [马克思与李嘉图的劳动价值论有何不同](https://kiloiam.github.io/labor-value-theory-preprint/ltv-marx-ricardo.html) / [Marx vs Ricardo on the labor theory of value](https://kiloiam.github.io/labor-value-theory-preprint/ltv-marx-ricardo-en.html)
+- [价值与价格有什么区别](https://kiloiam.github.io/labor-value-theory-preprint/ltv-value-price.html) / [Value and price: what is the difference?](https://kiloiam.github.io/labor-value-theory-preprint/ltv-value-price-en.html)
+- [抽象劳动与具体劳动是什么](https://kiloiam.github.io/labor-value-theory-preprint/ltv-abstract-labour.html) / [Abstract labor vs concrete labor](https://kiloiam.github.io/labor-value-theory-preprint/ltv-abstract-labour-en.html)
+- [什么是价值形式](https://kiloiam.github.io/labor-value-theory-preprint/ltv-value-form.html) / [What is the value-form?](https://kiloiam.github.io/labor-value-theory-preprint/ltv-value-form-en.html)
+- [生产劳动与非生产劳动如何区分](https://kiloiam.github.io/labor-value-theory-preprint/ltv-productive-labour.html) / [Productive vs unproductive labor](https://kiloiam.github.io/labor-value-theory-preprint/ltv-productive-labour-en.html)
+- [服务业劳动创造价值吗](https://kiloiam.github.io/labor-value-theory-preprint/ltv-service-sector.html) / [Does service-sector labor create value?](https://kiloiam.github.io/labor-value-theory-preprint/ltv-service-sector-en.html)
+- [利润率趋向下降与劳动价值论是什么关系](https://kiloiam.github.io/labor-value-theory-preprint/ltv-profit-rate.html) / [The falling rate of profit and the labor theory of value](https://kiloiam.github.io/labor-value-theory-preprint/ltv-profit-rate-en.html)
+- [劳动价值论能被经验检验吗](https://kiloiam.github.io/labor-value-theory-preprint/ltv-empirical.html) / [Can the labor theory of value be empirically tested?](https://kiloiam.github.io/labor-value-theory-preprint/ltv-empirical-en.html)
+- [劳动价值论入门应该按什么顺序读](https://kiloiam.github.io/labor-value-theory-preprint/ltv-reading-guide.html) / [A reading order for the labor theory of value](https://kiloiam.github.io/labor-value-theory-preprint/ltv-reading-guide-en.html)
+
+- [Round 6 Q&A corpus](https://kiloiam.github.io/labor-value-theory-preprint/llms-topics-r6.txt)
+- [Round 6 machine-readable page graph](https://kiloiam.github.io/labor-value-theory-preprint/schema-round6.jsonld)
+- [Round 6 report](https://kiloiam.github.io/labor-value-theory-preprint/ROUND6-REPORT.md)
+

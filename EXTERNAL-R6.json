@@ -1,0 +1,695 @@
+{
+  "aggregators_r6": {
+    "schema": "workbuddy.aggregator-check/1.0",
+    "checked_at": "2026-11-16T11:37:19Z",
+    "doi_checked": "10.5281/zenodo.24279668",
+    "results": {
+      "datacite": {
+        "http": 200,
+        "detail": "{'data': {'id': '10.5281/zenodo.24279668', 'type': 'dois', 'attributes': {'doi': '10.5281/zenodo.24279668', 'p"
+      },
+      "openaire": {
+        "http": 200,
+        "detail": "total=1"
+      },
+      "openalex": {
+        "http": 404,
+        "detail": "<!doctype html> <html lang=en> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not fo"
+      },
+      "semantic_scholar": {
+        "http": 404,
+        "detail": "{\"error\":\"Paper with id DOI:10.5281/zenodo.24279668 not found\"} "
+      },
+      "crossref": {
+        "http": 404,
+        "detail": "Resource not found."
+      },
+      "core": {
+        "http": 429,
+        "detail": ""
+      },
+      "base": {
+        "http": 200,
+        "detail": "<!doctype html><html lang=\"en\"><head><title>Making sure you&#39;re not a bot!</title><link rel=\"stylesheet\" hr"
+      },
+      "google_sitemap_ping": {
+        "http": 404,
+        "detail": "<HTML> <HEAD> <TITLE>Sitemaps ping is deprecated. See https://developers.google.com/search/blog/2023/06/sitema"
+      },
+      "bing_sitemap_ping": {
+        "http": 410,
+        "detail": ""
+      }
+    },
+    "notes": [
+      "OpenAlex / Semantic Scholar harvest only from registered sources; a 404 means not yet harvested, not rejection. Neither accepts single-paper submissions.",
+      "Crossref 404 is expected: Zenodo DOIs are registered with DataCite.",
+      "Google and Bing sitemap ping endpoints were retired (404 / 410); IndexNow is used.",
+      "CORE rate-limits unauthenticated requests (429); BASE serves an anti-bot page. No policy claim is made for either."
+    ]
+  },
+  "telegraph_r6": {
+    "pages": [
+      {
+        "lang": "zh",
+        "http": 200,
+        "ok": true,
+        "url": "https://telegra.ph/劳动价值论常见检索问题导览二-11-16",
+        "error": null,
+        "index_items": 10
+      },
+      {
+        "lang": "en",
+        "http": 200,
+        "ok": true,
+        "url": "https://telegra.ph/Labor-theory-of-value-a-guide-to-further-search-questions-11-16",
+        "error": null,
+        "index_items": 10
+      }
+    ],
+    "published": 2,
+    "policy": "Index + links only; no duplicated full text, no doorway pages"
+  },
+  "websub_r6": {
+    "hub": "https://pubsubhubbub.appspot.com/",
+    "pings": [
+      {
+        "feed": "https://kiloiam.github.io/labor-value-theory-preprint/feed.xml",
+        "http": 204,
+        "ok": true
+      },
+      {
+        "feed": "https://kiloiam.github.io/labor-value-theory-preprint/rss.xml",
+        "http": 204,
+        "ok": true
+      }
+    ]
+  },
+  "indexnow_r6": {
+    "urls_submitted": 158,
+    "endpoints": [
+      {
+        "endpoint": "https://api.indexnow.org/indexnow",
+        "http": 200,
+        "response": ""
+      },
+      {
+        "endpoint": "https://www.bing.com/indexnow",
+        "http": 200,
+        "response": ""
+      },
+      {
+        "endpoint": "https://yandex.com/indexnow",
+        "http": 200,
+        "response": "{'success': True}"
+      },
+      {
+        "endpoint": "https://search.seznam.cz/indexnow",
+        "http": 200,
+        "response": ""
+      }
+    ],
+    "all_ok": true
+  },
+  "release_v5": {
+    "ok": true,
+    "assets": 34,
+    "output": "https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v5.0.0"
+  },
+  "osf_r6": {
+    "existing_before": 90,
+    "uploaded_ok": 30,
+    "attempted": 30,
+    "failed": [],
+    "detail": [
+      {
+        "file": "llms-topics-r6.txt",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "schema-round6.jsonld",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "sitemap-round6.xml",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "BUILD-R6.json",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ROUND6-REPORT.md",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "EXTERNAL-R6.json",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "AGGREGATORS-R6.json",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "VIXRA-SUBMISSION-STATUS.md",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "open-archive-kit.zip",
+        "http": 200,
+        "ok": true
+      },
+      {
+        "file": "CHECKSUMS.sha256",
+        "http": 200,
+        "ok": true
+      },
+      {
+        "file": "ltv-vs-subjective-value.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-vs-subjective-value-en.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-marx-ricardo.html",
+        "http": 0,
+        "ok": false
+      },
+      {
+        "file": "ltv-marx-ricardo-en.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-value-price.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-value-price-en.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-abstract-labour.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-abstract-labour-en.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-value-form.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-value-form-en.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-productive-labour.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-productive-labour-en.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-service-sector.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-service-sector-en.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-profit-rate.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-profit-rate-en.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-empirical.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-empirical-en.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-reading-guide.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-reading-guide-en.html",
+        "http": 201,
+        "ok": true
+      }
+    ],
+    "retry_fixed": [
+      {
+        "file": "ltv-marx-ricardo.html",
+        "http": 201
+      }
+    ]
+  },
+  "gist_r6": {
+    "ok": 7,
+    "attempted": 7,
+    "detail": [
+      {
+        "file": "llms-topics-r6.txt",
+        "ok": true,
+        "output": ""
+      },
+      {
+        "file": "schema-round6.jsonld",
+        "ok": true,
+        "output": ""
+      },
+      {
+        "file": "sitemap-round6.xml",
+        "ok": true,
+        "output": ""
+      },
+      {
+        "file": "BUILD-R6.json",
+        "ok": true,
+        "output": ""
+      },
+      {
+        "file": "ROUND6-REPORT.md",
+        "ok": true,
+        "output": ""
+      },
+      {
+        "file": "AGGREGATORS-R6.json",
+        "ok": true,
+        "output": ""
+      },
+      {
+        "file": "VIXRA-SUBMISSION-STATUS.md",
+        "ok": true,
+        "output": ""
+      }
+    ]
+  },
+  "wayback_r6": {
+    "targets": 25,
+    "save_accepted": 0,
+    "cdx_confirmed": 1,
+    "detail": [
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-vs-subjective-value.html",
+        "save_http": 0,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-vs-subjective-value-en.html",
+        "save_http": 523,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-marx-ricardo.html",
+        "save_http": 523,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-marx-ricardo-en.html",
+        "save_http": 523,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-value-price.html",
+        "save_http": 523,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-value-price-en.html",
+        "save_http": 0,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-abstract-labour.html",
+        "save_http": 523,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-abstract-labour-en.html",
+        "save_http": 429,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-value-form.html",
+        "save_http": 429,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-value-form-en.html",
+        "save_http": 429,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-productive-labour.html",
+        "save_http": 429,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-productive-labour-en.html",
+        "save_http": 429,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-service-sector.html",
+        "save_http": 523,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-service-sector-en.html",
+        "save_http": 523,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-profit-rate.html",
+        "save_http": 523,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-profit-rate-en.html",
+        "save_http": 429,
+        "cdx_http": 0,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-empirical.html",
+        "save_http": 429,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-empirical-en.html",
+        "save_http": 429,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-reading-guide.html",
+        "save_http": 429,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-reading-guide-en.html",
+        "save_http": 429,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/llms-topics-r6.txt",
+        "save_http": 429,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/schema-round6.jsonld",
+        "save_http": 523,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ROUND6-REPORT.md",
+        "save_http": 523,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/sitemap-round6.xml",
+        "save_http": 523,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/search-console-kit.html",
+        "save_http": 429,
+        "cdx_http": 200,
+        "snapshot_confirmed": true
+      }
+    ],
+    "note": "Telegraph and non-ASCII URLs were excluded after round-5 403 failures. Only CDX-confirmed snapshots count as archived."
+  },
+  "zenodo_v3": {
+    "ok": true,
+    "draft_id": "24279668",
+    "inherited_files_removed": 16,
+    "publish_http": 202,
+    "doi": "10.5281/zenodo.24279668",
+    "concept_doi": "10.5281/zenodo.24269665",
+    "files_ok": 28,
+    "files": [
+      {
+        "file": "paper-vixra.pdf",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "open-archive-kit.zip",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "llms-topics-r6.txt",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "schema-round6.jsonld",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "sitemap-round6.xml",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "BUILD-R6.json",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ROUND6-REPORT.md",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "CHECKSUMS.sha256",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-vs-subjective-value.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-vs-subjective-value-en.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-marx-ricardo.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-marx-ricardo-en.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-value-price.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-value-price-en.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-abstract-labour.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-abstract-labour-en.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-value-form.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-value-form-en.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-productive-labour.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-productive-labour-en.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-service-sector.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-service-sector-en.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-profit-rate.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-profit-rate-en.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-empirical.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-empirical-en.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-reading-guide.html",
+        "http": 201,
+        "ok": true
+      },
+      {
+        "file": "ltv-reading-guide-en.html",
+        "http": 201,
+        "ok": true
+      }
+    ],
+    "note": "Third immutable version under the existing concept DOI; initial 415 upload failure fixed by an explicit Content-Type. Inherited metadata stays Didgeridoo-only and de-identified."
+  },
+  "zenodo_v3_fix": {
+    "ok": true,
+    "variant": "octet-stream",
+    "uploaded": 28,
+    "publish_http": 202
+  },
+  "wayback_r6_retry": {
+    "attempted": 8,
+    "cdx_confirmed": 0,
+    "detail": [
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ROUND6-REPORT.md",
+        "save_http": 523,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/llms-topics-r6.txt",
+        "save_http": 523,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/schema-round6.jsonld",
+        "save_http": 523,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/sitemap-round6.xml",
+        "save_http": 523,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-vs-subjective-value.html",
+        "save_http": 523,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-abstract-labour.html",
+        "save_http": 523,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-value-price.html",
+        "save_http": 429,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      },
+      {
+        "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-empirical.html",
+        "save_http": 429,
+        "cdx_http": 200,
+        "snapshot_confirmed": false
+      }
+    ],
+    "note": "Slow retry after round-6 rate limiting. Only CDX-confirmed snapshots count; a 429/523 or an unconfirmed CDX is recorded as NOT archived."
+  }
+}

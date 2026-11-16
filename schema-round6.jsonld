@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://kiloiam.github.io/labor-value-theory-preprint/#article",
+      "name": "劳动价值论是历史性范畴：当代价值危机",
+      "author": {
+        "@type": "Person",
+        "name": "Didgeridoo"
+      },
+      "identifier": "https://doi.org/10.5281/zenodo.24270266",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "hasPart": [
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-vs-subjective-value.html",
+          "name": "劳动价值论与主观价值论有什么区别"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-vs-subjective-value-en.html",
+          "name": "Labor theory of value vs subjective theory of value"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-marx-ricardo.html",
+          "name": "马克思与李嘉图的劳动价值论有何不同"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-marx-ricardo-en.html",
+          "name": "Marx vs Ricardo on the labor theory of value"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-value-price.html",
+          "name": "价值与价格有什么区别"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-value-price-en.html",
+          "name": "Value and price: what is the difference?"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-abstract-labour.html",
+          "name": "抽象劳动与具体劳动是什么"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-abstract-labour-en.html",
+          "name": "Abstract labor vs concrete labor"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-value-form.html",
+          "name": "什么是价值形式"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-value-form-en.html",
+          "name": "What is the value-form?"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-productive-labour.html",
+          "name": "生产劳动与非生产劳动如何区分"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-productive-labour-en.html",
+          "name": "Productive vs unproductive labor"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-service-sector.html",
+          "name": "服务业劳动创造价值吗"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-service-sector-en.html",
+          "name": "Does service-sector labor create value?"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-profit-rate.html",
+          "name": "利润率趋向下降与劳动价值论是什么关系"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-profit-rate-en.html",
+          "name": "The falling rate of profit and the labor theory of value"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-empirical.html",
+          "name": "劳动价值论能被经验检验吗"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-empirical-en.html",
+          "name": "Can the labor theory of value be empirically tested?"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-reading-guide.html",
+          "name": "劳动价值论入门应该按什么顺序读"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-reading-guide-en.html",
+          "name": "A reading order for the labor theory of value"
+        }
+      ]
+    }
+  ]
+}
