@@ -107,7 +107,7 @@ python submit_all.py --live --only zenodo   # 仅提交指定平台（注意避�
   `OPEN-ARCHIVES.md`、`open-archive-kit/`（11 个预填文件，含 `viXra-form.md`）、
   `paper-vixra.pdf`、`citation-guide.html`、`search-console-kit.html`、`schema-enhanced.jsonld`。
 - 站点地图 132 个 URL；IndexNow 132 个 URL × 4 端点；Telegraph 10 个语种摘要页上线；
-  GitHub Release `v4.0.0`；Pages 实测 129/129 可达；SHA-256 180 项；脱敏扫描 PASS。
+  GitHub Release `v4.0.0`；Pages 实测 132/132 可达；SHA-256 全量校验通过；脱敏扫描 PASS。
 - 学术库实测：DataCite 与 OpenAIRE 已收录，OpenAlex / Semantic Scholar 尚未（自动收割有延迟）。
 - 边界：viXra 提交仍需本人提供联系邮箱、勾选权属声明并点击提交（一经上线永久记录）；
   arXiv 需背书与机构认证，其余需账号/机构邮箱/同行评审；不承诺排名；

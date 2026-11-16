@@ -30,7 +30,7 @@
 | 引用指南 | `citation-guide.html`：BibTeX / RIS / APA / MLA / Chicago / GB7714 / DataCite |
 | 站长收录清单 | `search-console-kit.html`：自动项与需本人验证项分开，记录已停用端点 |
 | 站点地图 | **99 → 132 个 URL**（最终），新增 `sitemap-round5.xml`，robots.txt 已声明 |
-| SHA-256 | **166 项**（排除自引用的生成器回执与站点专用图片），最终 **0 处不一致** |
+| SHA-256 | 全量校验（排除自引用的生成器回执与站点专用图片），最终 **0 处不一致** |
 | Pages 可达性 | **132 / 132** |
 | 脱敏回归扫描 | **PASS · 0 处硬违规** |
 
