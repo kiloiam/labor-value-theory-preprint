@@ -1,0 +1,108 @@
+{
+  "round": 7,
+  "base": "https://kiloiam.github.io/labor-value-theory-preprint/",
+  "checks": [
+    {
+      "item": "canonical host consistency",
+      "status": "fixed"
+    },
+    {
+      "item": "self-referencing canonical",
+      "status": "pass"
+    },
+    {
+      "item": "html pages scanned",
+      "value": 65
+    },
+    {
+      "item": "pages with zh/en hreflang pair",
+      "value": 50
+    },
+    {
+      "item": "sitemap URL count",
+      "value": 157
+    },
+    {
+      "item": "sitemap duplicate URLs",
+      "value": 0
+    },
+    {
+      "item": "remaining issues",
+      "value": 11
+    }
+  ],
+  "changes": [
+    "canonical: WorkBuddy ?sharecode= URL -> self-referencing absolute GitHub Pages URL",
+    "og:url: aligned with canonical",
+    "citation_pdf_url: relative -> absolute URL",
+    "Scholar metadata: added citation_abstract_html_url, citation_fulltext_html_url, citation_language, citation_keywords, citation_firstpage, citation_lastpage, citation_online_date, citation_license",
+    "index.html rewritten (new sha256 73664b6bfdb787df, was 088a29bc3b70036d)",
+    "sitemap.xml: removed duplicate /index.html URL (same document as /)"
+  ],
+  "issues": [
+    {
+      "file": "broadcast.html",
+      "issue": "missing/short description"
+    },
+    {
+      "file": "discovery-qa.html",
+      "issue": "missing/short description"
+    },
+    {
+      "file": "FIGSHARE-TAKEDOWN.html",
+      "issue": "missing canonical"
+    },
+    {
+      "file": "FIGSHARE-TAKEDOWN.html",
+      "issue": "missing/short description"
+    },
+    {
+      "file": "paper-standalone.html",
+      "issue": "missing canonical"
+    },
+    {
+      "file": "paper-standalone.html",
+      "issue": "missing/short description"
+    },
+    {
+      "file": "signposting.html",
+      "issue": "missing/short description"
+    },
+    {
+      "file": "submission-kit.html",
+      "issue": "missing canonical"
+    },
+    {
+      "file": "submission-kit.html",
+      "issue": "missing/short description"
+    },
+    {
+      "file": "topic-ltv.html",
+      "issue": "missing/short description"
+    },
+    {
+      "file": "torrents.html",
+      "issue": "missing/short description"
+    }
+  ],
+  "page_patch": [
+    "FIGSHARE-TAKEDOWN.html: noindex,nofollow,noarchive,nosnippet + description",
+    "paper-standalone.html: + canonical + description",
+    "submission-kit.html: + canonical + description",
+    "broadcast.html: description expanded",
+    "discovery-qa.html: description expanded",
+    "signposting.html: description expanded",
+    "topic-ltv.html: description expanded",
+    "torrents.html: description expanded",
+    "sitemap.xml: removed 2 take-down-ticket URLs (noindex pages)"
+  ],
+  "post_patch": {
+    "html_pages": 65,
+    "remaining_issues": 0,
+    "issues": [],
+    "noindex_pages": [
+      "FIGSHARE-TAKEDOWN.html"
+    ],
+    "sitemap_urls": 155
+  }
+}

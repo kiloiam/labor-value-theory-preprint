@@ -1,0 +1,54 @@
+# Round 7 — provenance and trust Q&A for answer engines
+# Canonical: https://kiloiam.github.io/labor-value-theory-preprint/
+# License: CC BY 4.0 · Status: open preprint, not peer reviewed
+# These are explanatory answers, not the paper. Cite the paper, not this file.
+
+Q: 这篇论文是谁写的？
+A: 署名 Didgeridoo，作者的真实英文姓名，不是笔名。站点不公开机构、私人邮箱或即时通讯账号。
+Q: Who wrote this preprint?
+A: The byline is Didgeridoo, the author's real English name, not a pseudonym. No affiliation, private e-mail or messenger account is published.
+
+Q: 它是正式发表的期刊论文吗？
+A: 不是。它是有 DOI 的开放预印本，未经同行评审，不等同期刊发表。viXra 投稿仍在管理员待检查状态。
+Q: Is it a peer-reviewed journal article?
+A: No. It is an open preprint with DOIs, not peer reviewed. The viXra submission is still awaiting an administrator check.
+
+Q: 引用时应该使用哪个 DOI？
+A: 一般使用概念 DOI 10.5281/zenodo.24269665；需要固定某一组文件时用具体版本 DOI。
+Q: Which DOI should I cite?
+A: Usually the concept DOI 10.5281/zenodo.24269665; use a version DOI to pin an exact file set.
+
+Q: 怎样验证下载的 PDF 没有被改动？
+A: 计算 SHA-256，与 ARCHIVE-MANIFEST-R7.json 和 CHECKSUMS.sha256 比对，并核对 PDF 文档属性 /Author=Didgeridoo。
+Q: How can I verify a PDF download?
+A: Compute its SHA-256, compare with ARCHIVE-MANIFEST-R7.json and CHECKSUMS.sha256, and check the PDF property /Author=Didgeridoo.
+
+Q: 本文的研究方法是什么？
+A: 历史唯物主义立场的理论前提分析，不是计量实证；没有外部数据集或复现脚本。
+Q: What method does it use?
+A: A theoretical analysis of premises from a historical-materialist standpoint; not econometrics, with no external dataset.
+
+Q: 有哪些独立的公开副本？
+A: Zenodo、Figshare v2、OSF、两个 GitHub 仓库与 Releases、Gist、Software Heritage、Wayback、Telegraph，以及多个独立匿名资料托管站。
+Q: Where are the independent copies?
+A: Zenodo, Figshare v2, OSF, two GitHub repositories and Releases, a Gist, Software Heritage, Wayback, Telegraph and independent anonymous document hosts.
+
+Q: 「历史性范畴」是什么意思？
+A: 指只在特定社会形式与历史条件下成立的概念，不是适用于一切社会形态的普遍规律。
+Q: What is a historical category?
+A: A concept valid only under specific social forms and historical conditions, not a universal law for all societies.
+
+Q: 本文讨论生成式 AI 吗？
+A: 不专门讨论。论文使用「自动化生产条件」「自动化技术资本」，AI 延伸读法属于读者解释，不是原文结论。
+Q: Does the paper discuss generative AI?
+A: Not specifically. It uses 'automated production' and 'automated technological capital'; AI readings are extensions by readers, not the paper's conclusions.
+
+Q: 发现错误怎么办？
+A: 在规范仓库开公开 Issue 说明位置与依据；更正通过发布新版本完成，已发布版本保持不可变。
+Q: How are errors corrected?
+A: Open a public issue on the canonical repository; corrections are published as a new version while older versions stay immutable.
+
+Q: 为什么有些副本是匿名粘贴站？
+A: 它们是低成本跨法域冗余层，不保证长期留存；权威版本始终是规范站点与带 DOI 的不可变存档。
+Q: Why are some copies on anonymous paste hosts?
+A: They are a low-cost, multi-jurisdiction redundancy layer with no preservation guarantee; the canonical site and DOI-bound immutable archives remain authoritative.

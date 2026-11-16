@@ -64,3 +64,4 @@ Sitemap: https://kiloiam.github.io/labor-value-theory-preprint/sitemap-discovery
 Sitemap: https://kiloiam.github.io/labor-value-theory-preprint/sitemap-index.xml
 Sitemap: https://kiloiam.github.io/labor-value-theory-preprint/sitemap-round5.xml
 Sitemap: https://kiloiam.github.io/labor-value-theory-preprint/sitemap-round6.xml
+Sitemap: https://kiloiam.github.io/labor-value-theory-preprint/sitemap-round7.xml

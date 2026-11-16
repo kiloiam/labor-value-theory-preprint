@@ -1,0 +1,74 @@
+{
+  "schema": "open-archive-bundle/1.0",
+  "generated": "2026-11-16",
+  "title_zh": "劳动价值论是历史性范畴：当代价值危机",
+  "title_en": "The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value",
+  "author": "Didgeridoo",
+  "author_note": "real English name, not a pseudonym",
+  "license": "CC BY 4.0",
+  "status": "open preprint, not peer reviewed",
+  "canonical": "https://kiloiam.github.io/labor-value-theory-preprint/",
+  "pdf": "https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf",
+  "pdf_sha256": "1bf85cf8bb0a91fe01738e875b360319180852fd0f0fe0aeb5ab628fd3d84c3a",
+  "bundle": "https://kiloiam.github.io/labor-value-theory-preprint/archives/ARCHIVE-BUNDLE-R7.txt",
+  "bundle_sha256": "9a5442baebb0c1bca87737fd28a035740e7858fb23f151a778e2465e8733f6c2",
+  "bundle_bytes": 37349,
+  "full_text_chars": 13864,
+  "concept_doi": "10.5281/zenodo.24269665",
+  "version_dois": [
+    "10.5281/zenodo.24270266",
+    "10.5281/zenodo.24274919",
+    "10.5281/zenodo.24279668"
+  ],
+  "archives": [
+    {
+      "name": "GitHub Pages (canonical full text)",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/"
+    },
+    {
+      "name": "Zenodo concept DOI",
+      "url": "https://doi.org/10.5281/zenodo.24269665"
+    },
+    {
+      "name": "DataCite",
+      "url": "https://api.datacite.org/dois/10.5281/zenodo.24279668"
+    },
+    {
+      "name": "OpenAIRE",
+      "url": "https://explore.openaire.eu/search/publication?pid=10.5281/zenodo.24279668"
+    },
+    {
+      "name": "Figshare clean record",
+      "url": "https://doi.org/10.6084/m9.figshare.35018998"
+    },
+    {
+      "name": "OSF project",
+      "url": "https://osf.io/wubs2/"
+    },
+    {
+      "name": "GitHub repository",
+      "url": "https://github.com/kiloiam/labor-value-theory-preprint"
+    },
+    {
+      "name": "GitHub Releases",
+      "url": "https://github.com/kiloiam/labor-value-theory-preprint/releases"
+    },
+    {
+      "name": "GitHub Gist",
+      "url": "https://gist.github.com/kiloiam"
+    },
+    {
+      "name": "Software Heritage",
+      "url": "https://archive.softwareheritage.org/browse/origin/https://github.com/kiloiam/labor-value-theory-preprint/"
+    },
+    {
+      "name": "Wayback Machine",
+      "url": "https://web.archive.org/web/*/https://kiloiam.github.io/labor-value-theory-preprint/*"
+    },
+    {
+      "name": "WorkBuddy reading page",
+      "url": "https://wbapp-qjvohz0ip85p3s9mnjS8dO.app.workbuddy.host/"
+    }
+  ],
+  "privacy": "de-identified; no e-mail, no QQ identifier, no personal contact, no legacy Figshare record"
+}
