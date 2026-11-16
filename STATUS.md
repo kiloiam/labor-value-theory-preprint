@@ -82,7 +82,7 @@ python submit_all.py --live --only zenodo   # 仅提交指定平台（注意避�
 - **合规传播**：`broadcast.html` 一键分发台（10 语种文案 / 12 平台深链 / BibTeX 复制）与 `BROADCAST-KIT.md`；**所有发布动作由本人点击完成**，不代发、不群发、不刷量。
 - **核验**：CHECKSUMS 68/68 ALL OK；全量脱敏扫描 **PASS**（真名 / QQ / QQ 邮箱 / 旧号 0 命中，传播面 0 泄露，旧 Figshare 链接仅存在于下架工单材料）。
 
-- **Zenodo 新版本**：DOI （16 个资产），已通过 DataCite 注册表复核 creators 仅 ；概念 DOI  仍指向最新版本。
+- **Zenodo 新版本**：DOI `10.5281/zenodo.24274919`（16 个资产），已通过 DataCite 注册表复核 creators 仅 `Didgeridoo`；概念 DOI `10.5281/zenodo.24269665` 仍指向最新版本。
 
 ### 第四轮边界
 
