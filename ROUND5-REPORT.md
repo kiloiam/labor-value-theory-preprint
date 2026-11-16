@@ -10,8 +10,9 @@
 
 - 已核实 [viXra 官方提交页](https://vixra.org/submit) 原文：`You should give your real name as author`，
   并写明自 2019-10-01 起 `nom de plume (pen name)` 不可接受。以真实英文姓名投稿**符合**该要求。
-- 全站 43 个文件、86 处「笔名 / pen name」表述已中性化为「署名 / author name」；
-  多语种页面（en / de / fr / pt / it）的作者问答同步更正。
+- 全站公开文件中的「笔名 / pen name」表述已分批中性化为「署名 / author name」，
+  多语种页面（en / de / fr / pt / it）的作者问答同步更正；仅保留「不是笔名」「禁止笔名」
+  等正确否定语义与澄清文档中对历史表述的引用。
 - viXra 从「不代做」移入「无门槛 · 需本人一步」档，并备好逐字段表单与专用投稿版 PDF。
 - **隐私边界不变**：仍不出现其他姓名、QQ 号、QQ 邮箱、单位与私人联系方式。详见 `AUTHOR-NAME-CLARIFICATION.md`。
 - arXiv 等其余平台重新归因：其门槛是背书、账号与机构认证，**不是姓名问题**，故仍不代注册、不伪造背书。
@@ -29,8 +30,8 @@
 | 引用指南 | `citation-guide.html`：BibTeX / RIS / APA / MLA / Chicago / GB7714 / DataCite |
 | 站长收录清单 | `search-console-kit.html`：自动项与需本人验证项分开，记录已停用端点 |
 | 站点地图 | **99 → 132 个 URL**（最终），新增 `sitemap-round5.xml`，robots.txt 已声明 |
-| SHA-256 | **180 项** |
-| Pages 可达性 | **129 / 129** |
+| SHA-256 | **182 项**，报告生成后统一重算，最终 0 处不一致 |
+| Pages 可达性 | **132 / 132** |
 | 脱敏回归扫描 | **PASS · 0 处硬违规** |
 
 ## 二、外部发布实测回执

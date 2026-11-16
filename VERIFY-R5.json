@@ -1,27 +1,18 @@
 {
-  "verified_at": "2026-11-16T09:47:45Z",
+  "verified_at": "2026-11-16T09:49:52Z",
   "pages": {
-    "total": 129,
-    "ok": 129,
+    "total": 132,
+    "ok": 132,
     "bad": []
   },
   "checksums_initial": {
-    "ok": 165,
-    "bad": 4,
+    "ok": 181,
+    "bad": 1,
     "missing": 0
   },
   "links": {
-    "broken": 2,
-    "sample": [
-      [
-        "broadcast.html",
-        "'+p[1](t)+'"
-      ],
-      [
-        "search.html",
-        "'+r.x[1]+'"
-      ]
-    ]
+    "broken": 0,
+    "sample": []
   },
   "jsonld": {
     "blocks": 37,
@@ -35,14 +26,14 @@
       "[scan] osf-display-name       0 ",
       "[scan] qq-mail-pattern        0 ",
       "[scan] old-figshare-clickable 6 -> FIGSHARE-TAKEDOWN-REQUEST.md, FIGSHARE-TAKEDOWN.eml, FIGSHARE-TAKEDOWN.html, submission-package.zip!submission-package/FIGSHARE-TAKEDOWN-REQUEST.md, submission-package.zip!submission-package/FIGSHARE-TAKEDOWN.eml, submission-package.zip!submission-package/FIGSHARE-TAKEDOWN.html",
-      "[scan] old-figshare numeric mentions (warning text only): 48",
+      "[scan] old-figshare numeric mentions (warning text only): 49",
       "[scan] BROADCAST-SURFACE leaks: 0 []",
       "[scan] hard violations: 0 | old-figshare links confined to take-down ticket: True",
       "[scan] VERDICT: PASS"
     ]
   },
   "sitemap_urls": 132,
-  "checksums": 180,
+  "checksums": 182,
   "external": {
     "telegraph": {
       "platform": "Telegraph (telegra.ph)",
