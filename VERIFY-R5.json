@@ -1,0 +1,372 @@
+{
+  "verified_at": "2026-11-16T09:47:45Z",
+  "pages": {
+    "total": 129,
+    "ok": 129,
+    "bad": []
+  },
+  "checksums_initial": {
+    "ok": 165,
+    "bad": 4,
+    "missing": 0
+  },
+  "links": {
+    "broken": 2,
+    "sample": [
+      [
+        "broadcast.html",
+        "'+p[1](t)+'"
+      ],
+      [
+        "search.html",
+        "'+r.x[1]+'"
+      ]
+    ]
+  },
+  "jsonld": {
+    "blocks": 37,
+    "invalid": []
+  },
+  "anonymity": {
+    "returncode": 0,
+    "pass": true,
+    "summary": [
+      "[scan] legacy-number          0 ",
+      "[scan] osf-display-name       0 ",
+      "[scan] qq-mail-pattern        0 ",
+      "[scan] old-figshare-clickable 6 -> FIGSHARE-TAKEDOWN-REQUEST.md, FIGSHARE-TAKEDOWN.eml, FIGSHARE-TAKEDOWN.html, submission-package.zip!submission-package/FIGSHARE-TAKEDOWN-REQUEST.md, submission-package.zip!submission-package/FIGSHARE-TAKEDOWN.eml, submission-package.zip!submission-package/FIGSHARE-TAKEDOWN.html",
+      "[scan] old-figshare numeric mentions (warning text only): 48",
+      "[scan] BROADCAST-SURFACE leaks: 0 []",
+      "[scan] hard violations: 0 | old-figshare links confined to take-down ticket: True",
+      "[scan] VERDICT: PASS"
+    ]
+  },
+  "sitemap_urls": 132,
+  "checksums": 180,
+  "external": {
+    "telegraph": {
+      "platform": "Telegraph (telegra.ph)",
+      "account": "Pen-name-free account under the real English name Didgeridoo",
+      "policy": "No review, no institutional barrier; only abstract + canonical links published (no duplicate full text)",
+      "pages": [
+        {
+          "lang": "zh",
+          "http": 200,
+          "ok": true,
+          "url": "https://telegra.ph/劳动价值论是历史性范畴当代价值危机-11-16",
+          "error": null
+        },
+        {
+          "lang": "en",
+          "http": 200,
+          "ok": true,
+          "url": "https://telegra.ph/The-Labor-Theory-of-Value-as-a-Historical-Category-The-Contemporary-Crisis-of-Value-11-16",
+          "error": null
+        },
+        {
+          "lang": "ja",
+          "http": 200,
+          "ok": true,
+          "url": "https://telegra.ph/労働価値論は歴史的範疇である現代における価値の危機-11-16",
+          "error": null
+        },
+        {
+          "lang": "es",
+          "http": 200,
+          "ok": true,
+          "url": "https://telegra.ph/La-teoría-del-valor-trabajo-como-categoría-histórica-la-crisis-contemporánea-del-valor-11-16",
+          "error": null
+        },
+        {
+          "lang": "fr",
+          "http": 200,
+          "ok": true,
+          "url": "https://telegra.ph/La-théorie-de-la-valeur-travail-comme-catégorie-historique--la-crise-contemporaine-de-la-valeur-11-16",
+          "error": null
+        },
+        {
+          "lang": "de",
+          "http": 200,
+          "ok": true,
+          "url": "https://telegra.ph/Die-Arbeitswertlehre-als-historische-Kategorie-Die-gegenwärtige-Krise-des-Werts-11-16",
+          "error": null
+        },
+        {
+          "lang": "ru",
+          "http": 200,
+          "ok": true,
+          "url": "https://telegra.ph/Trudovaya-teoriya-stoimosti-kak-istoricheskaya-kategoriya-sovremennyj-krizis-stoimosti-11-16",
+          "error": null
+        },
+        {
+          "lang": "pt",
+          "http": 200,
+          "ok": true,
+          "url": "https://telegra.ph/A-teoria-do-valor-trabalho-como-categoria-histórica-a-crise-contemporânea-do-valor-11-16",
+          "error": null
+        },
+        {
+          "lang": "it",
+          "http": 200,
+          "ok": true,
+          "url": "https://telegra.ph/La-teoria-del-valore-lavoro-come-categoria-storica-la-crisi-contemporanea-del-valore-11-16",
+          "error": null
+        },
+        {
+          "lang": "ko",
+          "http": 200,
+          "ok": true,
+          "url": "https://telegra.ph/노동가치론은-역사적-범주이다-현대적-가치의-위기-11-16",
+          "error": null
+        }
+      ],
+      "published": 10
+    },
+    "websub": {
+      "hub": "https://pubsubhubbub.appspot.com/",
+      "pings": [
+        {
+          "feed": "https://kiloiam.github.io/labor-value-theory-preprint/feed.xml",
+          "http": 204,
+          "ok": true
+        },
+        {
+          "feed": "https://kiloiam.github.io/labor-value-theory-preprint/rss.xml",
+          "http": 204,
+          "ok": true
+        }
+      ]
+    },
+    "indexnow": {
+      "urls_submitted": 129,
+      "endpoints": [
+        {
+          "endpoint": "https://api.indexnow.org/indexnow",
+          "http": 200,
+          "response": ""
+        },
+        {
+          "endpoint": "https://www.bing.com/indexnow",
+          "http": 200,
+          "response": ""
+        },
+        {
+          "endpoint": "https://yandex.com/indexnow",
+          "http": 200,
+          "response": "{'success': True}"
+        },
+        {
+          "endpoint": "https://search.seznam.cz/indexnow",
+          "http": 200,
+          "response": ""
+        }
+      ],
+      "all_ok": true
+    },
+    "software_heritage": {
+      "post_http": 200,
+      "post_created_request": true,
+      "post_response": "{'id': 2655125, 'origin_url': 'https://github.com/kiloiam/labor-value-theory-preprint', 'visit_type': 'git', 'save_request_date': '2026-11-16T09:35:19.856369+00:00', 'save_request_status': 'accepted', 'save_task_status':",
+      "list_http": 200,
+      "latest_request": {
+        "id": 2655125,
+        "status": "succeeded",
+        "visit": "full",
+        "snapshot": "swh:1:snp:a321e1f3c40288c1a908a0eb1419320b2c8bdb4e"
+      },
+      "note": "Only record what the API confirms; a 200 HTML page is not proof of a save request.",
+      "final_status_verified": true
+    },
+    "wayback_round5": {
+      "targets": 15,
+      "save_accepted": 11,
+      "cdx_confirmed": 11,
+      "detail": [
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/open-archives.html",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/citation-guide.html",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/search-console-kit.html",
+          "save_http": 0,
+          "cdx_http": 200,
+          "snapshot_confirmed": false
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/AUTHOR-NAME-CLARIFICATION.md",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/llms-topics.txt",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/paper-vixra.pdf",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-outdated.html",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-automation.html",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-ai.html",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-historical-category.html",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-surplus-value.html",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://kiloiam.github.io/labor-value-theory-preprint/ltv-crisis-of-value.html",
+          "save_http": 200,
+          "cdx_http": 200,
+          "snapshot_confirmed": true
+        },
+        {
+          "url": "https://telegra.ph/劳动价值论是历史性范畴当代价值危机-11-16",
+          "save_http": 0,
+          "cdx_http": 403,
+          "snapshot_confirmed": false
+        },
+        {
+          "url": "https://telegra.ph/The-Labor-Theory-of-Value-as-a-Historical-Category-The-Contemporary-Crisis-of-Value-11-16",
+          "save_http": 403,
+          "cdx_http": 403,
+          "snapshot_confirmed": false
+        },
+        {
+          "url": "https://telegra.ph/労働価値論は歴史的範疇である現代における価値の危機-11-16",
+          "save_http": 0,
+          "cdx_http": 403,
+          "snapshot_confirmed": false
+        }
+      ],
+      "retry": {
+        "attempted": 4,
+        "confirmed": 0,
+        "detail": [
+          {
+            "url": "https://kiloiam.github.io/labor-value-theory-preprint/search-console-kit.html",
+            "save_http": 0,
+            "cdx_http": 0,
+            "snapshot_confirmed": false
+          },
+          {
+            "url": "https://telegra.ph/劳动价值论是历史性范畴当代价值危机-11-16",
+            "save_http": 0,
+            "cdx_http": 0,
+            "snapshot_confirmed": false
+          },
+          {
+            "url": "https://telegra.ph/The-Labor-Theory-of-Value-as-a-Historical-Category-The-Contemporary-Crisis-of-Value-11-16",
+            "save_http": 0,
+            "cdx_http": 0,
+            "snapshot_confirmed": false
+          },
+          {
+            "url": "https://telegra.ph/労働価値論は歴史的範疇である現代における価値の危機-11-16",
+            "save_http": 0,
+            "cdx_http": 0,
+            "snapshot_confirmed": false
+          }
+        ],
+        "note": "Telegraph URLs with non-ASCII characters needed percent-encoding; a 403 from the Wayback save endpoint is recorded as not archived."
+      }
+    },
+    "release_v4": {
+      "ok": true,
+      "assets": 30,
+      "output": "https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v4.0.0"
+    },
+    "gist_update": {
+      "ok": 8,
+      "attempted": 8,
+      "detail": [
+        {
+          "file": "OPEN-ARCHIVES.md",
+          "ok": true,
+          "output": ""
+        },
+        {
+          "file": "AUTHOR-NAME-CLARIFICATION.md",
+          "ok": true,
+          "output": ""
+        },
+        {
+          "file": "llms-topics.txt",
+          "ok": true,
+          "output": ""
+        },
+        {
+          "file": "AGGREGATORS-R5.json",
+          "ok": true,
+          "output": ""
+        },
+        {
+          "file": "sitemap-round5.xml",
+          "ok": true,
+          "output": ""
+        },
+        {
+          "file": "open-archives.html",
+          "ok": true,
+          "output": ""
+        },
+        {
+          "file": "open-archive-kit/viXra-form.md",
+          "ok": true,
+          "output": ""
+        },
+        {
+          "file": "open-archive-kit/README.md",
+          "ok": true,
+          "output": ""
+        }
+      ]
+    },
+    "osf_sync": {
+      "existing_before": 60,
+      "uploaded_ok": 31,
+      "attempted": 31,
+      "failed": [],
+      "retry": {
+        "file": "citation-guide.html",
+        "http": 201,
+        "ok": true,
+        "response": "{'data': {'id': 'osfstorage/6afad0f59f8a2e9aba728e71', 'type': 'files', 'attributes': {'extra': {'guid': None, 'version': 1, 'downloads': 0, 'checkout"
+      }
+    }
+  }
+}

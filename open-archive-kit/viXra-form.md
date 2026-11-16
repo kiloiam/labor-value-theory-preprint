@@ -2,7 +2,7 @@
 
 入口：http://fs23.formsite.com/viXra/form2/index.html
 
-> 由你本人登录后复制粘贴并上传 `paper.pdf`。我不代注册、不代勾选权属声明。
+> 由你本人完成提交；我不代注册账号、不代勾选权属声明、不代点击提交。具体上传文件见下方「平台特定说明」。
 
 | 字段 | 填写内容 |
 |---|---|
@@ -17,7 +17,7 @@
 | Discipline / 学科 | Economics / Political economy / Social theory |
 | License / 许可 | CC BY 4.0 |
 | Type / 类型 | Preprint（非期刊论文、未经同行评审） |
-| File / 文件 | paper.pdf（从本站点下载后上传） |
+| File / 文件 | 见下方「平台特定说明」；通用版 paper.pdf 与专用版 paper-vixra.pdf 均在站点根目录 |
 | Existing DOI | 10.5281/zenodo.24270266（在「已有标识 / related identifier」字段填写） |
 | Canonical URL | https://kiloiam.github.io/labor-value-theory-preprint/ |
 | Rights statement | 本人拥有发布与授权权利；已在 Zenodo 以 CC BY 4.0 公开 |

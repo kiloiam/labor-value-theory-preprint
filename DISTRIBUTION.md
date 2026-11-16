@@ -139,3 +139,18 @@ Didgeridoo. 劳动价值论是历史性范畴：当代价值危机[Z/OL]. Zenodo
 **对外仍只分享干净记录**：Figshare `10.6084/m9.figshare.35018998.v1`、
 Zenodo `10.5281/zenodo.24270266`（或新版本 `24273568`）、OSF https://osf.io/wubs2/ 。
 Figshare 旧记录 `35018683` 的 v1 / v2 仍含早期署名，下架工单已提交、等待官方执行，请勿传播。
+
+
+## 第五轮：全球无门槛发布、长尾可发现性与署名澄清（2026-11-16）
+
+- **署名性质更正**：作者确认 `Didgeridoo` 为真实英文姓名，非笔名；全站表述已中性化，
+  viXra 的 real-name 要求已满足并解锁为可投平台。详见 `AUTHOR-NAME-CLARIFICATION.md`。
+- 新增 10 个真实检索意图 × 中英双版长尾页、`llms-topics.txt`、`open-archives.html`、
+  `OPEN-ARCHIVES.md`、`open-archive-kit/`（11 个预填文件，含 `viXra-form.md`）、
+  `paper-vixra.pdf`、`citation-guide.html`、`search-console-kit.html`、`schema-enhanced.jsonld`。
+- 站点地图 132 个 URL；IndexNow 129 个 URL × 4 端点；Telegraph 10 个语种摘要页上线；
+  GitHub Release `v4.0.0`；Pages 实测 129/129 可达；SHA-256 180 项；脱敏扫描 PASS。
+- 学术库实测：DataCite 与 OpenAIRE 已收录，OpenAlex / Semantic Scholar 尚未（自动收割有延迟）。
+- 边界：viXra 提交仍需本人提供联系邮箱、勾选权属声明并点击提交（一经上线永久记录）；
+  arXiv 需背书与机构认证，其余需账号/机构邮箱/同行评审；不承诺排名；
+  WorkBuddy 线上站点未重新发布（需明确授权）。完整报告见 `ROUND5-REPORT.md`。

@@ -79,3 +79,33 @@
 镜像实测：29 个端点中 28 个可达，明细见 `MIRROR-HEALTH.json`。
 
 **边界**：torrent 需要有人做种或 WebSeed 在线；IPFS 网关需要节点提供 block；BagIt 依赖 `fetch.txt` 中的 URL 仍可访问；Memento 依赖 Internet Archive。它们提高的是冗余度与可重建性，不是「永恒」承诺。全文 CC BY 4.0，欢迎任何人复刻、做种与再托管。
+
+
+## 第五轮：全球无门槛发布、长尾可发现性与署名澄清（2026-11-16）
+
+- **署名性质更正**：作者确认 `Didgeridoo` 为真实英文姓名，非笔名；全站表述已中性化，
+  viXra 的 real-name 要求已满足并解锁为可投平台。详见 `AUTHOR-NAME-CLARIFICATION.md`。
+- 新增 10 个真实检索意图 × 中英双版长尾页、`llms-topics.txt`、`open-archives.html`、
+  `OPEN-ARCHIVES.md`、`open-archive-kit/`（11 个预填文件，含 `viXra-form.md`）、
+  `paper-vixra.pdf`、`citation-guide.html`、`search-console-kit.html`、`schema-enhanced.jsonld`。
+- 站点地图 132 个 URL；IndexNow 129 个 URL × 4 端点；Telegraph 10 个语种摘要页上线；
+  GitHub Release `v4.0.0`；Pages 实测 129/129 可达；SHA-256 180 项；脱敏扫描 PASS。
+- 学术库实测：DataCite 与 OpenAIRE 已收录，OpenAlex / Semantic Scholar 尚未（自动收割有延迟）。
+- 边界：viXra 提交仍需本人提供联系邮箱、勾选权属声明并点击提交（一经上线永久记录）；
+  arXiv 需背书与机构认证，其余需账号/机构邮箱/同行评审；不承诺排名；
+  WorkBuddy 线上站点未重新发布（需明确授权）。完整报告见 `ROUND5-REPORT.md`。
+
+### Telegraph（第五轮）
+
+- zh → https://telegra.ph/劳动价值论是历史性范畴当代价值危机-11-16
+- en → https://telegra.ph/The-Labor-Theory-of-Value-as-a-Historical-Category-The-Contemporary-Crisis-of-Value-11-16
+- ja → https://telegra.ph/労働価値論は歴史的範疇である現代における価値の危機-11-16
+- es → https://telegra.ph/La-teoría-del-valor-trabajo-como-categoría-histórica-la-crisis-contemporánea-del-valor-11-16
+- fr → https://telegra.ph/La-théorie-de-la-valeur-travail-comme-catégorie-historique--la-crise-contemporaine-de-la-valeur-11-16
+- de → https://telegra.ph/Die-Arbeitswertlehre-als-historische-Kategorie-Die-gegenwärtige-Krise-des-Werts-11-16
+- ru → https://telegra.ph/Trudovaya-teoriya-stoimosti-kak-istoricheskaya-kategoriya-sovremennyj-krizis-stoimosti-11-16
+- pt → https://telegra.ph/A-teoria-do-valor-trabalho-como-categoria-histórica-a-crise-contemporânea-do-valor-11-16
+- it → https://telegra.ph/La-teoria-del-valore-lavoro-come-categoria-storica-la-crisi-contemporanea-del-valore-11-16
+- ko → https://telegra.ph/노동가치론은-역사적-범주이다-현대적-가치의-위기-11-16
+
+以上页面仅含摘要与规范链接，不复制全文；署名为真实英文姓名 `Didgeridoo`。

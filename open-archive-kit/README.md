@@ -17,8 +17,10 @@
 
 ## 上传文件
 
-从 https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf 下载 `paper.pdf`。
-PDF 的 `/Author` 已设为 `Didgeridoo`，不含真实身份信息。
+- 通用平台：下载 `paper.pdf`（`/Author` 已为 `Didgeridoo`，不含其他身份信息）。
+- **viXra 专用**：下载 `paper-vixra.pdf`，它在原 PDF 后附加英文声明页，内含英文标题、
+  298 词英文摘要、CC BY 4.0 许可、DOI 与规范链接——viXra 规定站外链接只能写在 PDF 内，
+  因此投 viXra 必须用这个版本，不要用 `paper.pdf`。
 
 ## 三条硬约束
 
