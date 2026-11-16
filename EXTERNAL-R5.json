@@ -93,7 +93,7 @@
     ]
   },
   "indexnow": {
-    "urls_submitted": 129,
+    "urls_submitted": 132,
     "endpoints": [
       {
         "endpoint": "https://api.indexnow.org/indexnow",

@@ -41,8 +41,8 @@
 | Telegraph 无门槛发布 | **10 / 10 个语种页全部 200 上线**；账号署名为 `Didgeridoo`，无需邮箱、无需审核 |
 | Telegraph 内容策略 | 每页**只放摘要 + 规范链接**，不复制全文，避免重复内容稀释规范站点权重 |
 | WebSub / PubSubHubbub | Atom 与 RSS 推送：feed.xml=204, rss.xml=204 |
-| IndexNow | **129 个 URL × 4 个端点**，状态码 200, 200, 200, 200 |
-| Wayback Machine | 本轮 11 个目标受理，CDX 确认 11 个快照 |
+| IndexNow | **132 个 URL × 4 个端点**，状态码 200, 200, 200, 200 |
+| Wayback Machine | 15 个目标中 **11 个快照经 CDX 确认**；4 个（3 个 Telegraph 页 + ）因 403 / 连接错误未存档，重试仍失败，如实记录 |
 | Software Heritage | POST 200；最新存档请求：{"id": 2655125, "status": "succeeded", "visit": "full", "snapshot": "swh:1:snp:a321e1f3c40288c1a908a0eb1419320b2c8bdb4e"} |
 | GitHub Release `v4.0.0` | 30 个不可变资产（含 `paper-vixra.pdf` 与全部预填材料） |
 | 公开 Gist | 8 / 8 个文件更新成功 |
@@ -84,7 +84,7 @@
 
 **做了（白帽）**：10 个真实检索意图的原创长尾页（非 doorway page）、完整 hreflang 矩阵与自引用 canonical、
 `QAPage` / `FAQPage` / `BreadcrumbList` / `Speakable` 结构化数据、Wikidata 概念关联、
-129 URL 站点地图与分卷、IndexNow 四端点提交、AI 爬虫显式许可（17 类）、
+132 URL 站点地图与分卷、IndexNow 四端点提交、AI 爬虫显式许可（17 类）、
 10 语种落地页、`llms-full.txt` / `llms-topics.txt` 语料、稳定的 DOI 与规范引用格式、
 站内 hub 互链与语义化 anchor text。
 

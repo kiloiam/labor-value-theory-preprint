@@ -88,7 +88,7 @@
 - 新增 10 个真实检索意图 × 中英双版长尾页、`llms-topics.txt`、`open-archives.html`、
   `OPEN-ARCHIVES.md`、`open-archive-kit/`（11 个预填文件，含 `viXra-form.md`）、
   `paper-vixra.pdf`、`citation-guide.html`、`search-console-kit.html`、`schema-enhanced.jsonld`。
-- 站点地图 132 个 URL；IndexNow 129 个 URL × 4 端点；Telegraph 10 个语种摘要页上线；
+- 站点地图 132 个 URL；IndexNow 132 个 URL × 4 端点；Telegraph 10 个语种摘要页上线；
   GitHub Release `v4.0.0`；Pages 实测 129/129 可达；SHA-256 180 项；脱敏扫描 PASS。
 - 学术库实测：DataCite 与 OpenAIRE 已收录，OpenAlex / Semantic Scholar 尚未（自动收割有延迟）。
 - 边界：viXra 提交仍需本人提供联系邮箱、勾选权属声明并点击提交（一经上线永久记录）；
