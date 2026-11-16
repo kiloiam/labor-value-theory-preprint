@@ -1,7 +1,7 @@
 {
   "mirrored_files": 166,
-  "local_head": "85c988e4fd2d28a25e960109c0e394f51236f9af",
-  "remote_main": "85c988e4fd2d28a25e960109c0e394f51236f9af",
+  "local_head": "cfe6fc38d4ce07e798fb8e8903df43daaebad571",
+  "remote_main": "cfe6fc38d4ce07e798fb8e8903df43daaebad571",
   "in_sync": true,
   "commit_message": "Round 5: long-tail discovery pages (10 topics x zh/en), global open-archive submission desk, schema.org semantic enrichment, citation guide, 129-URL sitemap"
 }

@@ -42,7 +42,7 @@
 | Telegraph 内容策略 | 每页**只放摘要 + 规范链接**，不复制全文，避免重复内容稀释规范站点权重 |
 | WebSub / PubSubHubbub | Atom 与 RSS 推送：feed.xml=204, rss.xml=204 |
 | IndexNow | **132 个 URL × 4 个端点**，状态码 200, 200, 200, 200 |
-| Wayback Machine | 15 个目标中 **11 个快照经 CDX 确认**；4 个（3 个 Telegraph 页 + ）因 403 / 连接错误未存档，重试仍失败，如实记录 |
+| Wayback Machine | 15 个目标中 **11 个快照经 CDX 确认**；4 个（3 个 Telegraph 页 + `search-console-kit.html`）因 403 / 连接错误未存档，重试仍失败，如实记录 |
 | Software Heritage | POST 200；最新存档请求：{"id": 2655125, "status": "succeeded", "visit": "full", "snapshot": "swh:1:snp:a321e1f3c40288c1a908a0eb1419320b2c8bdb4e"} |
 | GitHub Release `v4.0.0` | 30 个不可变资产（含 `paper-vixra.pdf` 与全部预填材料） |
 | 公开 Gist | 8 / 8 个文件更新成功 |
