@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>LTV Preprint</ShortName>
+  <Description>Search the open preprint The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value by Didgeridoo</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image height="64" width="64" type="image/svg+xml">https://kiloiam.github.io/labor-value-theory-preprint/favicon.svg</Image>
+  <Url type="text/html" template="https://kiloiam.github.io/labor-value-theory-preprint/search.html?q={searchTerms}"/>
+  <Url type="application/atom+xml" template="https://kiloiam.github.io/labor-value-theory-preprint/feed.xml?q={searchTerms}"/>
+  <Query role="example" searchTerms="automation value"/>
+  <AdultContent>false</AdultContent>
+  <Language>zh-CN</Language>
+  <Language>en</Language>
+</OpenSearchDescription>

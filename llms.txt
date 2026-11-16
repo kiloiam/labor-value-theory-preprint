@@ -1,0 +1,49 @@
+# 劳动价值论是历史性范畴：当代价值危机 / The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value
+
+> Open preprint by Didgeridoo (pen name), first made public 2026-11-16. Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+> Primary DOI: 10.5281/zenodo.24270266 · Concept DOI: 10.5281/zenodo.24269665 · Second DOI: 10.6084/m9.figshare.35018998.v1 · OSF: https://osf.io/wubs2/
+> Status: open preprint, NOT peer reviewed, NOT a journal publication.
+> Language of the full text: Chinese (zh-CN), with an English abstract written by the author.
+> All public copies use only the pen name Didgeridoo; no real name, email, phone or messaging account appears.
+
+This paper argues that the labour theory of value is a historically specific category grounded in
+wage labour, socially necessary labour time and generalised commodity exchange. Under automated
+production, variable capital is irreversibly expelled, profit turns into a negative political cost
+of maintaining the shell of private property, and commodity society faces a four-fold impossibility
+of self-repair. The conclusion is a call for the historical reconfiguration of production relations.
+
+## Full text
+- [PDF original (9 pages)](https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf)
+- [Plain-text full text, zero dependency](https://kiloiam.github.io/labor-value-theory-preprint/PAPER-PLAINTEXT.txt)
+- [Self-contained offline HTML](https://kiloiam.github.io/labor-value-theory-preprint/paper-standalone.html)
+- [Markdown full text](https://kiloiam.github.io/labor-value-theory-preprint/manuscript.md)
+- [Chinese reading page](https://kiloiam.github.io/labor-value-theory-preprint/index.html)
+- [Online facsimile reader with 9 page images](https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG)
+
+## Abstracts and metadata
+- [Author's English abstract](https://kiloiam.github.io/labor-value-theory-preprint/abstract-en.txt)
+- [Chinese abstract](https://kiloiam.github.io/labor-value-theory-preprint/abstract-zh.txt)
+- [10-language discovery abstracts](https://kiloiam.github.io/labor-value-theory-preprint/abstracts.json)
+- [DataCite 4.5 XML](https://kiloiam.github.io/labor-value-theory-preprint/datacite.xml) · [OAI-DC](https://kiloiam.github.io/labor-value-theory-preprint/oai_dc.xml) · [Dublin Core](https://kiloiam.github.io/labor-value-theory-preprint/dublincore.xml)
+- [MARC21 XML](https://kiloiam.github.io/labor-value-theory-preprint/marcxml.xml) · [METS+MODS](https://kiloiam.github.io/labor-value-theory-preprint/mets.xml) · [Schema.org JSON-LD](https://kiloiam.github.io/labor-value-theory-preprint/schema.jsonld)
+- [Atom feed](https://kiloiam.github.io/labor-value-theory-preprint/feed.xml) · [RSS 2.0](https://kiloiam.github.io/labor-value-theory-preprint/rss.xml) · [Sitemap](https://kiloiam.github.io/labor-value-theory-preprint/sitemap.xml)
+
+## Citation
+- [BibTeX](https://kiloiam.github.io/labor-value-theory-preprint/citation.bib) · [RIS](https://kiloiam.github.io/labor-value-theory-preprint/citation.ris) · [EndNote](https://kiloiam.github.io/labor-value-theory-preprint/citation.enw) · [CSL JSON](https://kiloiam.github.io/labor-value-theory-preprint/citation.csl.json)
+- [CITATION.cff](https://kiloiam.github.io/labor-value-theory-preprint/CITATION.cff) · [GB/T 7714](https://kiloiam.github.io/labor-value-theory-preprint/citation-gb7714.txt) · [APA](https://kiloiam.github.io/labor-value-theory-preprint/citation-apa.txt) · [MLA](https://kiloiam.github.io/labor-value-theory-preprint/citation-mla.txt) · [Chicago](https://kiloiam.github.io/labor-value-theory-preprint/citation-chicago.txt)
+
+## Preservation
+- [Redundancy map](https://kiloiam.github.io/labor-value-theory-preprint/forever.html) · [Copy register](https://kiloiam.github.io/labor-value-theory-preprint/MIRRORS.md) · [Manifest JSON](https://kiloiam.github.io/labor-value-theory-preprint/PRESERVATION-MANIFEST.json)
+- [SHA-256 checksums](https://kiloiam.github.io/labor-value-theory-preprint/CHECKSUMS.sha256) · [Offline survival bundle](https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip)
+- [Forever README (recovery instructions)](https://kiloiam.github.io/labor-value-theory-preprint/FOREVER-README.txt)
+- [Global distribution ledger](https://kiloiam.github.io/labor-value-theory-preprint/DISTRIBUTION.md) · [Preservation execution log](https://kiloiam.github.io/labor-value-theory-preprint/PRESERVATION.md)
+- [Zenodo](https://doi.org/10.5281/zenodo.24270266) · [Figshare](https://doi.org/10.6084/m9.figshare.35018998.v1) · [OSF](https://osf.io/wubs2/) · [GitHub](https://github.com/kiloiam/labor-value-theory-preprint)
+- [Software Heritage permanent archive](https://archive.softwareheritage.org/) · [Wayback Machine](https://web.archive.org/)
+
+## Optional
+- [Multilingual landing pages](https://kiloiam.github.io/labor-value-theory-preprint/en.html): en, ja, es, fr, de, ru, pt, it, ko (zh = index.html)
+- [Search this site](https://kiloiam.github.io/labor-value-theory-preprint/search.html) · [OpenSearch descriptor](https://kiloiam.github.io/labor-value-theory-preprint/opensearch.xml)
+
+Note: short multilingual renderings are discovery aids only; citation and scholarly wording should
+follow the Chinese original and the author's own English abstract. Re-hosting, translation and
+redistribution are freely permitted under CC BY 4.0 with attribution to Didgeridoo.

@@ -1,0 +1,208 @@
+{
+  "schema": "workbuddy.preservation-manifest/1.0",
+  "generated": "2026-11-16T07:55:03Z",
+  "work": {
+    "title_zh": "劳动价值论是历史性范畴：当代价值危机",
+    "title_en": "The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value",
+    "author": "Didgeridoo",
+    "author_is_pseudonym": true,
+    "date": "2026-11-16",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "status": "open preprint; not peer reviewed; not a journal publication",
+    "primary_doi": "10.5281/zenodo.24270266",
+    "concept_doi": "10.5281/zenodo.24269665",
+    "secondary_doi": "10.6084/m9.figshare.35018998.v1",
+    "canonical": "https://kiloiam.github.io/labor-value-theory-preprint/",
+    "language_original": "zh-CN",
+    "files": {
+      "paper.pdf": {
+        "bytes": 1389530,
+        "sha256": "1bf85cf8bb0a91fe01738e875b360319180852fd0f0fe0aeb5ab628fd3d84c3a"
+      },
+      "manuscript.md": {
+        "bytes": 34020,
+        "sha256": "4be797a8719b418d3f58aee69a7f025c67ccb0d42e2c5dcacc85e3cd5ff8be6e"
+      }
+    }
+  },
+  "design_principle": "Any single surviving copy must be sufficient to reconstruct the entire work. Copies are spread across independent institutions, jurisdictions and protocols (DOI repositories, git hosting, UNESCO source archive, web time-capsule, global CDNs, scholarly indices and offline plain-text bundles).",
+  "survival_note": "No digital system can guarantee persistence beyond the existence of the institutions and readers maintaining it. This manifest maximises redundancy, it does not promise perpetuity.",
+  "copies": [
+    {
+      "id": "zenodo",
+      "org": "Zenodo (CERN / OpenAIRE)",
+      "jurisdiction": "EU / Switzerland",
+      "kind": "DOI-registered open repository",
+      "url": "https://doi.org/10.5281/zenodo.24270266",
+      "payload": "paper.pdf + metadata",
+      "doi": "10.5281/zenodo.24270266",
+      "layer": "primary"
+    },
+    {
+      "id": "zenodo-concept",
+      "org": "Zenodo (CERN)",
+      "jurisdiction": "EU / Switzerland",
+      "kind": "concept DOI (always resolves to latest version)",
+      "url": "https://doi.org/10.5281/zenodo.24269665",
+      "payload": "version resolver",
+      "doi": "10.5281/zenodo.24269665",
+      "layer": "resolver"
+    },
+    {
+      "id": "figshare",
+      "org": "Figshare (Digital Science)",
+      "jurisdiction": "UK",
+      "kind": "DOI-registered open repository",
+      "url": "https://doi.org/10.6084/m9.figshare.35018998.v1",
+      "payload": "paper.pdf + metadata",
+      "doi": "10.6084/m9.figshare.35018998.v1",
+      "layer": "primary"
+    },
+    {
+      "id": "osf",
+      "org": "Open Science Framework (Center for Open Science)",
+      "jurisdiction": "US",
+      "kind": "open project storage with versioned files",
+      "url": "https://osf.io/wubs2/",
+      "payload": "paper.pdf + 16+ metadata files",
+      "doi": null,
+      "layer": "primary"
+    },
+    {
+      "id": "github-pages",
+      "org": "GitHub Pages",
+      "jurisdiction": "US",
+      "kind": "static full-text site",
+      "url": "https://kiloiam.github.io/labor-value-theory-preprint/",
+      "payload": "HTML full text + metadata",
+      "doi": null,
+      "layer": "reading"
+    },
+    {
+      "id": "github-repo",
+      "org": "GitHub",
+      "jurisdiction": "US",
+      "kind": "versioned git repository",
+      "url": "https://github.com/kiloiam/labor-value-theory-preprint",
+      "payload": "all source files + history",
+      "doi": null,
+      "layer": "source"
+    },
+    {
+      "id": "github-release",
+      "org": "GitHub Releases",
+      "jurisdiction": "US",
+      "kind": "immutable tagged release with binary assets",
+      "url": "https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0",
+      "payload": "paper.pdf + metadata assets",
+      "doi": null,
+      "layer": "snapshot"
+    },
+    {
+      "id": "workbuddy",
+      "org": "WorkBuddy hosted site",
+      "jurisdiction": "CN",
+      "kind": "hosted reading page with 9 facsimile pages",
+      "url": "https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG",
+      "payload": "HTML + page images + PDF",
+      "doi": null,
+      "layer": "reading"
+    },
+    {
+      "id": "software-heritage",
+      "org": "Software Heritage (UNESCO / Inria)",
+      "jurisdiction": "FR / EU",
+      "kind": "permanent source-code archive with SWHID",
+      "url": "https://archive.softwareheritage.org/",
+      "payload": "full git repository, visit_status=full",
+      "doi": null,
+      "layer": "cold-archive"
+    },
+    {
+      "id": "wayback",
+      "org": "Internet Archive Wayback Machine",
+      "jurisdiction": "US",
+      "kind": "web time-capsule snapshots (12 + new captures)",
+      "url": "https://web.archive.org/web/20261116061932/https://kiloiam.github.io/labor-value-theory-preprint/",
+      "payload": "rendered pages + PDF",
+      "doi": null,
+      "layer": "cold-archive"
+    },
+    {
+      "id": "openaire",
+      "org": "OpenAIRE",
+      "jurisdiction": "EU",
+      "kind": "Europe-wide open scholarly index (already indexed)",
+      "url": "https://api.openaire.eu/search/publications?doi=10.5281/zenodo.24270266",
+      "payload": "indexed DOI metadata",
+      "doi": null,
+      "layer": "index"
+    },
+    {
+      "id": "datacite",
+      "org": "DataCite",
+      "jurisdiction": "international",
+      "kind": "DOI metadata registry",
+      "url": "https://commons.datacite.org/doi.org/10.5281/zenodo.24270266",
+      "payload": "DOI metadata",
+      "doi": "10.5281/zenodo.24270266",
+      "layer": "resolver"
+    },
+    {
+      "id": "jsdelivr",
+      "org": "jsDelivr global CDN",
+      "jurisdiction": "multi-region",
+      "kind": "CDN edge copy",
+      "url": "https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf",
+      "payload": "paper.pdf",
+      "doi": null,
+      "layer": "cdn"
+    },
+    {
+      "id": "raw-github",
+      "org": "raw.githubusercontent.com",
+      "jurisdiction": "US",
+      "kind": "raw file mirror",
+      "url": "https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/paper.pdf",
+      "payload": "paper.pdf",
+      "doi": null,
+      "layer": "cdn"
+    },
+    {
+      "id": "githack",
+      "org": "raw.githack.com",
+      "jurisdiction": "multi-region",
+      "kind": "independent CDN mirror",
+      "url": "https://raw.githack.com/kiloiam/labor-value-theory-preprint/main/paper.pdf",
+      "payload": "paper.pdf",
+      "doi": null,
+      "layer": "cdn"
+    },
+    {
+      "id": "gitcdn",
+      "org": "gitcdn.link",
+      "jurisdiction": "multi-region",
+      "kind": "independent CDN mirror",
+      "url": "https://gitcdn.link/cdn/kiloiam/labor-value-theory-preprint/main/paper.pdf",
+      "payload": "paper.pdf",
+      "doi": null,
+      "layer": "cdn"
+    }
+  ],
+  "offline_bundle": [
+    "PAPER-PLAINTEXT.txt",
+    "paper-standalone.html",
+    "FOREVER-README.txt",
+    "MIRRORS.md",
+    "CHECKSUMS.sha256",
+    "PRESERVATION-MANIFEST.json",
+    "paper.pdf",
+    "manuscript.md",
+    "citation.bib",
+    "CITATION.cff",
+    "datacite.xml",
+    "abstracts.json",
+    "DISTRIBUTION.md",
+    "PRESERVATION.md"
+  ]
+}

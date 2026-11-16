@@ -1,5 +1,5 @@
 {
-  "note": "Cross-language discovery metadata only. The Chinese original and the author's English abstract are authoritative; these short renderings are not for quotation.",
+  "note": "Cross-language discovery metadata only. The Chinese original and the author's English abstract are authoritative; these short renderings are not for quotation. 10 languages: zh, en, ja, es, fr, de, ru, pt, it, ko.",
   "authoritative": {
     "zh": "本文从历史唯物主义立场出发，系统阐明劳动价值论作为历史性范畴的界限，分析当代自动化生产条件下价值规律面临的结构性危机。本文指出，劳动价值论是以雇佣劳动、社会必要劳动时间和商品交换普遍化为前提的历史性理论，并非适用于一切社会形态的普遍经济原理。通过构建包含自动化技术资本的价值修正模型，本文论证了当自动化系统在原则上能够脱离人类活劳动而独立承担生产职能时，可变资本将被系统性、不可逆地挤出生产过程，剩余价值生产机制随之趋于枯竭，价值范畴及其所依托的商品形式发生根本性瓦解。此时，利润不再是价值增殖的结果，而转化为维持私有制外壳所需的负向政治性维稳成本P。本文进一步分析了商品社会实现自我修复的“四重不可能”，揭示了价值结构不可逆的内在断裂。本文认为，劳动价值论的失效并非理论被证伪，而是商品社会已走到历史尽头。由此提出，后价值范畴时代的核心问题在于生产关系的历史性重塑，即如何将自动化生产能力从私人占有形式中解放出来，转向以使用价值社会性组织为目标的生产体系，从而为理解当代资本主义危机的性质及未来社会转型的方向提供理论判准。",
     "en": "The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value\n\nAbstract: Grounding its analysis in historical materialism, this article delineates the historical limits of the labor theory of value (LTV) and analyzes the structural crisis of the law of value under conditions of contemporary automated production. This article maintains that the LTV is not a universal economic principle applicable to all social formations; Rather, it emerges as a historically specific theory, grounded in wage labor, socially necessary labor time, and the universality of commodity exchange. On this basis, a revised value model incorporating automated technological capital is constructed. The paper demonstrates that as automated systems become capable in principle of performing productive functions independently of living labor, variable capital is systematically and irreversibly expelled from the production process. Accordingly, the process of surplus-value production has been tending towards its exhaustion; this process culminates in a fundamental breakdown of the value-category and the commodity-form which depends on it. In this context, profit no longer emerges as the result of valorization. Instead, profit becomes transmuted into a \"negative political cost of social stabilization under private property relations\" (P) needed for the maintenance of the institutional shell (integument) of private property. The article further elaborates on the \"four-fold impossibility\" of commodity society’s self-repair. In doing so, it exposes an irreversible internal rupture in the value-structure. It concludes that the apparent obsolescence of the LTV does not refute the theory but rather indicates that commodity society has reached its historical endpoint. Thus, the central issue in the post-value-category era lies in the historical reconfiguration of production relations: namely, liberating automated productive capacities from the fetters of private appropriation and reorienting them toward a system aimed at the socialized organization of use-value. This analysis provides a theoretical criterion for understanding the specificity of the contemporary capitalist crisis and the direction of future social transformation.\n\nKeywords: Historical Limits of the Labor Theory of Value; Crisis of the Value Category; Automated Production; Historical Restructuring of Production Relations; Class Struggle"
@@ -83,6 +83,39 @@
         "автоматизированное производство",
         "исторический материализм",
         "критика политической экономии"
+      ]
+    },
+    "pt": {
+      "title": "A teoria do valor-trabalho como categoria histórica: a crise contemporânea do valor",
+      "abstract": "A partir do materialismo histórico, o artigo delimita o caráter histórico da teoria do valor-trabalho, ligada ao trabalho assalariado, ao tempo de trabalho socialmente necessário e à generalização da troca mercantil, e analisa a crise estrutural da lei do valor sob a produção automatizada. Um modelo de valor que incorpora o capital tecnológico automatizado mostra que o capital variável é expulso irreversivelmente da produção, que o lucro se converte num custo político de estabilização da propriedade privada e que a autorreparação da sociedade mercantil é impossível em quatro sentidos. A obsolescência da teoria não a refuta: assinala o fim histórico da sociedade mercantil e exige a reconfiguração histórica das relações de produção.",
+      "keywords": [
+        "teoria do valor-trabalho",
+        "crise do valor",
+        "produção automatizada",
+        "materialismo histórico",
+        "crítica da economia política"
+      ]
+    },
+    "it": {
+      "title": "La teoria del valore-lavoro come categoria storica: la crisi contemporanea del valore",
+      "abstract": "A partire dal materialismo storico, l'articolo delimita il carattere storico della teoria del valore-lavoro, fondata sul lavoro salariato, sul tempo di lavoro socialmente necessario e sulla generalizzazione dello scambio mercantile, e analizza la crisi strutturale della legge del valore nella produzione automatizzata. Un modello di valore che include il capitale tecnologico automatizzato mostra che il capitale variabile viene espulso irreversibilmente dalla produzione, che il profitto si trasforma in un costo politico di stabilizzazione della proprietà privata e che l'autoriparazione della società mercantile è impossibile in quattro sensi. L'obsolescenza della teoria non la confuta: segna la fine storica della società mercantile e richiede una riconfigurazione storica dei rapporti di produzione.",
+      "keywords": [
+        "teoria del valore-lavoro",
+        "crisi del valore",
+        "produzione automatizzata",
+        "materialismo storico",
+        "critica dell'economia politica"
+      ]
+    },
+    "ko": {
+      "title": "노동가치론은 역사적 범주이다: 현대적 가치의 위기",
+      "abstract": "사적 유물론의 입장에서 이 글은 노동가치론이 임노동, 사회적 필요노동시간, 상품교환의 보편화를 전제로 하는 역사적 범주임을 규정하고, 자동화 생산 조건에서 가치법칙이 직면한 구조적 위기를 분석한다. 자동화 기술자본을 포함한 가치 수정 모형은 가변자본이 생산과정에서 비가역적으로 배제되고, 이윤이 사적 소유의 외피를 유지하기 위한 정치적 안정화 비용으로 전화되며, 상품사회의 자기수복이 네 겹으로 불가능함을 보인다. 이론의 효력 상실은 이론의 반증이 아니라 상품사회의 역사적 종언을 뜻하며, 과제는 생산관계의 역사적 재편에 있다.",
+      "keywords": [
+        "노동가치론",
+        "가치 범주의 위기",
+        "자동화 생산",
+        "사적 유물론",
+        "정치경제학 비판"
       ]
     }
   }

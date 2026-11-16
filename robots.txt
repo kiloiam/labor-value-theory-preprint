@@ -1,4 +1,6 @@
+# Didgeridoo / 2026-11-16 — open preprint, all content freely crawlable
 User-agent: *
 Allow: /
 
 Sitemap: https://kiloiam.github.io/labor-value-theory-preprint/sitemap.xml
+Sitemap: https://kiloiam.github.io/labor-value-theory-preprint/sitemap-index.xml

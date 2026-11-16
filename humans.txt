@@ -1,0 +1,15 @@
+/* TEAM */
+    Author: Didgeridoo (pen name; no real identity disclosed)
+    Site: https://kiloiam.github.io/labor-value-theory-preprint/
+
+/* THANKS */
+    Zenodo / CERN, Figshare, Open Science Framework, GitHub, Software Heritage,
+    Internet Archive Wayback Machine, DataCite, OpenAIRE, jsDelivr, IndexNow.
+
+/* SITE */
+    Standards: HTML5, Dublin Core, DataCite 4.5, OAI-PMH, MARC21, METS/MODS,
+               Schema.org JSON-LD, Highwire Press citation tags, COinS, OpenSearch,
+               Atom, RSS 2.0, sitemaps.org, llms.txt
+    Components: static files only, no tracking, no analytics, no third-party scripts
+    Licence: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+    Last update: 2026-11-16

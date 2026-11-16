@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Search — The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value</title>
+<meta name="description" content="Static on-site search across the full text, abstracts, metadata and preservation copies of this open preprint.">
+<meta name="robots" content="index,follow"><link rel="canonical" href="https://kiloiam.github.io/labor-value-theory-preprint/search.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><style>
+:root{--bg:#f6f4ef;--paper:#fffefa;--ink:#292723;--muted:#756f65;--line:#e4ded3;--accent:#8c3333;--soft:#f7efeb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,"Songti SC","SimSun",serif;line-height:1.9}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:900px;margin:0 auto;padding:0 22px}
+header{background:var(--paper);border-bottom:1px solid var(--line);padding:42px 0 30px}
+.kicker{font:11.5px/1.6 -apple-system,"Segoe UI",sans-serif;letter-spacing:.2em;color:var(--accent);margin-bottom:14px}
+h1{font-size:31px;line-height:1.42;margin:0 0 10px}
+h2{font-size:19px;border-bottom:1px solid var(--line);padding-bottom:9px;margin:34px 0 12px}
+.byline{font:13.5px/1.7 -apple-system,"Segoe UI",sans-serif;margin-bottom:8px}
+.badge{display:inline-block;font:11.5px/1.5 -apple-system,"Segoe UI",sans-serif;background:var(--soft);border:1px solid var(--line);color:var(--accent);padding:2px 9px;border-radius:3px;margin-left:8px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:20px 22px;margin:22px 0}
+.note{font:13px/1.85 -apple-system,"Segoe UI",sans-serif;color:var(--muted)}
+.abstract{font-size:15px;line-height:1.95}
+.kw{font:13px/1.8 -apple-system,"Segoe UI",sans-serif}.kw span{display:inline-block;background:var(--soft);border:1px solid var(--line);padding:3px 10px;margin:3px 5px 3px 0;border-radius:3px}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 4px}
+.btn{font:13px/1.5 -apple-system,"Segoe UI",sans-serif;border:1px solid var(--line);background:var(--bg);padding:8px 13px;border-radius:3px;display:inline-block}
+.btn.pri{background:var(--accent);color:#fff;border-color:var(--accent)}
+table{width:100%;border-collapse:collapse;font:12.5px/1.6 -apple-system,"Segoe UI",sans-serif}
+th,td{border-bottom:1px solid var(--line);padding:8px;text-align:left;vertical-align:top;word-break:break-all}th{background:var(--soft)}
+pre{background:#f5f2ec;border:1px solid var(--line);padding:12px;overflow:auto;font:12.5px/1.7 ui-monospace,Consolas,monospace;white-space:pre-wrap}
+.qa{margin:14px 0}.qa h3{font-size:15.5px;margin:0 0 5px}.qa p{margin:0;font-size:14.5px}
+.langs{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}.langs a{font:12.5px/1.5 -apple-system,"Segoe UI",sans-serif;border:1px solid var(--line);background:var(--paper);padding:5px 11px;border-radius:3px}
+footer{font:12.5px/1.7 -apple-system,"Segoe UI",sans-serif;color:var(--muted);border-top:1px solid var(--line);padding:24px 0 44px;margin-top:36px}
+@media(max-width:640px){h1{font-size:24px}.wrap{padding:0 16px}}
+</style></head>
+<body><header><div class="wrap"><div class="kicker">ON-SITE SEARCH</div><h1>Search this preprint</h1>
+<div class="note">Static, client-side, no server and no tracking. Results link to the full text, abstracts and preserved copies.</div>
+<div class="btns"><input id="q" style="font:14px/1.6 sans-serif;padding:9px 12px;border:1px solid var(--line);border-radius:3px;min-width:260px" placeholder="keyword / 关键词">
+<button class="btn pri" onclick="run()">Search</button></div></div></header>
+<div class="wrap"><div id="out"></div>
+<div class="card"><b>Try</b><p class="note">automation · variable capital · surplus value · four-fold impossibility · 价值范畴 · 自动化 · DOI · Zenodo · checksum</p></div>
+<p class="note"><a href="index.html">← Chinese full text</a> · <a href="llms.txt">llms.txt</a> · <a href="sitemap.xml">sitemap</a></p></div>
+<footer><div class="wrap">Didgeridoo · CC BY 4.0</div></footer>
+<script>
+var IDX=[
+ ["Full text (Chinese)","https://kiloiam.github.io/labor-value-theory-preprint/manuscript.md","劳动价值论 历史性范畴 自动化 可变资本 剩余价值 价值范畴危机 四重不可能 生产关系 使用价值 社会必要劳动时间 维稳成本 商品社会 历史唯物主义"],
+ ["Plain-text full text","https://kiloiam.github.io/labor-value-theory-preprint/PAPER-PLAINTEXT.txt","全文 纯文本 离线 生存副本 labour theory of value automation plain text offline survival"],
+ ["Author's English abstract","https://kiloiam.github.io/labor-value-theory-preprint/abstract-en.txt","labor theory of value historical category automation variable capital surplus value four-fold impossibility private property use-value English abstract"],
+ ["Chinese abstract","https://kiloiam.github.io/labor-value-theory-preprint/abstract-zh.txt","内容提要 劳动价值论 价值修正模型 自动化技术资本 利润 维稳成本 四重不可能"],
+ ["10-language abstracts","https://kiloiam.github.io/labor-value-theory-preprint/abstracts.json","日本語 español français Deutsch русский português italiano 한국어 multilingual keywords"],
+ ["PDF original","https://kiloiam.github.io/labor-value-theory-preprint/paper.pdf","pdf 9 pages Didgeridoo CC BY 4.0 original typeset"],
+ ["Offline single-file HTML","https://kiloiam.github.io/labor-value-theory-preprint/paper-standalone.html","offline self-contained no external resources survival copy"],
+ ["Redundancy map","https://kiloiam.github.io/labor-value-theory-preprint/forever.html","preservation mirrors jurisdiction checksum software heritage wayback redundancy"],
+ ["Copy register","https://kiloiam.github.io/labor-value-theory-preprint/MIRRORS.md","zenodo figshare osf github cdn datacite openaire copies"],
+ ["Preservation manifest","https://kiloiam.github.io/labor-value-theory-preprint/PRESERVATION-MANIFEST.json","machine readable manifest sha256 institutions"],
+ ["SHA-256 checksums","https://kiloiam.github.io/labor-value-theory-preprint/CHECKSUMS.sha256","sha256 verify integrity"],
+ ["Zenodo DOI","https://doi.org/10.5281/zenodo.24270266","zenodo cern doi primary open repository"],
+ ["Figshare DOI","https://doi.org/10.6084/m9.figshare.35018998.v1","figshare doi second repository"],
+ ["OSF project","https://osf.io/wubs2/","osf open science framework files"],
+ ["Global distribution ledger","https://kiloiam.github.io/labor-value-theory-preprint/DISTRIBUTION.md","distribution indexnow wayback seo"],
+ ["Preservation log","https://kiloiam.github.io/labor-value-theory-preprint/PRESERVATION.md","execution receipts HTTP status take down"],
+ ["DataCite XML","https://kiloiam.github.io/labor-value-theory-preprint/datacite.xml","datacite metadata doi 4.5"],
+ ["Schema.org JSON-LD","https://kiloiam.github.io/labor-value-theory-preprint/schema.jsonld","structured data scholarlyarticle"],
+ ["BibTeX citation","https://kiloiam.github.io/labor-value-theory-preprint/citation.bib","bibtex cite citation"],
+ ["Forever README","https://kiloiam.github.io/labor-value-theory-preprint/FOREVER-README.txt","recovery instructions rebuild full text"],
+ ["Offline survival bundle","https://kiloiam.github.io/labor-value-theory-preprint/preservation-bundle.zip","zip bundle all files checksums"],
+ ["English landing page","https://kiloiam.github.io/labor-value-theory-preprint/en.html","english discovery abstract faq"],
+ ["中文全文阅读","https://kiloiam.github.io/labor-value-theory-preprint/index.html","中文 阅读 首页 影印"]
+];
+function run(){var q=(document.getElementById('q').value||new URLSearchParams(location.search).get('q')||'').trim().toLowerCase();
+ var o=document.getElementById('out'); if(!q){o.innerHTML='<div class="card"><p class="note">Enter a keyword above.</p></div>';return;}
+ var terms=q.split(/\s+/).filter(Boolean), hits=IDX.map(function(x){var s=(x[0]+' '+x[1]+' '+x[2]).toLowerCase();
+  var n=terms.reduce(function(a,t){return a+(s.indexOf(t)>=0?1:0);},0);return {x:x,n:n};}).filter(function(r){return r.n>0;}).sort(function(a,b){return b.n-a.n;});
+ o.innerHTML='<h2>Results for “'+q.replace(/</g,'&lt;')+'” — '+hits.length+'</h2>'+(hits.map(function(r){
+  return '<div class="card"><a href="'+r.x[1]+'"><b>'+r.x[0]+'</b></a><div class="note">'+r.x[1]+'</div></div>';}).join('')||'<div class="card"><p class="note">No indexed entry matched. Try the <a href="manuscript.md">full text</a> directly.</p></div>');
+}
+document.getElementById('q').addEventListener('keydown',function(e){if(e.key==='Enter')run();});run();
+</script></body></html>
