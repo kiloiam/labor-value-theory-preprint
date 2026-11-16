@@ -24,7 +24,7 @@
 | 长尾检索意图页 | **10 个真实提问 × 中英双版 = 20 页**，每页含实质解答、QAPage / FAQPage、hreflang 矩阵、自引用 canonical |
 | 长尾问答语料 | `llms-topics.txt`（10 组纯文本问答，供生成式引擎检索） |
 | 全球投递台 | `open-archives.html` + `OPEN-ARCHIVES.md`：A/B/C 三档、真实门槛、笔名可行性、实测状态 |
-| 逐平台预填材料 | `open-archive-kit/` **14 个文件**（含 `viXra-form.md`、`VIXRA-SUBMIT.md`、`vixra-prefill.json`、`vixra-autofill.js`），打包 `open-archive-kit.zip`（29012 字节） |
+| 逐平台预填材料 | `open-archive-kit/` **14 个文件**（含 `viXra-form.md`、`VIXRA-SUBMIT.md`、`vixra-prefill.json`、`vixra-autofill.js`），打包 `open-archive-kit.zip`（14 文件） |
 | viXra 专用投稿 PDF | `paper-vixra.pdf`（10 页）：附加英文页内含英文标题、298 词英文摘要、CC BY 4.0、DOI 与规范链接 |
 | 语义增强 | `schema-enhanced.jsonld`（`about` 关联 Wikidata、`mentions`、`citation`、`hasPart`、`workTranslation`、`speakable`），首页追加 `@graph` |
 | 引用指南 | `citation-guide.html`：BibTeX / RIS / APA / MLA / Chicago / GB7714 / DataCite |
@@ -95,12 +95,12 @@
 
 ## 五、边界（必须如实说明）
 
-1. **viXra 已解锁，但提交仍需你本人一步**：表单要求可收信的联系邮箱（官方原文明确**不会公开**，
+1. **viXra 已由作者本人提交，现处于「已接收 · 待管理员处理」状态**：表单要求可收信的联系邮箱（官方原文明确**不会公开**，
    除非作者自己把它写进 PDF／摘要／comment），且提交即代表作者本人声明「所有作者与著作权人已授权存档与索引」；
    一经上线即永久记录（替换最多 4 次、撤稿需理由且旧版本通常保留）。
    另外，**主站表单要求稿件未使用 AI 辅助撰写**，AI 辅助稿件应投 `ai.viXra.org`；这一事实判断只能由作者本人作出。
-   不代填邮箱、不代勾选权属声明、不代点击提交。`VIXRA-SUBMIT.md`、`vixra-prefill.json`、
-   `vixra-autofill.js`（11 个实时字段一键填充，且不触碰邮箱／文件／提交）已全部备齐。
+   不代填邮箱、不代勾选权属声明、不代点击提交；作者已自行完成这三步，`VIXRA-SUBMIT.md`、
+   `vixra-prefill.json`、`vixra-autofill.js`（11 个实时字段一键填充）已全部备齐。   **回执明确：两天内无回复即视为未接受，且 `Do not resubmit`——不得重复提交。**
 2. **其余 C 档与姓名无关**：arXiv 需 endorsement 背书人与机构认证；SSRN / RePEc / HAL /
    ResearchGate / Academia.edu 需平台账号与机构邮箱；正式期刊需同行评审与通讯作者。
    不注册、不伪造背书、不绕过。
@@ -118,14 +118,11 @@
 9. **Telegraph 页面为第三方托管**：随时可能因平台策略变动而下线，故仅作为分发副本，
    规范副本始终在 GitHub Pages / Zenodo / OSF / Software Heritage。
 
-## 六、待你完成的两件事
+## 六、后续待办
 
-1. **viXra 提交**：打开 `open-archive-kit/VIXRA-SUBMIT.md`，在表单页控制台运行
-   `vixra-autofill.js` 一键填好除邮箱与文件外的 11 个真实字段（或按 `viXra-form.md` 逐项粘贴）；
-   然后填联系邮箱、选择 `paper-vixra.pdf`、确认 AI 辅助条件，由你本人点击提交。
-   邮箱不必发给我——脚本特意把它留空，你在页面里直接填即可。
-2. **B 档其他平台**：按 `open-archive-kit/README.md` 的顺序用你自己的账号提交；
-   每投一处，把新链接补进 `ARCHIVE-LINKS.md` 并重新提交 IndexNow。
+1. **viXra 已提交，等待审核结果**：回执显示「Thank you for your new submission」，管理员已接收、尚未接受。**两天内无回复即视为未接受**，`Do not resubmit`——不要重复提交。如需在处理前取消，使用回执中的 cancellation form 与其 form reference（该编号由作者本人保留，未写入任何公开文件）。若被接受并分配到 viXra 编号／链接，再补进 `ARCHIVE-LINKS.md` 与 `MIRRORS.md` 并重新提交 IndexNow；在此之前**没有可索引的新 URL**。
+2. **核对上传版本**：表单填写的页数为 10、comment 引用了 DOI，因此上传的必须是 `paper-vixra.pdf`（10 页，含英文声明页、规范链接与 CC BY 4.0），不是 `paper.pdf`（9 页）。若当时选错，应在处理前用撤销表单取消，或待分配编号后使用版本替换（viXra 允许最多 4 次），**不要重新提交一次新稿件**。
+3. **B 档其他平台**：按 `open-archive-kit/README.md` 的顺序用你自己的账号提交；每投一处，把新链接补进 `ARCHIVE-LINKS.md` 并重新提交 IndexNow。
 
 ## 七、可复核凭据
 
@@ -141,7 +138,7 @@
 | 线上可达性 | GitHub Pages 规范报告 `200`、WorkBuddy 分享链接 `200`、`open-archive-kit/VIXRA-SUBMIT.md` `200` |
 | Git 同步 | 工作区干净，本地 `HEAD` = 远端 `main` |
 | SHA-256 | `CHECKSUMS.sha256` 全量校验 `169 / 169 OK`，`0` 处不一致、`0` 处缺失 |
-| 投递包 | `open-archive-kit/` 实为 **14 个文件**，`open-archive-kit.zip` 29012 字节 |
+| 投递包 | `open-archive-kit/` 实为 **14 个文件**，`open-archive-kit.zip` 14 文件 |
 | 站点地图 | `sitemap.xml` 132 个 URL；`EXTERNAL-R5.json` 中 IndexNow 亦为 132 |
 | 脱敏扫描 | `PASS`，硬违规 0，传播面泄露 0 |
 | 任务跟踪 | 42 / 42 完成 |
@@ -150,3 +147,20 @@
 等表述，均已在本次复核中统一更正；`SYNC-R5.json` 改为不含自身提交号的稳定回执，
 避免「回执记录自身 hash」导致的永久漂移。第四轮报告中的历史边界条目按原样保留，
 只追加了状态变更注记，不静默改写历史记录。
+
+## 九、viXra 提交回执（作者本人完成，2026-11-16）
+
+| 项目 | 事实 |
+|---|---|
+| 当前状态 | **已接收 · 待管理员检查**（`Your request has been received by our administrators and will be checked shortly`） |
+| 是否已上线／已接受 | **否**。官方原文：`If there is no response within two days, your submission is not accepted` |
+| 是否已有 viXra 编号 / URL / DOI | **否**，回执只给出提交确认与撤销用的 form reference；不得据此声称已发表 |
+| 重复提交 | 官方明确 `Do not resubmit` |
+| 撤销方式 | 回执中的 cancellation form + form reference（编号由作者本人保留，**未写入公开文件**） |
+| 查询渠道 | `vixra.org@gmail.com`（官方回执所列） |
+| 上传文件 | 应为 `paper-vixra.pdf`（10 页）；表单页数填 10、comment 含 DOI，两者需一致 |
+| 联系邮箱 | 由作者本人在表单填写；**未写入任何站点文件、投递包、报告或日志** |
+
+被接受后的动作：把分配到的 viXra 编号／链接补进 `ARCHIVE-LINKS.md`、`MIRRORS.md` 与投递台，
+重提 IndexNow，并更新本报告状态。若两天内无回复，则如实记为「未接受」，可改投 B 档其他平台。
+本次记录**不改变预印本性质**：viXra 亦非同行评审，不使本文成为正式期刊发表。

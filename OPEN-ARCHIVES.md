@@ -26,7 +26,7 @@
 
 | 平台 | 真实门槛 | 预填材料 |
 |---|---|---|
-| [viXra（本轮解锁）](https://vixra.org/submit) | 无审核、无需账号；官方要求 real name（自 2019-10-01 禁止笔名）——Didgeridoo 为作者真实英文姓名，已满足；需联系邮箱与本人权属声明 | 见 viXra-form.md 与 paper-vixra.pdf；需你本人提供联系邮箱并点击提交 |
+| [viXra（本轮解锁）](https://vixra.org/submit) | 无审核、无需账号；官方要求 real name（自 2019-10-01 禁止笔名）——Didgeridoo 为作者真实英文姓名，已满足；需联系邮箱与本人权属声明 | **已由作者本人提交 · 待管理员处理（2026-11-16）**；见 viXra-form.md 与 paper-vixra.pdf。回执要求两天内等待结果、`Do not resubmit`；尚无编号／URL |
 | [OSF Preprints（首选）](https://osf.io/preprints/) | 免费、无需机构邮箱、不验证作者身份；预审核（非同行评审） | 需你本人用该账号粘贴预填表单；见 open-archive-kit/OSF-Preprints-form.md |
 | [SocArXiv](https://osf.io/preprints/socarxiv) | OSF 托管，社会科学方向；明确不验证作者身份 | 预填表单见 SocArXiv-form.md |
 | [PhilArchive / PhilPapers](https://philarchive.org/) | 自助存档、无需机构，需账号；无同行评审 | 预填表单见 PhilArchive-form.md |

@@ -6,7 +6,7 @@
 
 1. `OSF-Preprints-form.md` → https://osf.io/preprints/ （首选，免费、给 DOI）
 2. `SocArXiv-form.md` → https://osf.io/preprints/socarxiv
-3. `viXra-form.md` + **`VIXRA-SUBMIT.md`** → 上传 `paper-vixra.pdf`；`vixra-autofill.js` 可一键填好除邮箱与文件外的全部字段（真实英文姓名已满足其 real-name 要求；需你的联系邮箱与本人提交）
+3. `viXra-form.md` + **`VIXRA-SUBMIT.md`** → 上传 `paper-vixra.pdf`；`vixra-autofill.js` 可一键填好除邮箱与文件外的全部字段（真实英文姓名已满足其 real-name 要求）。**作者已于 2026-11-16 本人提交，状态为「已接收 · 待处理」；官方要求 `Do not resubmit`，请勿再次提交**；本条留作核对上传版本与撤销流程之用
 4. `PhilArchive-form.md` → https://philarchive.org/
 5. `Preprints-org-form.md` → https://www.preprints.org/
 6. `ia-item-metadata.json` → Internet Archive（需你自己的 IA 凭证）

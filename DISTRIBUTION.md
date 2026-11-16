@@ -151,6 +151,6 @@ Figshare 旧记录 `35018683` 的 v1 / v2 仍含早期署名，下架工单已�
 - 站点地图 132 个 URL；IndexNow 132 个 URL × 4 端点；Telegraph 10 个语种摘要页上线；
   GitHub Release `v4.0.0`；Pages 实测 132/132 可达；SHA-256 全量校验通过；脱敏扫描 PASS。
 - 学术库实测：DataCite 与 OpenAIRE 已收录，OpenAlex / Semantic Scholar 尚未（自动收割有延迟）。
-- 边界：viXra 提交仍需本人提供联系邮箱、勾选权属声明并点击提交（一经上线永久记录）；
+- viXra：**已由作者本人提交，待管理员处理**（回执两天内无回复即视为未接受、`Do not resubmit`）；一经接受则永久记录；
   arXiv 需背书与机构认证，其余需账号/机构邮箱/同行评审；不承诺排名；
   WorkBuddy 线上站点已按作者选择重新发布，`verified=true`，分享链接不变；可在「设置 — 数据管理 — 应用」中管理。完整报告见 `ROUND5-REPORT.md`。

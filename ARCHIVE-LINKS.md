@@ -50,3 +50,12 @@ Didgeridoo. 劳动价值论是历史性范畴：当代价值危机[Z/OL]. Zenodo
 | commit 固定永久链接 | `49a0fc7` | https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@49a0fc78f5953c47add0a39e78c4b6bf0dac9c69/paper.pdf | 按提交 SHA 固定，不随分支变化 |
 
 > 冗余地图：https://kiloiam.github.io/labor-value-theory-preprint/forever.html　|　副本清单：https://kiloiam.github.io/labor-value-theory-preprint/MIRRORS.md　|　校验：https://kiloiam.github.io/labor-value-theory-preprint/CHECKSUMS.sha256
+
+## 第五轮 · viXra 提交回执（待处理，尚无公开链接）
+
+| 平台 | 状态 | 链接 | 说明 |
+|---|---|---|---|
+| viXra | **已提交 · 待管理员检查**（2026-11-16） | *暂无* | 回执仅确认收到；`If there is no response within two days, your submission is not accepted`；`Do not resubmit` |
+
+> 撤销需在回执的 cancellation form 中使用其 form reference；该编号与作者联系邮箱均**未写入任何公开文件**。
+> 待 viXra 分配正式编号／URL 后，请把链接补进本表与 `MIRRORS.md`，重提 IndexNow，并更新 `ROUND5-REPORT.md` 第九节。

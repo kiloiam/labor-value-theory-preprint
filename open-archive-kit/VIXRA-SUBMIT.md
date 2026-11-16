@@ -1,5 +1,11 @@
 # viXra 提交 · 最后一步操作说明
 
+> **当前状态（2026-11-16）：作者已本人提交，回执显示「已接收 · 待管理员检查」。**
+> 官方原文：两天内无回复即视为未接受，且 `Do not resubmit`——**不要重复提交**。
+> 目前**没有** viXra 编号或公开链接。如需在处理前取消，用回执中的 cancellation form 与 form reference。
+> 本文件以下的操作顺序与字段表保留，仅用于核对当时上传的 PDF 版本（`paper-vixra.pdf`，10 页）
+> 以及后续撤销／替换流程。联系邮箱与 form reference 均未写入本包。
+
 **表单**：https://fs23.formsite.com/viXra/form2/index.html
 **官方提交说明**：https://vixra.org/submit
 **专用投稿 PDF**：`paper-vixra.pdf`（10 页，文件名纯 ASCII，符合 viXra 要求）
