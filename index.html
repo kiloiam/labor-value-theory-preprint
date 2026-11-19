@@ -279,8 +279,29 @@ footer{border-top:1px solid var(--line);margin-top:34px;padding-top:20px;font-fa
 </div>
 <div class="top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</div>
 <script>
-var fs=17;
-function fontSize(d){fs=Math.max(14,Math.min(22,fs+d));document.querySelector('article').style.setProperty('--fs',fs+'px')}
+var fs=17, pdfZoom=100, pdfTotal=0;
+function applyPdfZoom(){
+  var pagesEl=document.getElementById('pdf-pages');
+  pagesEl.style.display='block';
+  pagesEl.style.overflowX='auto';
+  pagesEl.querySelectorAll('canvas').forEach(function(c){
+    c.style.width=pdfZoom+'%';
+    c.style.maxWidth='none';
+    c.style.margin='0 auto 16px';
+  });
+  if(pdfTotal){
+    document.getElementById('pdf-status').innerHTML='共 '+pdfTotal+' 页 · 缩放 '+pdfZoom+'% · <a href="paper.pdf" target="_blank" rel="noopener">新窗口打开 / 下载原稿 PDF</a>';
+  }
+}
+function fontSize(d){
+  if(document.getElementById('scan-view').style.display==='block'){
+    pdfZoom=Math.max(50,Math.min(200,pdfZoom+d*15));
+    applyPdfZoom();
+    return;
+  }
+  fs=Math.max(14,Math.min(22,fs+d));
+  document.querySelector('article').style.setProperty('--fs',fs+'px');
+}
 var pdfLoaded = false, pdfLoading = false;
 function loadPdfLib(cb, onErr) {
   if (window.pdfjsLib) return cb();
@@ -295,6 +316,8 @@ function renderPaperPdf() {
   pdfLoading = true;
   var statusEl = document.getElementById('pdf-status');
   var pagesEl = document.getElementById('pdf-pages');
+  pagesEl.style.display = 'block';
+  pagesEl.style.overflowX = 'auto';
   loadPdfLib(function() {
     var base = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/';
     pdfjsLib.GlobalWorkerOptions.workerSrc = base + 'pdf.worker.min.js';
@@ -303,20 +326,21 @@ function renderPaperPdf() {
       cMapUrl: base + 'cmaps/',
       cMapPacked: true
     }).promise.then(function(pdf) {
-      var total = pdf.numPages;
+      pdfTotal = pdf.numPages;
       var dpr = Math.min(window.devicePixelRatio || 1, 2);
+      var scale = Math.max(2, 1.5 * dpr);
       var chain = Promise.resolve();
-      for (var n = 1; n <= total; n++) {
+      for (var n = 1; n <= pdfTotal; n++) {
         (function(pageNum) {
           chain = chain.then(function() {
-            statusEl.innerHTML = '正在渲染原稿（第 ' + pageNum + ' / ' + total + ' 页）…';
+            statusEl.innerHTML = '正在渲染原稿（第 ' + pageNum + ' / ' + pdfTotal + ' 页）…';
             return pdf.getPage(pageNum).then(function(page) {
-              var viewport = page.getViewport({ scale: 1.5 * dpr });
+              var viewport = page.getViewport({ scale: scale });
               var canvas = document.createElement('canvas');
               canvas.width = viewport.width;
               canvas.height = viewport.height;
               canvas.setAttribute('aria-label', '原稿第 ' + pageNum + ' 页');
-              canvas.style.cssText = 'width:100%;max-width:900px;height:auto;display:block;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.08);border-radius:4px;';
+              canvas.style.cssText = 'width:' + pdfZoom + '%;max-width:none;height:auto;display:block;margin:0 auto 16px;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.08);border-radius:4px;';
               pagesEl.appendChild(canvas);
               return page.render({ canvasContext: canvas.getContext('2d'), viewport: viewport }).promise;
             });
@@ -326,7 +350,7 @@ function renderPaperPdf() {
       return chain.then(function() {
         pdfLoaded = true;
         pdfLoading = false;
-        statusEl.innerHTML = '共 ' + total + ' 页 · <a href="paper.pdf" target="_blank" rel="noopener">新窗口打开 / 下载原稿 PDF</a>';
+        applyPdfZoom();
       });
     }).catch(function() {
       pdfLoading = false;
