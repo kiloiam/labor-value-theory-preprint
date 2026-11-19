@@ -258,15 +258,12 @@ footer{border-top:1px solid var(--line);margin-top:34px;padding-top:20px;font-fa
 <p class="en-text">Grounding its analysis in historical materialism, this article delineates the historical limits of the labor theory of value (LTV) and analyzes the structural crisis of the law of value under conditions of contemporary automated production. This article maintains that the LTV is not a universal economic principle applicable to all social formations; Rather, it emerges as a historically specific theory, grounded in wage labor, socially necessary labor time, and the universality of commodity exchange. On this basis, a revised value model incorporating automated technological capital is constructed. The paper demonstrates that as automated systems become capable in principle of performing productive functions independently of living labor, variable capital is systematically and irreversibly expelled from the production process. Accordingly, the process of surplus-value production has been tending towards its exhaustion; this process culminates in a fundamental breakdown of the value-category and the commodity-form which depends on it. In this context, profit no longer emerges as the result of valorization. Instead, profit becomes transmuted into a "negative political cost of social stabilization under private property relations" (P) needed for the maintenance of the institutional shell (integument) of private property. The article further elaborates on the "four-fold impossibility" of commodity society’s self-repair. In doing so, it exposes an irreversible internal rupture in the value-structure. It concludes that the apparent obsolescence of the LTV does not refute the theory but rather indicates that commodity society has reached its historical endpoint. Thus, the central issue in the post-value-category era lies in the historical reconfiguration of production relations: namely, liberating automated productive capacities from the fetters of private appropriation and reorienting them toward a system aimed at the socialized organization of use-value. This analysis provides a theoretical criterion for understanding the specificity of the contemporary capitalist crisis and the direction of future social transformation.</p>
 <p class="en-text"><b>Keywords: Automated Production; Historical Restructuring of Production Relations; Class Struggle</b></p>
 </section></article>
-<div id="scan-view"><figure><img loading="lazy" src="pages/page-0001.png?sharecode=ZILGUJCJKG" alt="原稿第 1 页"><figcaption>原稿第 1 页</figcaption></figure>
-<figure><img loading="lazy" src="pages/page-0002.png?sharecode=ZILGUJCJKG" alt="原稿第 2 页"><figcaption>原稿第 2 页</figcaption></figure>
-<figure><img loading="lazy" src="pages/page-0003.png?sharecode=ZILGUJCJKG" alt="原稿第 3 页"><figcaption>原稿第 3 页</figcaption></figure>
-<figure><img loading="lazy" src="pages/page-0004.png?sharecode=ZILGUJCJKG" alt="原稿第 4 页"><figcaption>原稿第 4 页</figcaption></figure>
-<figure><img loading="lazy" src="pages/page-0005.png?sharecode=ZILGUJCJKG" alt="原稿第 5 页"><figcaption>原稿第 5 页</figcaption></figure>
-<figure><img loading="lazy" src="pages/page-0006.png?sharecode=ZILGUJCJKG" alt="原稿第 6 页"><figcaption>原稿第 6 页</figcaption></figure>
-<figure><img loading="lazy" src="pages/page-0007.png?sharecode=ZILGUJCJKG" alt="原稿第 7 页"><figcaption>原稿第 7 页</figcaption></figure>
-<figure><img loading="lazy" src="pages/page-0008.png?sharecode=ZILGUJCJKG" alt="原稿第 8 页"><figcaption>原稿第 8 页</figcaption></figure>
-<figure><img loading="lazy" src="pages/page-0009.png?sharecode=ZILGUJCJKG" alt="原稿第 9 页"><figcaption>原稿第 9 页</figcaption></figure></div>
+<div id="scan-view" style="display:none">
+  <div id="pdf-status" style="text-align:center;padding:16px 0;color:#666;font-size:14px">
+    正在加载原稿 PDF…（如加载缓慢，也可<a href="paper.pdf" target="_blank" rel="noopener">直接打开或下载 paper.pdf</a>）
+  </div>
+  <div id="pdf-pages" style="display:flex;flex-direction:column;gap:16px;align-items:center"></div>
+</div>
 
 <div class="card" style="margin:22px 0"><b>全球长期保存与多语种入口 / Preservation &amp; languages</b><p class="note">新增 16 处公开副本冗余地图与 10 语种检索页：<a href="forever.html?sharecode=ZILGUJCJKG">永久保存冗余地图</a> · <a href="PAPER-PLAINTEXT.txt?sharecode=ZILGUJCJKG">零依赖纯文本全文</a> · <a href="paper-standalone.html?sharecode=ZILGUJCJKG">单文件离线 HTML</a> · <a href="https://kiloiam.github.io/labor-value-theory-preprint/distribution.html">全球分发清单</a> · <a href="https://kiloiam.github.io/labor-value-theory-preprint/llms.txt">llms.txt</a></p><p class="note">Other languages: <a href="https://kiloiam.github.io/labor-value-theory-preprint/">中文</a> · <a href="https://kiloiam.github.io/labor-value-theory-preprint/en.html">English</a> · <a href="https://kiloiam.github.io/labor-value-theory-preprint/ja.html">日本語</a> · <a href="https://kiloiam.github.io/labor-value-theory-preprint/es.html">Español</a> · <a href="https://kiloiam.github.io/labor-value-theory-preprint/fr.html">Français</a> · <a href="https://kiloiam.github.io/labor-value-theory-preprint/de.html">Deutsch</a> · <a href="https://kiloiam.github.io/labor-value-theory-preprint/ru.html">Русский</a> · <a href="https://kiloiam.github.io/labor-value-theory-preprint/pt.html">Português</a> · <a href="https://kiloiam.github.io/labor-value-theory-preprint/it.html">Italiano</a> · <a href="https://kiloiam.github.io/labor-value-theory-preprint/ko.html">한국어</a></p></div>
 <!-- ROUND7-TRUST -->
@@ -284,11 +281,68 @@ footer{border-top:1px solid var(--line);margin-top:34px;padding-top:20px;font-fa
 <script>
 var fs=17;
 function fontSize(d){fs=Math.max(14,Math.min(22,fs+d));document.querySelector('article').style.setProperty('--fs',fs+'px')}
+var pdfLoaded = false, pdfLoading = false;
+function loadPdfLib(cb, onErr) {
+  if (window.pdfjsLib) return cb();
+  var s = document.createElement('script');
+  s.src = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js';
+  s.onload = cb;
+  s.onerror = onErr;
+  document.head.appendChild(s);
+}
+function renderPaperPdf() {
+  if (pdfLoaded || pdfLoading) return;
+  pdfLoading = true;
+  var statusEl = document.getElementById('pdf-status');
+  var pagesEl = document.getElementById('pdf-pages');
+  loadPdfLib(function() {
+    var base = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/';
+    pdfjsLib.GlobalWorkerOptions.workerSrc = base + 'pdf.worker.min.js';
+    pdfjsLib.getDocument({
+      url: 'paper.pdf',
+      cMapUrl: base + 'cmaps/',
+      cMapPacked: true
+    }).promise.then(function(pdf) {
+      var total = pdf.numPages;
+      var dpr = Math.min(window.devicePixelRatio || 1, 2);
+      var chain = Promise.resolve();
+      for (var n = 1; n <= total; n++) {
+        (function(pageNum) {
+          chain = chain.then(function() {
+            statusEl.innerHTML = '正在渲染原稿（第 ' + pageNum + ' / ' + total + ' 页）…';
+            return pdf.getPage(pageNum).then(function(page) {
+              var viewport = page.getViewport({ scale: 1.5 * dpr });
+              var canvas = document.createElement('canvas');
+              canvas.width = viewport.width;
+              canvas.height = viewport.height;
+              canvas.setAttribute('aria-label', '原稿第 ' + pageNum + ' 页');
+              canvas.style.cssText = 'width:100%;max-width:900px;height:auto;display:block;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.08);border-radius:4px;';
+              pagesEl.appendChild(canvas);
+              return page.render({ canvasContext: canvas.getContext('2d'), viewport: viewport }).promise;
+            });
+          });
+        })(n);
+      }
+      return chain.then(function() {
+        pdfLoaded = true;
+        pdfLoading = false;
+        statusEl.innerHTML = '共 ' + total + ' 页 · <a href="paper.pdf" target="_blank" rel="noopener">新窗口打开 / 下载原稿 PDF</a>';
+      });
+    }).catch(function() {
+      pdfLoading = false;
+      statusEl.innerHTML = '原稿 PDF 渲染失败，请<a href="paper.pdf" target="_blank" rel="noopener">点击直接查看或下载 paper.pdf</a>。';
+    });
+  }, function() {
+    pdfLoading = false;
+    statusEl.innerHTML = 'PDF.js 加载失败，请<a href="paper.pdf" target="_blank" rel="noopener">点击直接查看或下载 paper.pdf</a>。';
+  });
+}
 function setView(v){
   document.getElementById('text-view').style.display=v==='text'?'block':'none';
   document.getElementById('scan-view').style.display=v==='scan'?'block':'none';
   document.getElementById('btn-text').className='tb'+(v==='text'?' on':'');
   document.getElementById('btn-scan').className='tb'+(v==='scan'?' on':'');
+  if(v==='scan') renderPaperPdf();
 }
 var links=[].slice.call(document.querySelectorAll('nav.toc a'));
 if('IntersectionObserver' in window){
