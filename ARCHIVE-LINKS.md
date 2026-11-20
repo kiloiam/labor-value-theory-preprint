@@ -7,7 +7,7 @@
 | **Zenodo（主 DOI）** | `10.5281/zenodo.24270266` | https://doi.org/10.5281/zenodo.24270266 | 已发布，CC BY 4.0，作者Didgeridoo，PDF 可下载 |
 | **Figshare（干净记录）** | `10.6084/m9.figshare.35018998.v1` | https://doi.org/10.6084/m9.figshare.35018998.v1 | 已发布，作者 Didgeridoo；分类 Political economy and social change、CC BY 4.0 |
 | **OSF** | 项目 `wubs2` | https://osf.io/wubs2/ | public=True，PDF 完整，描述中标注作者 |
-| 在线阅读页 | — | https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG | 全文 + 9 页原稿影印 |
+| 在线阅读页 | — | https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/ | 全文 + 9 页原稿影印 |
 | GitHub | v1.0.0 Release | https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0 | 版本快照，附 PDF |
 
 ## 全球分发台账

@@ -22,7 +22,7 @@
 | 20261116063802 | https://github.com/kiloiam/labor-value-theory-preprint | [打开](https://web.archive.org/web/20261116063802/https://github.com/kiloiam/labor-value-theory-preprint) |
 | 20261116063826 | https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0 | [打开](https://web.archive.org/web/20261116063826/https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0) |
 | 20261116063848 | https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf | [打开](https://web.archive.org/web/20261116063848/https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf) |
-| 20261116063948 | https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG | [打开](https://web.archive.org/web/20261116063948/https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG) |
+| 20261116063948 | https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/ | [打开](https://web.archive.org/web/20261116063948/https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/) |
 | 20261116080148 | https://kiloiam.github.io/labor-value-theory-preprint/forever.html | [打开](https://web.archive.org/web/20261116080148/https://kiloiam.github.io/labor-value-theory-preprint/forever.html) |
 | 20261116080148 | https://kiloiam.github.io/labor-value-theory-preprint/favicon.svg | [打开](https://web.archive.org/web/20261116080148/https://kiloiam.github.io/labor-value-theory-preprint/favicon.svg) |
 | 20261116080256 | https://kiloiam.github.io/labor-value-theory-preprint/en.html | [打开](https://web.archive.org/web/20261116080256/https://kiloiam.github.io/labor-value-theory-preprint/en.html) |

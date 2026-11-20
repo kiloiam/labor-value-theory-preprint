@@ -57,7 +57,7 @@ FOREVER README — 长期保存与恢复说明
        https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0
   [08] WorkBuddy hosted site
        CN | hosted reading page with 9 facsimile pages
-       https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG
+       https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/
   [09] Software Heritage (UNESCO / Inria)
        FR / EU | permanent source-code archive with SWHID
        https://archive.softwareheritage.org/

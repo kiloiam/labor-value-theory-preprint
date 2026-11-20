@@ -31,7 +31,7 @@
 | `https://github.com/kiloiam/labor-value-theory-preprint` | [20261116063802](https://web.archive.org/web/20261116063802/https://github.com/kiloiam/labor-value-theory-preprint) | captured |
 | `https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0` | [20261116063826](https://web.archive.org/web/20261116063826/https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0) | captured |
 | `https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf` | [20261116063848](https://web.archive.org/web/20261116063848/https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf) | captured |
-| `https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG` | [20261116063948](https://web.archive.org/web/20261116063948/https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG) | captured |
+| `https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/` | [20261116063948](https://web.archive.org/web/20261116063948/https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/) | captured |
 
 > 说明：直接用脚本调用 Wayback 的 `POST /save/` 与 `GET /save/<url>` 均返回
 > `429 suspected abusive bot traffic`（出口 IP 被限流）；改用可见浏览器的真实会话后
@@ -180,7 +180,7 @@ Schema.org JSON-LD 独立文件、Atom / RSS / OAI-DC / DataCite `rel=alternate`
 | GitHub Pages | US | reading | https://kiloiam.github.io/labor-value-theory-preprint/ |
 | GitHub | US | source | https://github.com/kiloiam/labor-value-theory-preprint |
 | GitHub Releases | US | snapshot | https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0 |
-| WorkBuddy hosted site | CN | reading | https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG |
+| WorkBuddy hosted site | CN | reading | https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/ |
 | Software Heritage (UNESCO / Inria) | FR / EU | cold-archive | https://archive.softwareheritage.org/ |
 | Internet Archive Wayback Machine | US | cold-archive | https://web.archive.org/web/20261116061932/https://kiloiam.github.io/labor-value-theory-preprint/ |
 | OpenAIRE | EU | index | https://api.openaire.eu/search/publications?doi=10.5281/zenodo.24270266 |

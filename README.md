@@ -52,12 +52,12 @@ Didgeridoo. 劳动价值论是历史性范畴：当代价值危机[Z/OL]. Zenodo
 - **Zenodo 主 DOI**：https://doi.org/10.5281/zenodo.24270266 （CC BY 4.0，已发布）
 - **Figshare DOI**：https://doi.org/10.6084/m9.figshare.35018998.v1 （作者署名已修正）
 - **OSF 公开项目**：https://osf.io/wubs2/ （PDF 完整）
-- 在线阅读页（全文 + 原稿影印）：https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG
+- 在线阅读页（全文 + 原稿影印）：https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/
 - GitHub Pages 阅读页：https://kiloiam.github.io/labor-value-theory-preprint/
 - **全球分发清单**：https://kiloiam.github.io/labor-value-theory-preprint/distribution.html
 - jsDelivr 全球 CDN（PDF）：https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf
 - 本仓库 v1.0.0 Release（含 PDF 与 15 个元数据资产）：https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0
-- 在线投递工作台：https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/submission-kit.html?sharecode=ZILGUJCJKG
+- 在线投递工作台：https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/submission-kit.html
   （也可在在线阅读页顶部「投递工作台与完整提交包」入口进入）
 
 ## 已获取的 DOI 与存档

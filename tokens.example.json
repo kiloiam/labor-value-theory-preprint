@@ -1,6 +1,0 @@
-{
-  "_说明": "复制本文件为 tokens.json，填入本人的 Personal Access Token；也可用环境变量 ZENODO_TOKEN / FIGSHARE_TOKEN / OSF_TOKEN 代替。tokens.json 已加入 .gitignore，切勿提交到公开仓库。",
-  "zenodo": "",
-  "figshare": "",
-  "osf": ""
-}

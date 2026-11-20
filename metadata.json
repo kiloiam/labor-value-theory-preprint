@@ -29,7 +29,7 @@
     "notes": "作者信息已由本人补齐（单位、ORCID 见 creators）。英文摘要连写与标点已校对；原稿 PDF 未改动。网络预发布版本与 GitHub 公开仓储见 related_identifiers。通讯邮箱保存在本机私有文件，未写入公开元数据。 本轮已真实提交：Zenodo 主 DOI 10.5281/zenodo.24270266、Figshare 10.6084/m9.figshare.35018998.v1、OSF https://osf.io/wubs2/。注意：Zenodo legacy deposition API 不接受 related_identifiers 字段，提交脚本已改为把链接写入 notes。",
     "related_identifiers": [
       {
-        "identifier": "https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG",
+        "identifier": "https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/",
         "relation_type": "isidenticalto",
         "scheme": "url"
       },

@@ -20,7 +20,7 @@
 | GitHub Pages | US | static full-text site | https://kiloiam.github.io/labor-value-theory-preprint/ |
 | GitHub | US | versioned git repository | https://github.com/kiloiam/labor-value-theory-preprint |
 | GitHub Releases | US | immutable tagged release with binary assets | https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0 |
-| WorkBuddy hosted site | CN | hosted reading page with 9 facsimile pages | https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG |
+| WorkBuddy hosted site | CN | hosted reading page with 9 facsimile pages | https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/ |
 | Software Heritage (UNESCO / Inria) | FR / EU | permanent source-code archive with SWHID | https://archive.softwareheritage.org/ |
 | Internet Archive Wayback Machine | US | web time-capsule snapshots (12 + new captures) | https://web.archive.org/web/20261116061932/https://kiloiam.github.io/labor-value-theory-preprint/ |
 | OpenAIRE | EU | Europe-wide open scholarly index (already indexed) | https://api.openaire.eu/search/publications?doi=10.5281/zenodo.24270266 |

@@ -9,7 +9,7 @@
 
 本文从历史唯物主义立场出发，论证劳动价值论是以雇佣劳动、社会必要劳动时间与商品交换普遍化为前提的历史性范畴；通过引入自动化技术资本的价值修正模型，分析可变资本被系统性挤出后剩余价值机制的枯竭、利润向维稳成本的质变，以及商品社会自我修复的四重不可能，最终提出后价值范畴时代生产关系重塑的理论判准。全文约 1.1 万字，含中英文摘要、10 条参考文献。
 
-本文为原创未发表稿件，未一稿多投，全体作者同意投稿。本稿已作网络预发布，取得 Zenodo 主 DOI 10.5281/zenodo.24270266、Figshare DOI 10.6084/m9.figshare.35018998.v1，并在 OSF 建立公开项目 https://osf.io/wubs2/；在线阅读页 https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG。特此如实说明，并请贵刊确认预印本相关政策。
+本文为原创未发表稿件，未一稿多投，全体作者同意投稿。本稿已作网络预发布，取得 Zenodo 主 DOI 10.5281/zenodo.24270266、Figshare DOI 10.6084/m9.figshare.35018998.v1，并在 OSF 建立公开项目 https://osf.io/wubs2/；在线阅读页 https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/。特此如实说明，并请贵刊确认预印本相关政策。
 
 作者：Didgeridoo
 单位：暂无

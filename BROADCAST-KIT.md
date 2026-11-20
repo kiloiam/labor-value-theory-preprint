@@ -80,7 +80,7 @@ A partire dal materialismo storico, l'articolo delimita il carattere storico del
 全文约 1.1 万字，含中英文摘要与 10 条参考文献。网络预发布版本，CC BY 4.0，未经同行评审。
 
 - 全文与 PDF：https://kiloiam.github.io/labor-value-theory-preprint/
-- 在线阅读（含原稿影印）：https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG
+- 在线阅读（含原稿影印）：https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/
 - Zenodo：https://doi.org/10.5281/zenodo.24270266　·　Figshare：https://doi.org/10.6084/m9.figshare.35018998.v1　·　OSF：https://osf.io/wubs2/
 
 ## 建议标签

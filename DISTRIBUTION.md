@@ -17,7 +17,7 @@
 | 入口 | URL | 说明 |
 |---|---|---|
 | GitHub Pages 阅读页 | https://kiloiam.github.io/labor-value-theory-preprint/ | 全文、摘要、引用与分发清单入口 |
-| 在线全文阅读（含 9 页影印） | https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG | 逐页原稿影印 + 可检索正文 |
+| 在线全文阅读（含 9 页影印） | https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/ | 逐页原稿影印 + 可检索正文 |
 | jsDelivr 全球 CDN（PDF） | https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf | CDN 边缘副本，实测 200 |
 | raw.githubusercontent（PDF） | https://raw.githubusercontent.com/kiloiam/labor-value-theory-preprint/main/paper.pdf | GitHub 原始文件副本，实测 200 |
 | GitHub 仓储 | https://github.com/kiloiam/labor-value-theory-preprint | 全部源文件、元数据与历史 |
@@ -100,7 +100,7 @@ Didgeridoo. 劳动价值论是历史性范畴：当代价值危机[Z/OL]. Zenodo
 | https://github.com/kiloiam/labor-value-theory-preprint | https://web.archive.org/web/20261116063802/https://github.com/kiloiam/labor-value-theory-preprint |
 | https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0 | https://web.archive.org/web/20261116063826/https://github.com/kiloiam/labor-value-theory-preprint/releases/tag/v1.0.0 |
 | https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf | https://web.archive.org/web/20261116063848/https://cdn.jsdelivr.net/gh/kiloiam/labor-value-theory-preprint@main/paper.pdf |
-| https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG | https://web.archive.org/web/20261116063948/https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/?sharecode=ZILGUJCJKG |
+| https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/ | https://web.archive.org/web/20261116063948/https://wbapp-qjvohz0ip85p3s9mnjs8do.app.workbuddy.host/ |
 
 ## 八、注意
 

@@ -3,7 +3,7 @@
 <title>Search — The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value</title>
 <meta name="description" content="Static on-site search across the full text, abstracts, metadata and preservation copies of this open preprint.">
 <meta name="robots" content="index,follow"><link rel="canonical" href="https://kiloiam.github.io/labor-value-theory-preprint/search.html">
-<link rel="icon" href="favicon.svg?sharecode=ZILGUJCJKG" type="image/svg+xml"><style>
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><style>
 :root{--bg:#f6f4ef;--paper:#fffefa;--ink:#292723;--muted:#756f65;--line:#e4ded3;--accent:#8c3333;--soft:#f7efeb}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,"Songti SC","SimSun",serif;line-height:1.9}
 a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
@@ -50,7 +50,7 @@ footer{font:12.5px/1.7 -apple-system,"Segoe UI",sans-serif;color:var(--muted);bo
 <button class="btn pri" onclick="run()">Search</button></div></div></header>
 <div class="wrap"><div id="out"></div>
 <div class="card"><b>Try</b><p class="note">automation · variable capital · surplus value · four-fold impossibility · 价值范畴 · 自动化 · DOI · Zenodo · checksum</p></div>
-<p class="note"><a href="index.html?sharecode=ZILGUJCJKG">← Chinese full text</a> · <a href="llms.txt?sharecode=ZILGUJCJKG">llms.txt</a> · <a href="sitemap.xml?sharecode=ZILGUJCJKG">sitemap</a></p></div>
+<p class="note"><a href="index.html">← Chinese full text</a> · <a href="llms.txt">llms.txt</a> · <a href="sitemap.xml">sitemap</a></p></div>
 <footer><div class="wrap">Didgeridoo · CC BY 4.0</div></footer>
 <script>
 var IDX=[
@@ -83,7 +83,7 @@ function run(){var q=(document.getElementById('q').value||new URLSearchParams(lo
  var terms=q.split(/\s+/).filter(Boolean), hits=IDX.map(function(x){var s=(x[0]+' '+x[1]+' '+x[2]).toLowerCase();
   var n=terms.reduce(function(a,t){return a+(s.indexOf(t)>=0?1:0);},0);return {x:x,n:n};}).filter(function(r){return r.n>0;}).sort(function(a,b){return b.n-a.n;});
  o.innerHTML='<h2>Results for “'+q.replace(/</g,'&lt;')+'” — '+hits.length+'</h2>'+(hits.map(function(r){
-  return '<div class="card"><a href="'+r.x[1]+'"><b>'+r.x[0]+'</b></a><div class="note">'+r.x[1]+'</div></div>';}).join('')||'<div class="card"><p class="note">No indexed entry matched. Try the <a href="manuscript.md?sharecode=ZILGUJCJKG">full text</a> directly.</p></div>');
+  return '<div class="card"><a href="'+r.x[1]+'"><b>'+r.x[0]+'</b></a><div class="note">'+r.x[1]+'</div></div>';}).join('')||'<div class="card"><p class="note">No indexed entry matched. Try the <a href="manuscript.md">full text</a> directly.</p></div>');
 }
 document.getElementById('q').addEventListener('keydown',function(e){if(e.key==='Enter')run();});run();
 </script></body></html>
