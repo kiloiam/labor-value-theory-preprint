@@ -1,28 +1,24 @@
 cff-version: 1.2.0
-message: "If you use this work, please cite it as below."
+message: "If you cite or reference this preprint, please use the metadata below."
 type: article
-title: "劳动价值论是历史性范畴：当代价值危机"
-doi: 10.5281/zenodo.24270266
+title: "劳动价值论是历史性范畴：当代价值危机 (The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value)"
 authors:
-  - family-names: Didgeridoo
-date-released: 2026-11-16
+  - alias: "Didgeridoo"
+    name: "Didgeridoo"
+date-released: 2026-11-15
+doi: "10.6084/m9.figshare.35018683"
+url: "https://kiloiam.github.io/labor-value-theory-preprint/"
+repository-code: "https://github.com/kiloiam/labor-value-theory-preprint"
 license: CC-BY-4.0
-language: zh
-abstract: "从历史唯物主义立场阐明劳动价值论作为历史性范畴的界限，分析当代自动化生产条件下价值规律面临的结构性危机。"
 keywords:
-  - 劳动价值论
-  - 价值范畴危机
-  - 自动化生产
-  - 历史唯物主义
-  - 政治经济学批判
-url: "https://github.com/kiloiam/labor-value-theory-preprint"
-identifiers:
-  - type: doi
-    value: "10.5281/zenodo.24270266"
-    description: "Zenodo 主 DOI（CC BY 4.0）"
-  - type: doi
-    value: "10.6084/m9.figshare.35018998.v1"
-    description: "Figshare 存档 DOI"
-  - type: url
-    value: "https://osf.io/wubs2/"
-    description: "OSF 公开项目"
+  - labor theory of value
+  - historical materialism
+  - automation
+  - political economy
+  - marxian economics
+  - crisis of value
+abstract: >-
+  Grounding its analysis in historical materialism, this article delineates the
+  historical limits of the labor theory of value (LTV) and analyzes the
+  structural crisis of the law of value under conditions of contemporary
+  automated production.
