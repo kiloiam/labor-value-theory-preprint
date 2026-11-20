@@ -3,12 +3,22 @@ message: "If you cite or reference this preprint, please use the metadata below.
 type: article
 title: "劳动价值论是历史性范畴：当代价值危机 (The Labor Theory of Value as a Historical Category: The Contemporary Crisis of Value)"
 authors:
-  - alias: "Didgeridoo"
-    name: "Didgeridoo"
-date-released: 2026-11-15
+  - family-names: "Didgeridoo"
+    alias: "Didgeridoo"
+date-released: 2026-11-16
 doi: "10.5281/zenodo.24270266"
 url: "https://kiloiam.github.io/labor-value-theory-preprint/"
 repository-code: "https://github.com/kiloiam/labor-value-theory-preprint"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24270266"
+    description: "Zenodo canonical preprint DOI"
+  - type: url
+    value: "https://osf.io/preprints/socarxiv/4zn72_v1"
+    description: "SocArXiv preprint"
+  - type: url
+    value: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7734124"
+    description: "SSRN working paper"
 license: CC-BY-4.0
 keywords:
   - labor theory of value
