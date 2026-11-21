@@ -174,4 +174,5 @@ function cp(id){var el=document.getElementById(id);var v=(el.tagName==='TEXTAREA
 navigator.clipboard.writeText(v).then(function(){document.getElementById('msg').textContent='已复制';setTimeout(function(){document.getElementById('msg').textContent='';},1800);},
 function(){var t=document.createElement('textarea');t.value=v;document.body.appendChild(t);t.select();document.execCommand('copy');t.remove();document.getElementById('msg').textContent='已复制';});}
 </script>
+<script data-goatcounter="https://didgeridoo.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body></html>
