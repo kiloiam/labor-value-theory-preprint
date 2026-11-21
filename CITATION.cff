@@ -15,9 +15,6 @@ identifiers:
     value: "10.5281/zenodo.24270266"
     description: "Zenodo canonical preprint DOI"
   - type: url
-    value: "https://osf.io/preprints/socarxiv/4zn72_v1"
-    description: "SocArXiv preprint"
-  - type: url
     value: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7734124"
     description: "SSRN working paper"
 license: CC-BY-4.0

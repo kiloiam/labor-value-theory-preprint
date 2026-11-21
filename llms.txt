@@ -118,5 +118,4 @@ each answered substantively in Chinese and English. Explanatory guides, not the 
 ## English Full Text & International Preprint Mirrors
 - Full English PDF: https://kiloiam.github.io/labor-value-theory-preprint/paper-en.pdf
 - SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7734124
-- SocArXiv: https://osf.io/preprints/socarxiv/4zn72_v1
 - Canonical Zenodo DOI: https://doi.org/10.5281/zenodo.24270266
